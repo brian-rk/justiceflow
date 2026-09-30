@@ -1,0 +1,1101 @@
+=== PAGE 1 ===
+                                             
+Copyright ©Afrobarometer 2026  1 
+ 
+ 
+                                       
+Dispatch No. 1198 | 1 July 2026 
+Public confidence in Tanzania’s judicial system 
+is strong, but gaps in access to justice remain 
+Afrobarometer Dispatch No. 1198 | Jacqueline Mwaipopo and Brenda Mshumbushi 
+ 
+Summary  
+Access to justice for all is a cornerstone of democracy and good governance, empowering 
+citizens to exercise their rights and hold leaders accountable (OECD, 2025). The Tanzanian 
+government has affirmed its commitment to strengthening the rule of law and ensuring equal 
+access to justice, in line with the United Nations’ (2015) Sustainable Development Goal 16 
+(United Republic of Tanzania, 2019). 
+In 2024, the government introduced a new criminal-justice policy aimed at strengthening 
+justice delivery through enhanced coordination among criminal-justice institutions, expansion 
+of the national prosecution office, integration of information and communication technology 
+systems across justice-sector agencies, and greater application of the rule of law at a 
+subnational level (Mosenda, 2024).  
+Complementing these reforms, the judiciary has sought to expand access to judicial services 
+across the country, reduce case backlogs, improve infrastructure, and increase public 
+awareness of rights and legal-aid services. Recent initiatives include recruiting additional 
+magistrates, expanding the network of primary courts at district and community levels, and 
+promoting alternative dispute-resolution mechanisms to make justice more efficient and 
+affordable (Moltmann-Willisch, 2025). Recent digitisation initiatives, including the automation 
+of case-management systems, court proceedings, and translation services, are also intended 
+to reduce delays and improve service delivery (Judiciary of Tanzania, 2023).  
+Despite these initiatives, significant challenges remain. On the World Justice Project’s (2025) 
+Rule of Law Index, Tanzania ranks 98th out of 143 countries, with comparatively stronger 
+scores on order and security and on constraints on government powers, but lower 
+performance on government openness and fundamental rights. Access to justice continues 
+to be constrained by case backlogs, delays in court proceedings, and uneven access to 
+judicial services. As of June 2024 the Court of Appeal alone had 5,900 pending cases, of 
+which 1,248 had been unresolved for more than two years (Judiciary of Tanzania, 2024). 
+This dispatch reports findings from a special survey module on access to justice included in 
+Afrobarometer’s Round 10 surveys.  
+Results show that while a majority of Tanzanians express confidence that ordinary people 
+can obtain justice in the courts, significant minorities remain concerned about the 
+affordability of taking a case to court, as well as the fairness and timeliness of judgements. 
+Awareness of legal-aid services is also limited.  
+Most Tanzanians trust the courts, though a majority perceive corruption among at least 
+“some” judges and magistrates.  
+Six in 10 citizens would rather turn to political leaders than to formal courts to resolve disputes. 
+And substantial minorities express concerns about unequal treatment under the law, political 
+influence in judicial decisions, and impunity for public officials who commit crimes.  
+
+=== PAGE 2 ===
+                                             
+Copyright ©Afrobarometer 2026  2 
+ 
+ 
+Afrobarometer surveys 
+Afrobarometer is a pan-African, nonpartisan survey research network that provides reliable 
+data on African experiences and evaluations of democracy, governance, and quality of life. 
+Ten survey rounds in up to 45 countries have been completed since 1999. Round 10 surveys 
+(2024/2025) cover 38 countries. Afrobarometer’s National Partners conduct face-to-face 
+interviews in the language of the respondent’s choice. 
+The Afrobarometer team in Tanzania, led by REPOA, interviewed a nationally representative 
+sample of 2,400 adult Tanzanians in June-July 2024. A sample of this size yields country-level 
+results with a margin of error of +/-2 percentage points at a 95% confidence level. Previous 
+surveys were conducted in Tanzania in 2001, 2003, 2005, 2008, 2012, 2014, 2017, 2021, and 
+2022. 
+Key findings 
+▪ Seven in 10 Tanzanians (71%) say they feel “somewhat confident” or “very confident” 
+that ordinary people who are wronged can obtain justice in the courts,. 
+▪ Majorities of citizens consider it “somewhat likely” or “very likely” that they could find 
+legal advice (64%) and could afford to obtain it (56%).  
+o More than half believe they could afford to take a legal problem to court (58%) 
+and would obtain a fair resolution (56%), but fewer than half (47%) are confident 
+that such a case would be resolved within a reasonable time. 
+o Only about one in three respondents (35%) say they are aware of legal-aid 
+services available in their community. 
+▪ Six in 10 Tanzanians (59%) say they would turn to a political leader to help resolve a 
+legal problem, while smaller shares would turn to the police (12%), government 
+officials (9%), and local courts (5%). 
+▪ An overwhelming majority (84%) of citizens say they trust the courts “somewhat” or “a 
+lot.” 
+▪ Yet a solid majority (63%) think that “some,” “most,” or “all” judges and magistrates 
+are corrupt. 
+▪ Seven in 10 Tanzanians (71%) say punishments for ordinary people who break the law 
+are “about right.”  
+o More than one in four (27%) believe powerful individuals often face lighter 
+consequences than they should. 
+o About three in 10 say that officials who commit crimes “often” or “always” go 
+unpunished (30%) and that people are frequently treated unequally under the 
+law (28%). 
+▪ Most Tanzanians (76%) say the president must always obey the law and courts, and 
+must regularly report to Parliament about taxpayers’ money (80%).  
+o Confidence is high that the president respects judicial decisions (82%) and 
+Parliament’s authority (83%). 
+▪ More than half (59%) of survey participants support the death penalty for the most 
+serious crimes, though a significant minority (39%) say it can never be justified.  
+=== PAGE 3 ===
+                                             
+Copyright ©Afrobarometer 2026  3 
+ 
+ 
+Do the courts provide justice? 
+In Tanzania, confidence in the justice system is relatively high: Seven in 10 (71%)1 say they are 
+“somewhat confident” (43%) or “very confident” (27%) that ordinary people who are 
+wronged can obtain justice in the courts (Figure 1). About one in four (27%) express little or no 
+confidence.  
+Figure 1: Can people obtain justice in the courts? | Tanzania | 2024  
+ 
+Respondents were asked: In general, how confident are you that ordinary citizens who are wronged 
+can obtain justice in the courts? 
+ 
+More men (73%) than women (69%) expect that the courts will dispense justice (Figure 2).  
+Faith in the courts rises as respondents’ educational status increases (from 64% among the 
+unschooled to 79% among those with post-secondary education) and falls with greater 
+material deprivation2 (from 77% among the well-off to 64% among the very poor).  
+ 
+ 
+1 Due to rounding, percentages for combined categories reported in the text may differ slightly from the sum of 
+sub-categories shown in figures (e.g. 43% “somewhat confident” and 27% “very confident” sum to 71%). 
+2 Afrobarometer’s Lived Poverty Index (LPI) measures respondents’ levels of material deprivation by asking how 
+often they or their families went without basic necessities (enough food, enough water, medical care, enough 
+cooking fuel, and a cash income) during the preceding year. For more on lived poverty, see Mattes and Lekalake 
+(2025). 
+27%
+43%
+17%
+10% 2%
+Very confident
+Somewhat confident
+Not very confident
+Not at all confident
+Don’t know
+Do your own analysis of Afrobarometer data – on any question, 
+for any country and survey round. It’s easy and free at 
+www.afrobarometer.org/online-data-analysis. 
+=== PAGE 4 ===
+                                             
+Copyright ©Afrobarometer 2026  4 
+ 
+ 
+Figure 2: Confidence that people can obtain justice in the courts | by demographic 
+group | Tanzania | 2024  
+ 
+Respondents were asked: In general, how confident are you that ordinary citizens who are wronged 
+can obtain justice in the courts? 
+Access to courts and legal services  
+Affordability, fairness, and timeliness are essential dimensions of effective access to justice. 
+When asked whether they could afford to take a case to court should the need arise, more 
+than half (58%) of Tanzanians say it is “somewhat likely” or “very likely” that they would be 
+able to, though 39% consider it unlikely (Figure 3). Similarly, 56% believe they could receive a 
+fair resolution in court. Timeliness is a greater challenge: Fewer than half (47%) think cases are 
+likely to be resolved within a reasonable period, compared to 45% who think this is unlikely.  
+Men are slightly more confident than women that a court resolution would be fair (60% vs. 
+53%) and timely (49% vs. 45%) (Figure 4). Belief in a fair and timely court case declines with 
+age. 
+Education and wealth are strongly associated with optimism: Tanzanians with post-secondary 
+education are more likely than their less-educated peers to say a legal suit would likely be 
+resolved fairly (81% vs. 49%-58%), as are the well-to-do compared to their poorer counterparts 
+(72% vs. 47%-60%).  
+Similar patterns apply to prospects of a timely resolution, albeit with smaller margins. 
+27%
+27%
+27%
+28%
+26%
+28%
+27%
+28%
+22%
+29%
+27%
+22%
+39%
+29%
+23%
+22%
+43%
+41%
+46%
+42%
+46%
+46%
+41%
+43%
+41%
+42%
+45%
+57%
+38%
+42%
+48%
+42%
+0% 20% 40% 60% 80% 100%
+Average
+Women
+Men
+Rural
+Urban
+18-35 years
+36-55 years
+56 years and older
+No formal education
+Primary
+Secondary
+Post-secondary
+No lived poverty
+Low lived poverty
+Moderate lived poverty
+High lived poverty
+Very confident Somewhat confident
+=== PAGE 5 ===
+                                             
+Copyright ©Afrobarometer 2026  5 
+ 
+ 
+Figure 3: Expectations regarding a court case | Tanzania | 2024  
+ 
+Respondents were asked: If you had a case that needed to go to court, how likely do you think it is 
+that: You could afford to take the case to court? The case could be resolved in a reasonable amount 
+of time? You could get a fair resolution in the courts? 
+Figure 4: Likelihood of fair and timely resolution of a court case | by demographic 
+group | Tanzania | 2024  
+ 
+Respondents were asked: If you had a case that needed to go to court, how likely do you think it is 
+that: The case could be resolved in a reasonable amount of time? You could get a fair resolution in the 
+courts? (% who say “somewhat likely” or “very likely”)  
+39% 38% 45%
+2% 6%
+8%
+58% 56%
+47%
+0%
+20%
+40%
+60%
+80%
+100%
+Could afford to
+take the case to
+court
+Case would be
+resolved fairly
+Case would be
+resolved within a
+reasonable time
+Somewhat likely/Very
+likely
+Don’t know/Refused
+Not at all likely/Not very
+likely
+56%
+53%
+60%
+55%
+59%
+59%
+56%
+53%
+49%
+55%
+58%
+81%
+72%
+60%
+49%
+47%
+47%
+45%
+49%
+46%
+48%
+49%
+46%
+41%
+38%
+46%
+50%
+58%
+55%
+50%
+41%
+41%
+Average
+Women
+Men
+Rural
+Urban
+18-35 years
+36-55 years
+56 years and older
+No formal education
+Primary
+Secondary
+Post-secondary
+No lived poverty
+Low lived poverty
+Moderate lived poverty
+High lived poverty
+Fair resolution likely Timely resolution likely
+=== PAGE 6 ===
+                                             
+Copyright ©Afrobarometer 2026  6 
+ 
+ 
+Ordinary people who want to take a case to court will likely require advice or support from 
+lawyers or legal services. Do Tanzanians think they can identify and afford such support?  
+Nearly two-thirds (64%) of citizens say it is “somewhat likely” or “very likely” that they could 
+find needed legal support, while a slightly smaller majority (56%) believe they could afford it 
+(Figure 5). But sizeable minorities are doubtful: 32% say they would struggle to find support, 
+and 40% say they doubt they would be able to afford it. 
+Figure 5: Ability to find and afford legal support | Tanzania | 2024 
+ 
+Respondents were asked: If you had a legal problem such as a serious complaint against a business or 
+member of your community, how likely do you think it is that: You could find the advice or support you 
+need from lawyers or legal services to address or resolve the problem? You could afford to obtain the 
+legal advice or support that you need? 
+ 
+Financial barriers remain significant. About half of adults with no formal education say they 
+would probably not be able to afford a court case (52%) or necessary legal support (49%), 
+while nearly half of very poor respondents say the same (47% and 45%, respectively)  (Figure 
+6). Both views decline with increases in educational attainment and living standards.  
+All age groups are equally likely to say that it is “not very likely” or “not at all likely” that they 
+would be able to pay for a court case (39%), but more senior citizens (47%) than younger 
+Tanzanians (37%-41%) think legal support would be too expensive. 
+Only about one-third (35%) of Tanzanians report knowing of legal-aid services in their 
+community (Figure 7). Awareness is lowest among citizens with no formal education (22%), 
+and rises to 50% among those with post-secondary schooling. 
+More urbanites (40%) and men (39%) are familiar with legal-aid services than rural residents 
+(32%) and women (32%). 
+ 
+32% 40%
+4%
+3%
+64% 56%
+0%
+20%
+40%
+60%
+80%
+100%
+Could find needed
+access to legal support
+Could afford to obtain
+legal advice or support
+Somewhat likely/Very likely
+Don’t know
+Not at all likely/Not very
+likely
+=== PAGE 7 ===
+                                             
+Copyright ©Afrobarometer 2026  7 
+ 
+ 
+Figure 6: Could not afford court case and legal support | by demographic group  
+| Tanzania | 2024 
+ 
+Respondents were asked: 
+If you had a legal problem such as a serious complaint against a business or member of your 
+community, how likely do you think it is that you could afford to obtain the legal advice or support 
+that you need? 
+If you had a case that needed to go to court, how likely do you think it is that you could afford to 
+take the case to court?  
+(% who say “not very likely” or “not at all likely”) 
+Figure 7: Awareness of legal-aid services | by demographic group | Tanzania  
+| 2024 
+ 
+Respondents were asked: Are you aware of any legal-aid services available to you and others in your 
+community? (% “yes”) 
+40%
+41%
+40%
+42%
+38%
+41%
+37%
+47%
+49%
+41%
+39%
+31%
+33%
+40%
+43%
+45%
+39%
+42%
+36%
+40%
+38%
+39%
+39%
+39%
+52%
+41%
+35%
+22%
+26%
+38%
+42%
+47%
+Average
+Women
+Men
+Rural
+Urban
+18-35 years
+36-55 years
+56 years and older
+No formal education
+Primary
+Secondary
+Post-secondary
+No lived poverty
+Low lived poverty
+Moderate lived poverty
+High lived poverty
+Could not afford legal support Could not afford court case
+35%
+32%
+39%
+32%
+40%
+35%
+38%
+33%
+22%
+33%
+43%
+50%
+33%
+35%
+38%
+33%
+0% 20% 40% 60% 80% 100%
+Average
+Women
+Men
+Rural
+Urban
+18-35 years
+36-55 years
+56 years and older
+No formal education
+Primary
+Secondary
+Post-secondary
+No lived poverty
+Low lived poverty
+Moderate lived poverty
+High lived poverty
+=== PAGE 8 ===
+                                             
+Copyright ©Afrobarometer 2026  8 
+ 
+ 
+Preferred avenues for resolving disputes  
+Asked where they would go to resolve a legal problem such as a serious complaint against a 
+business or a fellow member of their community, about six in 10 would approach political 
+leaders (59%) (Figure 8).  
+Tanzania is an outlier in this regard: Across 38 African countries surveyed in 2024/2025, 
+Madagascar recorded the next-highest proportion of respondents who would turn to 
+politicians for help with legal issues (29%), followed by Benin (22%) and Uganda (17%).   
+Small minorities of Tanzanians would rather turn to the police (12%), government officials (9%), 
+or a local court (5%), while even fewer would consult family members (3%), a lawyer (3%), or 
+traditional leaders (2%). 
+Figure 8: Where to go to resolve a legal problem | Tanzania | 2024 
+ 
+Respondents were asked: If you had a legal problem such as a serious complaint against a business or 
+member of your community, where would you be most likely to go to try to find a resolution? 
+ 
+Looking at key demographic groups, majorities consistently prefer getting their legal 
+problems resolved by political leaders (Figure 9). Rural residents are more likely than their 
+urban counterparts to turn to them (64% vs. 53%), as are uneducated respondents 
+compared to citizens with some level of formal education (69% vs. 56%-59%).  
+Citizens with at least secondary schooling are more likely than their their less -educated peers 
+to head to the police and less likely to approach a government official.  
+Lived poverty has little bearing on respondents’ preferences. 
+ 
+1%
+2%
+1%
+1%
+2%
+3%
+3%
+5%
+9%
+12%
+59%
+0% 20% 40% 60% 80% 100%
+Don’t know
+Nowhere/I would not try to resolve it
+Alternative dispute resolution
+Legal-aid service
+Elders
+Lawyer
+Family members
+Local court
+Government official
+Police
+Political leaders
+=== PAGE 9 ===
+                                             
+Copyright ©Afrobarometer 2026  9 
+ 
+ 
+Figure 9: Where to go to resolve a legal problem | by demographic group  
+| Tanzania | 2024 
+ 
+Respondents were asked: If you had a legal problem such as a serious complaint against a business or 
+member of your community, where would you be most likely to go to try to find a resolution? 
+Integrity, independence, and neutrality of the judiciary 
+In addition to issues of access, cost, and expectations of a fair and timely resolution, people’s 
+trust in the judiciary may influence their willingness to engage with the court system. How 
+confident are Tanzanians in the integrity of the system and the judges they would face?  
+Trust in the court system  
+An overwhelming majority (84%) of Tanzanians say they trust the courts “somewhat” (33%) or 
+“a lot” (51%) (Figure 10). About one in eight (13%) express little or no trust. 
+Figure 10: Trust in courts of law | Tanzania | 2024   
+ 
+Respondents were asked: How much do you trust each of the following, or haven’t you heard enough 
+about them to say: Courts of law? 
+61%
+58%
+64%
+53%
+60%
+57%
+64%
+69%
+59%
+58%
+56%
+59%
+60%
+60%
+58%
+11%
+14%
+11%
+15%
+13%
+12%
+11%
+8%
+12%
+15%
+14%
+12%
+11%
+15%
+12%
+10%
+8%
+9%
+10%
+9%
+10%
+8%
+11%
+11%
+6%
+6%
+9%
+10%
+9%
+9%
+3%
+7%
+4%
+7%
+4%
+6%
+7%
+1%
+5%
+6%
+6%
+6%
+5%
+5%
+7%
+0% 20% 40% 60% 80% 100%
+Women
+Men
+Rural
+Urban
+18-35 years
+36-55 years
+56 years and older
+No formal education
+Primary
+Secondary
+Post-secondary
+No lived poverty
+Low lived poverty
+Moderate lived poverty
+High lived poverty
+Political leaders The police Government official A local court
+51%
+33%
+9%
+4%4%
+A lot
+Somewhat
+Just a little
+Not at all
+Don’t know
+=== PAGE 10 ===
+                                             
+Copyright ©Afrobarometer 2026  10 
+ 
+ 
+Nine in 10 well-off respondents (91%) voice confidence in the judiciary, compared to 80%-
+84% among poorer citizens (Figure 11). Trust is higher among men (86%) and rural residents 
+(86%) than women (82%) and urban residents (80%).  
+Education and age show no clear patterns.  
+Trust in the courts is significantly higher than it was a decade ago (Figure 12). After holding 
+steady between 2014 (69%) and 2017 (67%), trust levels increased sharply to 90% in 2021 
+before declining slightly in subsequent surveys.  
+Figure 11: Trust in courts of law | by demographic group | Tanzania | 2024   
+ 
+Respondents were asked: How much do you trust each of the following, or haven’t you heard enough 
+about them to say: Courts of law? 
+Figure 12: Trust in courts of law | Tanzania | 2014-2024   
+ 
+Respondents were asked: How much do you trust each of the following, or haven’t you heard enough 
+about them to say: Courts of law? 
+53%
+50%
+55%
+46%
+50%
+51%
+53%
+52%
+54%
+45%
+42%
+60%
+50%
+50%
+51%
+29%
+36%
+32%
+34%
+32%
+34%
+29%
+30%
+31%
+36%
+41%
+32%
+33%
+33%
+28%
+0% 20% 40% 60% 80% 100%
+Women
+Men
+Rural
+Urban
+18-35 years
+36-55 years
+56 years and older
+No formal education
+Primary
+Secondary
+Post-secondary
+No lived poverty
+Low lived poverty
+Moderate lived poverty
+High lived poverty
+A lot Somewhat
+69% 67%
+90% 88% 84%
+28% 30%
+8% 10% 13%
+0%
+20%
+40%
+60%
+80%
+100%
+2014 2017 2021 2022 2024
+Somewhat/A lot
+Not at all/Just a little
+=== PAGE 11 ===
+                                             
+Copyright ©Afrobarometer 2026  11 
+ 
+ 
+Perceived corruption in the courts 
+While public trust is high, there are concerns about judicial corruption. More than six in 10  
+citizens (63%) believe that at least “some” judges and magistrates are corrupt, including 18% 
+who think “most” or “all” of them are (Figure 13). Similar proportions say there are no corrupt 
+judges (18%) or express uncertainty (19%). 
+Perceptions of at least “some” judicial corruption rise to two-thirds or more among citizens 
+with secondary (70%) or post-secondary (70%) education, men (68%), urban residents (68%), 
+and respondents experiencing high lived poverty (67%) (Figure 14). 
+Perceptions of widespread corruption are less prevalent than they were a decade ago: The 
+share of Tanzanians who believe that “most” or “all” judges and magistrates are corrupt 
+declined from 36% in 2014 to 18% in 2024 (Figure 15). But the share who think at least “some” 
+judicial officers are involved in graft is up by 13 percentage points since 2021 (50%).  
+Figure 13: Perceived corruption among judges and magistrates | Tanzania | 2024 
+ 
+Respondents were 
+asked: How many of 
+the following people do 
+you think are involved 
+in corruption, or 
+haven’t you heard 
+enough about them to 
+say: Judges and 
+magistrates?  
+ 
+Figure 14: Perceived corruption among judges and magistrates | by demographic 
+group | Tanzania | 2024 
+ 
+Respondents were asked: How many of the following people do you think are involved in corruption, or 
+haven’t you heard enough about them to say: Judges and magistrates?  
+15%
+21%
+17%
+20%
+18%
+17%
+21%
+18%
+16%
+24%
+19%
+15%
+15%
+19%
+28%
+43%
+47%
+43%
+48%
+44%
+46%
+43%
+40%
+45%
+46%
+51%
+47%
+47%
+44%
+39%
+0% 20% 40% 60% 80% 100%
+Women
+Men
+Rural
+Urban
+18-35 years
+36-55 years
+56 years and older
+No formal education
+Primary
+Secondary
+Post-secondary
+No lived poverty
+Low lived poverty
+Moderate lived poverty
+High lived poverty
+Most/All of them Some of them
+18%
+45%
+18%
+19% Most/All of them
+Some of them
+None
+Don't know/Refused
+=== PAGE 12 ===
+                                             
+Copyright ©Afrobarometer 2026  12 
+ 
+ 
+Figure 15: Perceived corruption among judges and magistrates | Tanzania  
+| 2014-2024 
+ 
+Respondents were asked: How many of the following people do you think are involved in corruption, or 
+haven’t you heard enough about them to say: Judges and magistrates?  
+Independence and neutrality of the courts 
+Tanzania’s Constitution establishes the independence of the judiciary. It also guarantees 
+equality before the law, stating that “no person shall be discriminated against… on the basis 
+of their nationality, tribe, place of origin, political opinion, colour, religion, sex or station in life”  
+(United Republic of Tanzania, 1977). 
+Tanzanians broadly perceive equal application of the law: Large majorities say that it is 
+“rarely” or “never” the case that ordinary people who commit crimes go unpunished  (79%), 
+that judges are influenced by powerful people when deciding cases (75%), and that people 
+are treated unequally under the law (68%) (Figure 16). And while three in 10 respondents 
+(30%) say officials who commit crimes “often” or “always go unpunished, 61% disagree.  
+Figure 16: Equality under the law | Tanzania | 2024  
+ 
+Respondents were asked: In your opinion, how often, in this country: Do judges and magistrates decide 
+cases based on the influence of political leaders, government officials, or other powerful people, rather 
+than based on the law? Are people treated unequally under the law? Do officials who commit crimes 
+go unpunished? Do ordinary people who break the law go unpunished? 
+47% 48%
+39%
+52%
+45%
+10% 11%
+36% 23%
+18%
+36%
+21%
+11% 13%
+18%
+0%
+20%
+40%
+60%
+80%
+100%
+2014 2017 2021 2022 2024
+Some of them
+None of them
+Most/All of them
+13%
+18%
+28%
+30%
+12%
+3%
+4%
+8%
+75%
+79%
+68%
+61%
+0% 20% 40% 60% 80% 100%
+Judges decide cases based on political
+influence rather than the law
+Ordinary people who commit crimes go
+unpunished
+People treated unequally under law
+Officials who commit crimes go
+unpunished
+Often/Always Don’t know/Refused Rarely/Never
+=== PAGE 13 ===
+                                             
+Copyright ©Afrobarometer 2026  13 
+ 
+ 
+When asked about sentencing, 71% say punishments for ordinary people who break the law 
+are appropriate, while 19% say they are too harsh and 6% say they are too lenient (Figure 17). 
+A majority (58%) also believe that penalties for powerful people who commi t crimes are 
+“about right.” But the share who say elites get off lightly is 21 percentage points higher than 
+for ordinary folks (27% vs. 6%). 
+Figure 17: Severity of penalties for crimes (ordinary people vs. powerful people)                  
+| Tanzania | 2024  
+ 
+Respondents were asked:  
+In general, when ordinary people are convicted of crimes in this country, do you think that the 
+punishments handed down to them, such as fines or jail or prison sentences, are too harsh, too 
+lenient, or generally about right, or haven’t you heard enough to say?  
+In general, when political leaders, government officials, or other powerful people are convicted of 
+crimes in this country, do you think that the punishments handed down to them, such as fines or jail 
+or prison sentences, are too harsh, too lenient, or generally about right, or haven’t you heard 
+enough to say? 
+Executive respect for the rule of law  
+Tanzanians strongly support presidential respect for the rule of law: More than three-quarters 
+agree that the president must obey the laws and courts even if she thinks they are wrong 
+(76%) and that she must regularly report to Parliament about how taxpayers’ money is spent 
+(80%) (Figure 18). And overwhelming majorities say President Samia Suluhu Hassan “rarely” or 
+“never” ignores laws (82%) and Parliament (83%).   
+ 
+6%
+71%
+19%
+5%
+27%
+58%
+8% 8%
+0%
+20%
+40%
+60%
+80%
+100%
+Too lenient About right Too harsh Don't know
+Ordinary people Powerful people
+=== PAGE 14 ===
+                                             
+Copyright ©Afrobarometer 2026  14 
+ 
+ 
+Figure 18: Presidential respect for the rule of law | Tanzania | 2024  
+ 
+Respondents were asked:  
+Which of the following statements is closest to your view?  
+Statement 1: Since the president was elected to lead the country, she should not be bound by 
+laws or court decisions that she thinks are wrong.  
+Statement 2: The president must always obey the laws and the courts, even if she thinks they are 
+wrong.  
+(% who agree with Statement 2)  
+Which of the following statements is closest to your view?  
+Statement 1: Parliament should ensure that the president explains to it on a regular basis how her 
+government spends taxpayers’ money. 
+Statement 2: The president should be able to devote her full attention to developing the country 
+rather than wasting time justifying her actions.  
+(% who agree with Statement 1)  
+In your opinion, how often, in this country: Does the president ignore the courts and laws of this 
+country? Does the president ignore Parliament and just do what she wants? 
+Views on the death penalty  
+Although Tanzania retains the death penalty in law for certain serious offences, no 
+executions have been carried out since 1994. Successive governments have maintained this 
+practice, and many death sentences have been commuted to life imprisonment . 
+Nonetheless, high courts continue to impose the death penalty to dozens of convicts each 
+year (Wazambi, 2023). 
+Citizens are tolerant of capital punishment: 59% say the death penalty is justified for the most 
+serious crimes (Figure 19). But 39% say it is never justified. 
+Figure 19: Views on the death penalty | Tanzania | 2024  
+ 
+Respondents were asked: Which of the following statements is closest to your view?  
+Statement 1: The death penalty is a fair punishment for people who have committed the most serious 
+crimes, such as murder. 
+Statement 2: There is no crime for which the death penalty can be justified. 
+76% 80% 82% 83%
+0%
+20%
+40%
+60%
+80%
+100%
+President must
+obey laws and
+courts
+President must
+account to
+Parliament
+President
+rarely/never
+ignores laws
+President
+rarely/never
+ignores
+Parliament
+59%
+39%
+2% Death penalty is a fair punishment
+for the most serious crimes
+Death penalty can never be
+justified
+Agree with neither/ Don’t know
+=== PAGE 15 ===
+                                             
+Copyright ©Afrobarometer 2026  15 
+ 
+ 
+Views about the acceptability of the death penalty are consistent across most major 
+demographic groups, with few differences by gender, urban-rural location, age, or 
+education status (Figure 20). Endorsement rises from a slim majority (53%) of well -off 
+respondents to nearly two-thirds (65%) among the very poor. 
+Figure 20: Views on the death penalty | by demographic group | Tanzania | 2024  
+ 
+Respondents were asked: Which of the following statements is closest to your view?  
+Statement 1: The death penalty is a fair punishment for people who have committed the most serious 
+crimes, such as murder.  
+Statement 2: There is no crime for which the death penalty can be justified. 
+Conclusion  
+Afrobarometer survey data show that although Tanzania’s judicial system enjoys widespread 
+trust, it still faces key challenges. A majority of citizens believe that at least some judges and 
+magistrates are involved in corruption, and substantial minorities express doubts about their 
+ability to afford to take a case to court. Meanwhile, only about one in three respondents are 
+aware of legal-aid services in their community.  
+Roughly three in 10 worry that officials who commit crimes go unpunished and that people 
+are treated unequally under the law. And while many citizens believe they could obtain 
+necessary legal support and receive a fair outcome if they went to court, fewer than half are 
+confident that a case would be resolved in a timely fashion.  
+65%
+60%
+58%
+53%
+59%
+59%
+60%
+55%
+61%
+60%
+58%
+57%
+60%
+59%
+59%
+33%
+38%
+41%
+43%
+41%
+38%
+39%
+42%
+36%
+39%
+41%
+41%
+38%
+39%
+39%
+0% 20% 40% 60% 80% 100%
+High lived poverty
+Moderate lived poverty
+Low lived poverty
+No lived poverty
+Post-secondary
+Secondary
+Primary
+No formal education
+56 years and older
+36-55 years
+18-35 years
+Urban
+Rural
+Men
+Women
+Death penalty is a fair punishment for the most serious crimes
+Death penalty can never be justified
+=== PAGE 16 ===
+                                             
+Copyright ©Afrobarometer 2026  16 
+ 
+ 
+Strong levels of trust in courts, confidence in the judiciary’s ability to dispense justice in cases 
+of wrongdoing, and a general perception that the president respects other branches of 
+government provide a solid foundation for access to justice and respect for the rule of law. 
+Addressing delays, expanding access to affordable legal aid, and clamping down on 
+corruption in the judicial system could make justice more inclusive and further strengthen 
+public confidence. 
+ 
+ 
+ 
+ 
+ 
+=== PAGE 17 ===
+                                             
+Copyright ©Afrobarometer 2026  17 
+ 
+ 
+References  
+Judiciary of Tanzania. (2023). Comprehensive performance report of the judicial functions.  
+Judiciary of Tanzania. (2024). Annual performance report of the judiciary of Tanzania 2023-24.  
+Mattes, R., & Lekalake, R. (2025). Decade of destitution? Severe lived poverty is surging in many 
+African countries. Afrobarometer Dispatch No. 943. 
+Moltmann-Willisch, A.-R. (2025). Mediation training manual for judicial officers. GIZ Tanzania. 
+Mosenda, J. (2024). Tanzania unveils roadmap for criminal justice reform. Citizen. 15 June. 
+OECD (Organisation for Economic Co-operation and Development). (2015). Access to justice.  
+United Nations. (2015). Transforming our world: The 2030 agenda for sustainable development.   
+United Republic of Tanzania. (1977). The constitution of the United Republic of Tanzania. 
+United Republic of Tanzania. (2019). Voluntary national review: Empowering people and ensuring 
+inclusiveness and equality (A report on the progress of the Sustainable Development Goals 
+(SDGs) implementation in the United Republic of Tanzania; submitted to the High-Level Political 
+Forum (HLPF), United Nations.   
+Wazambi, F. (2023). Tanzania human rights report 2023. Legal and Human Rights Centre & Zanzibar 
+Fighting Against Youth Challenges Organization.  
+World Justice Project. (2025). Rule of Law Index 2025. 
+ 
+ 
+ 
+=== PAGE 18 ===
+                                             
+Copyright ©Afrobarometer 2026  18 
+ 
+ 
+ 
+Jacqueline Mwaipopo is a researcher for REPOA, the Afrobarometer National Partner in 
+Tanzania. Email: jmwaipopo@repoa.or.tz.   
+Brenda Mshumbushi is a research associate at REPOA. Email: 
+brendamshumbushi@gmail.com.  
+Afrobarometer, a nonprofit corporation with headquarters in Ghana, is a pan -African, 
+nonpartisan research network. Regional coordination of National Partners in about 40 
+countries is provided by the Ghana Center for Democratic Development (CDD -Ghana), the 
+Institute for Justice and Reconciliation (IJR) in South Africa, the Institute for Development 
+Studies (IDS) at the University of Nairobi in Kenya, and Innovante Recherche en Economie et 
+Gouvernance (IREG) in Benin. Michigan State University and the University of Malawi provide 
+technical support to the network. 
+Financial support for Afrobarometer is provided by Sweden via the Swedish International 
+Development Cooperation Agency, the Norwegian Agency for Development Cooperation 
+via the World Bank Think Africa Project, the Mo Ibrahim Foundation, the Open Society 
+Foundations - Africa, Luminate, the Ford Foundation, the William and Flora Hewlett 
+Foundation, the Mastercard Foundation, the David and Lucile Packard Foundation, the 
+Obama Foundation, the European Union Commission, the World Bank Group, the Population 
+Institute, the Centre for International Governance Innovation, the International Development 
+Research Centre (IDRC), the Embassy of the Kingdom of the Netherlands in Uganda, the 
+Royal Embassy of Denmark in Uganda/Danida, and the German Federal Ministry for 
+Economic Cooperation and Development (BMZ) supported by the Deutsche Gesellschaft für 
+Internationale Zusammenarbeit (GIZ) GmbH. 
+Donations help Afrobarometer give voice to African citizens. Please consider making a 
+donation to Afrobarometer. To make an online donation, kindly follow this link or this link. To 
+discuss institutional funding, contact Felix Biga (felixbiga@afrobarometer.org) or Runyararo 
+Munetsi (runyararo@afrobarometer.org). 
+Follow our releases on #VoicesAfrica.  
+ 
+  
+Afrobarometer Dispatch No. 1198 | 1 July 2026 
+ 
+ 

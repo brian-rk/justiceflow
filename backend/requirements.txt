@@ -1,0 +1,10 @@
+-r ../requirements.txt
+fastapi>=0.115
+uvicorn[standard]
+sqlalchemy>=2.0
+pyjwt>=2.8
+bcrypt>=4.0
+joblib
+httpx
+python-multipart
+psycopg[binary]   # only needed when DATABASE_URL points at PostgreSQL

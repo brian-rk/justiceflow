@@ -42,7 +42,9 @@ Fill [tanzlii_sample_template.csv](tanzlii_sample_template.csv) and save it as `
 - A High Court judgment in a case that **started** at the High Court: use `High Court` with its filing and judgment dates.
 - A High Court **appeal**: the judgment usually says when the case was filed in the lower court and when that court decided it. Record the **lower court's** level and dates. That is how we get Primary, District and RM cases.
 
-**If a date is not stated, skip the case.** Don't estimate: a guessed date undermines the whole check. Only if the judgment states just the month, use the 1st of that month and write "month only" in a note.
+**If only the filing year is known** (it is part of the case number: *Land Case No. 38 of 2021*), leave `filing_date` empty and add a `filing_year` column. The checker keeps such a case only when its outcome is certain whatever the filing day (see [validation/README.md](validation/README.md)). A first sample built this way is in [validation/tanzlii_search_sample.csv](validation/tanzlii_search_sample.csv).
+
+**If no date or year is stated, skip the case.** Don't estimate: a guessed date undermines the whole check. Only if the judgment states just the month, use the 1st of that month and write "month only" in a note.
 
 ## Checking the sample
 Run this from the project folder whenever you like, even after only 10 rows:

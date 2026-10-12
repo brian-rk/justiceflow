@@ -80,6 +80,7 @@ export const api = {
   post: <T>(path: string, body?: unknown) => request<T>("POST", path, body ?? {}),
   put: <T>(path: string, body: unknown) => request<T>("PUT", path, body),
   patch: <T>(path: string, body: unknown) => request<T>("PATCH", path, body),
+  del: <T>(path: string) => request<T>("DELETE", path),
   login: (username: string, password: string) =>
     request<{ access_token: string; user: import("./types").User }>(
       "POST", "/auth/login", new URLSearchParams({ username, password })),

@@ -1,4 +1,4 @@
-﻿"""Relational schema (SRS 8.3: case / hearing / magistrate data with referential integrity).
+"""Relational schema (SRS 8.3: case / hearing / magistrate data with referential integrity).
 
 JusticeFlow's own store. Nothing here is ever written back to JoT-eCMS or JSDS2.
 """
@@ -58,6 +58,11 @@ class Case(Base):
     status: Mapped[str] = mapped_column(String(16), default="Pending", index=True)
     assigned_magistrate_id: Mapped[str | None] = mapped_column(ForeignKey("magistrates.id"))
     source: Mapped[str] = mapped_column(String(16), default="clerk")  # synthetic | tanzlii | clerk | import
+    # Criminal matters: offence category, and whether the accused is held in remand.
+    offence: Mapped[str] = mapped_column(String(32), default="Not criminal")
+    in_custody: Mapped[bool] = mapped_column(Boolean, default=False)
+    # The date the case is next due in court, as fixed by the presiding officer.
+    next_date: Mapped[date | None] = mapped_column(Date, index=True)
 
     hearings: Mapped[list[Hearing]] = relationship(back_populates="case", order_by="Hearing.hearing_no")
 
@@ -71,10 +76,13 @@ class Hearing(Base):
     hearing_date: Mapped[date] = mapped_column(Date)
     outcome: Mapped[str] = mapped_column(String(16))  # proceeded | adjourned | disposed
     adjourned: Mapped[bool] = mapped_column(Boolean)
-    adjournment_reason: Mapped[str | None] = mapped_column(String(16))  # advocate|prosecution|forensic|court
+    adjournment_reason: Mapped[str | None] = mapped_column(String(16))  # advocate|prosecution|forensic|witness|record|court
     flag_advocate: Mapped[bool] = mapped_column(Boolean, default=False)
     flag_prosecution: Mapped[bool] = mapped_column(Boolean, default=False)
     flag_forensic: Mapped[bool] = mapped_column(Boolean, default=False)
+    flag_witness: Mapped[bool] = mapped_column(Boolean, default=False)
+    flag_record: Mapped[bool] = mapped_column(Boolean, default=False)
+    next_date: Mapped[date | None] = mapped_column(Date)  # date fixed at this hearing
     notes: Mapped[str] = mapped_column(Text, default="")
     recorded_by: Mapped[int | None] = mapped_column(ForeignKey("users.id"))
     recorded_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
@@ -148,6 +156,10 @@ class Proposal(Base):
     risk_probability: Mapped[float] = mapped_column(Float)
     delay_status: Mapped[str] = mapped_column(String(160))
     driving_factors: Mapped[str] = mapped_column(Text)
+    # fixed = date set in court; new = no date yet; brought_forward = moved earlier
+    # from a later date fixed in court (fixed_date).
+    kind: Mapped[str] = mapped_column(String(16), default="new")
+    fixed_date: Mapped[date | None] = mapped_column(Date)
 
 
 class CycleRisk(Base):
@@ -182,6 +194,8 @@ class Escalation(Base):
     case_id: Mapped[str] = mapped_column(ForeignKey("cases.id"))
     consecutive_high_cycles: Mapped[int] = mapped_column(Integer)
     note: Mapped[str] = mapped_column(Text)
+    # Who can unblock it (police / NPS, Government Chemist, advocates, the court).
+    responsible: Mapped[str] = mapped_column(String(120), default="")
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
     acknowledged_by: Mapped[int | None] = mapped_column(ForeignKey("users.id"))
     acknowledged_at: Mapped[datetime | None] = mapped_column(DateTime)
@@ -192,3 +206,35 @@ class Setting(Base):
     __tablename__ = "settings"
     key: Mapped[str] = mapped_column(String(64), primary_key=True)
     value: Mapped[dict | list | int | float | str] = mapped_column(JSON)
+
+
+class SessionPlan(Base):
+    """A High Court criminal session: a judge sits for some weeks at a registry and
+    tries a batch of committal (murder) cases. Planned separately from weekly lists."""
+    __tablename__ = "session_plans"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    court_station: Mapped[str] = mapped_column(String(64))
+    magistrate_id: Mapped[str] = mapped_column(ForeignKey("magistrates.id"))
+    start_date: Mapped[date] = mapped_column(Date)
+    weeks: Mapped[int] = mapped_column(Integer)
+    status: Mapped[str] = mapped_column(String(16), default="PROPOSED")  # PROPOSED | APPROVED
+    created_by: Mapped[int | None] = mapped_column(ForeignKey("users.id"))
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
+    approved_by: Mapped[int | None] = mapped_column(ForeignKey("users.id"))
+    approved_at: Mapped[datetime | None] = mapped_column(DateTime)
+
+    cases: Mapped[list[SessionCase]] = relationship(back_populates="plan", order_by="SessionCase.position",
+                                                    cascade="all, delete-orphan")
+
+
+class SessionCase(Base):
+    __tablename__ = "session_cases"
+    __table_args__ = (UniqueConstraint("plan_id", "case_id"),)
+    id: Mapped[int] = mapped_column(primary_key=True)
+    plan_id: Mapped[int] = mapped_column(ForeignKey("session_plans.id"), index=True)
+    case_id: Mapped[str] = mapped_column(ForeignKey("cases.id"))
+    position: Mapped[int] = mapped_column(Integer)
+    planned_date: Mapped[date] = mapped_column(Date)
+    priority: Mapped[int] = mapped_column(Integer)
+
+    plan: Mapped[SessionPlan] = relationship(back_populates="cases")

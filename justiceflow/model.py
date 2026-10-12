@@ -21,7 +21,7 @@ from .features import feature_matrix
 NUMERIC_BASELINE = {
     "n_parties": 2, "represented": 0, "target_used": 0, "hearings_held": 0,
     "adjournment_count": 0, "court_side_adjournments": 0,
-    "flag_advocate": 0, "flag_prosecution": 0, "flag_forensic": 0,
+    "flag_advocate": 0, "flag_prosecution": 0, "flag_forensic": 0, "flag_witness": 0, "flag_record": 0,
 }
 
 FEATURE_LABELS = {
@@ -36,6 +36,9 @@ FEATURE_LABELS = {
     "flag_advocate": lambda v: "Advocate postponement active" if v else "No advocate postponement",
     "flag_prosecution": lambda v: "Prosecution delay active" if v else "No prosecution delay",
     "flag_forensic": lambda v: "Forensic report pending" if v else "No forensic report pending",
+    "flag_witness": lambda v: "Witness did not attend" if v else "Witnesses attending",
+    "flag_record": lambda v: "Awaiting record of proceedings" if v else "Record of proceedings ready",
+    "offence": lambda v: f"Offence: {v}",
 }
 
 

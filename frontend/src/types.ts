@@ -38,6 +38,17 @@ export interface CaseRow {
   filing_date: string;
   status: string;
   age_days: number;
+  /** Days past the disposition target; null while still within it. */
+  days_overdue: number | null;
+  /** High Court division (e.g. "High Court Land Division") or the court level. */
+  division: string;
+  offence: string;
+  in_custody: boolean;
+  remand_days: number | null;
+  /** Date the case is next due in court, as fixed by the presiding officer. */
+  next_date: string | null;
+  /** High Court murder trial: planned in criminal sessions, not weekly lists. */
+  sessions_case: boolean;
   assigned_magistrate_id: string | null;
   source: string;
   risk: Risk | null;
@@ -51,6 +62,9 @@ export interface HearingRow {
   flag_advocate: boolean;
   flag_prosecution: boolean;
   flag_forensic: boolean;
+  flag_witness: boolean;
+  flag_record: boolean;
+  next_date: string | null;
   notes: string;
   recorded_by: string | null;
 }
@@ -71,6 +85,7 @@ export interface CaseDetail extends CaseRow {
   active_flags: Record<string, boolean>;
   flag_labels: Record<string, string>;
   disposition_target_months: number;
+  responsible: string;
   hearings: HearingRow[];
   latest_listing: { cycle_id: string; cycle_status: string; magistrate_id: string; day: string; date: string; position: number } | null;
   decisions: DecisionRow[];
@@ -90,6 +105,11 @@ export interface Listing {
   risk_probability: number;
   delay_status: string;
   driving_factors: string;
+  days_overdue?: number | null;
+  in_custody?: boolean;
+  /** fixed = date set in court; new = no date yet; brought_forward = moved earlier from fixed_date. */
+  kind: "fixed" | "new" | "brought_forward";
+  fixed_date: string | null;
   decision: "approve" | "edit" | "remove" | null;
   decision_reason: string | null;
 }
@@ -98,7 +118,7 @@ export interface Cycle {
   id: string;
   week_start: string;
   status: "PROPOSED" | "APPROVED";
-  solver_info: { solver_status?: string; wall_time_s?: number };
+  solver_info: { solver_status?: string; wall_time_s?: number; fixed_in_court?: number; added_by_optimiser?: number };
   created_by: string | null;
   created_at: string;
   finalised_by: string | null;
@@ -122,6 +142,36 @@ export interface Reference {
   station_region: Record<string, string>;
   adjournment_reasons: Record<string, string>;
   flag_labels: Record<string, string>;
+  offences: string[];
+  criminal_types: string[];
+  no_advocates_levels: string[];
+  divisions: Record<string, string>;
+  scope: string;
+}
+
+export interface NextDateSuggestion {
+  date: string | null;
+  earliest?: string;
+  latest?: string;
+  magistrate_id?: string | null;
+  load?: number;
+  capacity?: number | null;
+  reasons: string[];
+}
+
+export interface SessionPlan {
+  id: number;
+  court_station: string;
+  magistrate_id: string;
+  magistrate_name: string;
+  start_date: string;
+  weeks: number;
+  status: "PROPOSED" | "APPROVED";
+  created_by: string | null;
+  approved_by: string | null;
+  approved_at: string | null;
+  cases: { case_id: string; position: number; planned_date: string; priority: number; in_custody: boolean;
+           days_pending: number | null; risk_category: RiskCategory | null; delay_status: string | null }[];
 }
 
 export interface Magistrate {

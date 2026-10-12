@@ -35,15 +35,13 @@ def _snapshot(case: dict, hist: pd.DataFrame, at: pd.Timestamp) -> dict:
         "adjournment_count": int(hist["adjourned"].sum()) if len(hist) else 0,
         "court_side_adjournments": int((hist["adjournment_reason"] == "court").sum()) if len(hist) else 0,
         # Flags reflect the *current* state, i.e. the most recent hearing.
-        "flag_advocate": bool(last["flag_advocate"]) if last is not None else False,
-        "flag_prosecution": bool(last["flag_prosecution"]) if last is not None else False,
-        "flag_forensic": bool(last["flag_forensic"]) if last is not None else False,
+        **{f: bool(last.get(f, False)) if last is not None else False for f in C.EXTERNAL_FLAGS},
     }
 
 
 def _attach_case_fields(snaps: pd.DataFrame, cases: pd.DataFrame) -> pd.DataFrame:
     keep = ["case_id", *C.FILING_FEATURES, *C.PROTECTED_FEATURES, "filing_date", "source",
-            "assigned_magistrate"]
+            "assigned_magistrate", "in_custody", "next_date"]
     keep = [c for c in keep if c in cases.columns]
     return snaps.merge(cases[keep], on="case_id", how="left")
 
@@ -103,6 +101,7 @@ def current_snapshots(cases: pd.DataFrame, hearings: pd.DataFrame, as_of) -> pd.
 
 def feature_matrix(snaps: pd.DataFrame) -> pd.DataFrame:
     """Model inputs only. Protected features are excluded by construction."""
+    snaps = with_defaults(snaps)
     X = snaps[C.MODEL_FEATURES].copy()
     assert not set(C.PROTECTED_FEATURES) & set(X.columns), "protected feature leaked into model"
     for col in C.CATEGORICAL_FEATURES:
@@ -113,4 +112,17 @@ def feature_matrix(snaps: pd.DataFrame) -> pd.DataFrame:
 
 
 def _categories(col):
-    return {"case_type": C.CASE_TYPES, "court_level": C.COURT_LEVELS}[col]
+    return {"case_type": C.CASE_TYPES, "court_level": C.COURT_LEVELS, "offence": C.OFFENCES}[col]
+
+
+def with_defaults(df: pd.DataFrame) -> pd.DataFrame:
+    """Fill fields that older data sources do not carry (offence, newer delay flags)."""
+    df = df.copy()
+    if "offence" not in df:
+        df["offence"] = None
+    criminal = df["case_type"].isin(C.CRIMINAL_TYPES) if "case_type" in df else False
+    df["offence"] = df["offence"].where(df["offence"].notna(), np.where(criminal, "Other", "Not criminal"))
+    for f in C.EXTERNAL_FLAGS:
+        if f not in df:
+            df[f] = False
+    return df

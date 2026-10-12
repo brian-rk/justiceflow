@@ -4,6 +4,7 @@ import { Eye, EyeOff, Loader2, Lock, LogIn } from "lucide-react";
 import { HOME, ROLE_LABEL, useAuth } from "../auth";
 import { Alert, Button, Logo, cx, inputCls } from "../components/ui";
 import loginBg from "../assets/login-bg.jpg";
+import { LangToggle, t } from "../i18n";
 
 const DEMO = [
   ["clerk", "clerk"], ["registrar", "registrar"], ["magistrate", "magistrate"],
@@ -83,6 +84,7 @@ export default function Login() {
         <BottomWaves />
       </div>
 
+      <div className="absolute right-4 top-4 z-10"><LangToggle dark /></div>
       <div className="relative w-full max-w-[440px]">
         <div className="relative">
         <div aria-hidden="true" className="card-halo blurred" />
@@ -96,23 +98,23 @@ export default function Login() {
             <div className="text-center">
               <Logo size={80} motion="intro" className="mx-auto animate-float drop-shadow-md" />
               <h1 className="mt-4 text-[22px] font-medium text-ink">JusticeFlow TZ</h1>
-              <p className="mt-1 text-sm text-muted">Sign in to continue to the case-flow dashboard</p>
+              <p className="mt-1 text-sm text-muted">{t("Sign in to continue to the case-flow dashboard")}</p>
             </div>
 
             <form onSubmit={submit} className="stagger mt-7 space-y-4">
               {error && <Alert tone="error">{error}</Alert>}
               <div>
-                <label htmlFor="username" className="mb-1.5 block text-[13px] font-medium text-ink">Username</label>
-                <input id="username" className={inputCls} placeholder="Enter your username" value={username}
+                <label htmlFor="username" className="mb-1.5 block text-[13px] font-medium text-ink">{t("Username")}</label>
+                <input id="username" className={inputCls} placeholder={t("Enter your username")} value={username}
                   onChange={(e) => setUsername(e.target.value)} autoComplete="username" autoFocus required />
               </div>
               <div>
-                <label htmlFor="password" className="mb-1.5 block text-[13px] font-medium text-ink">Password</label>
+                <label htmlFor="password" className="mb-1.5 block text-[13px] font-medium text-ink">{t("Password")}</label>
                 <div className="relative">
-                  <input id="password" className={inputCls + " pr-10"} type={show ? "text" : "password"} placeholder="Enter your password"
+                  <input id="password" className={inputCls + " pr-10"} type={show ? "text" : "password"} placeholder={t("Enter your password")}
                     value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="current-password" required />
-                  <button type="button" onClick={() => setShow((s) => !s)} aria-label={show ? "Hide password" : "Show password"}
-                    className="absolute right-2 top-1/2 -translate-y-1/2 rounded p-1 text-slate-400 transition hover:text-ink">
+                  <button type="button" onClick={() => setShow((s) => !s)} aria-label={t(show ? "Hide password" : "Show password")}
+                    className="absolute right-2 top-1/2 -translate-y-1/2 rounded p-1 text-slate-500 transition hover:text-ink">
                     {show ? <EyeOff size={17} /> : <Eye size={17} />}
                   </button>
                 </div>
@@ -120,15 +122,15 @@ export default function Login() {
               <div className="pt-2">
                 <Button variant="primary" className="w-full py-2.5 text-[15px]" disabled={busy}>
                   {busy ? <Loader2 size={18} className="animate-spin" /> : <LogIn size={18} />}
-                  {busy ? "Signing in…" : "Sign in"}
+                  {busy ? t("Signing in…") : t("Sign in")}
                 </Button>
               </div>
               <div className="pt-2 text-center">
-                <button type="button" onClick={() => setForgot((f) => !f)} className="inline-flex items-center gap-1.5 text-sm text-muted transition hover:text-brand-500">
-                  <Lock size={14} /> Forgot your password?
+                <button type="button" onClick={() => setForgot((f) => !f)} className="inline-flex items-center gap-1.5 text-sm text-muted transition hover:text-brand-600">
+                  <Lock size={14} /> {t("Forgot your password?")}
                 </button>
                 <div className={cx("grid transition-[grid-template-rows,opacity] duration-300 ease-out", forgot ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0")}>
-                  <p className="overflow-hidden text-xs text-muted"><span className="block pt-2">Passwords are reset by your court's system administrator.</span></p>
+                  <p className="overflow-hidden text-xs text-muted"><span className="block pt-2">{t("Passwords are reset by your court's system administrator.")}</span></p>
                 </div>
               </div>
             </form>
@@ -138,22 +140,22 @@ export default function Login() {
         </div>
 
         <div className="mt-6 animate-fade-up [animation-delay:250ms]">
-          <p className="mb-2 text-center text-xs text-white/85 [text-shadow:0_1px_3px_rgba(0,0,0,0.6)]">Demo accounts · password <code className="rounded bg-white/15 px-1.5 py-0.5 text-white ring-1 ring-white/25">demo1234</code></p>
+          <p className="mb-2 text-center text-xs text-white/85 [text-shadow:0_1px_3px_rgba(0,0,0,0.6)]">{t("Demo accounts, password")} <code className="rounded bg-white/15 px-1.5 py-0.5 text-white ring-1 ring-white/25">demo1234</code></p>
           <div className="flex flex-wrap justify-center gap-2">
             {DEMO.map(([u, role]) => (
               <button key={u} type="button" onClick={() => { setUsername(u); setPassword("demo1234"); setError(null); }}
                 aria-pressed={username === u}
                 className={cx("rounded-full px-3 py-1 text-xs shadow-sm ring-1 transition duration-200 hover:-translate-y-0.5",
-                  username === u ? "bg-brand-500 text-white ring-brand-300" : "bg-white/10 text-white ring-white/25 backdrop-blur-sm hover:bg-white/20")}>
-                {ROLE_LABEL[role]}
+                  username === u ? "bg-brand-600 text-white ring-brand-300" : "bg-brand-900/70 text-white ring-white/35 backdrop-blur-sm hover:bg-brand-900/85")}>
+                {t(ROLE_LABEL[role])}
               </button>
             ))}
           </div>
         </div>
 
         <p className="mt-8 text-center text-xs text-white/75 [text-shadow:0_1px_3px_rgba(0,0,0,0.6)]">
-          © {new Date().getFullYear()} JusticeFlow TZ · Decision support for court registries.<br />
-          Read-only overlay: never writes to JoT-eCMS or JSDS2. No schedule is final without registrar approval.
+          © {new Date().getFullYear()} JusticeFlow TZ. {t("Decision support for court registries, Judiciary of Tanzania (Tanzania Mainland).")}<br />
+          {t("Read-only overlay: never writes to JoT-eCMS or JSDS2. No schedule is final without registrar approval.")}
         </p>
       </div>
     </div>

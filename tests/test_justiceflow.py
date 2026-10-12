@@ -175,3 +175,61 @@ def test_store_round_trips_through_csv(engine, scored, data, tmp_path):
     store.approve_all("W1", "REG-1")
     n = len(store.finalise("W1", "REG-1"))
     assert len(ReviewStore(tmp_path).final_cause_list("W1")) == n
+
+
+# --- Tanzanian court rules ----------------------------------------------------
+
+def test_synthetic_data_follows_jurisdiction(data):
+    c = data.cases
+    for level, types in C.CASE_TYPES_BY_LEVEL.items():
+        assert set(c.loc[c.court_level == level, "case_type"]) <= set(types)
+    assert not c.loc[c.court_level == "District", "case_type"].eq("Land").any()  # land: DLHT / HC Land Division
+    assert not c.loc[c.court_level == "Primary", "represented"].any()  # no advocates in Primary Courts
+    assert (c.loc[~c.case_type.isin(C.CRIMINAL_TYPES), "offence"] == "Not criminal").all()
+    trial = c.court_level != "Court of Appeal"
+    assert c.loc[trial & (c.offence == "Homicide"), "in_custody"].all()  # murder is not bailable
+    assert not c.loc[~trial, "in_custody"].any()  # appellants are convicted, not on remand
+
+
+def test_calibration_matches_published_2025_times(data):
+    res = data.cases["resolution_date"].fillna(pd.Timestamp("2100-01-01"))
+    avg = synthetic.avg_days_to_decision(data.cases, res, data.as_of)
+    for level, target in C.AVG_DAYS_TO_DECISION_2025.items():
+        assert abs(avg[level] - target) / target < 0.35, (level, avg[level], target)
+
+
+def test_dates_fixed_in_court_are_kept_and_cases_stay_with_their_officer(scored, data):
+    pending = data.cases.set_index("case_id")
+    week = pd.Timestamp("2026-09-28")
+    sample = scored[scored["assigned_magistrate"].notna()].head(30)
+    fixed = {r.case_id: (r.assigned_magistrate, week + pd.Timedelta(days=i % 5)) for i, r in enumerate(sample.itertuples())}
+    plan, _ = scheduler.optimise(scored, data.magistrates, week, time_limit_s=10, fixed=fixed)
+    got = plan.set_index("case_id")
+    for cid, (mid, day) in fixed.items():
+        assert got.loc[cid, "kind"] == "fixed" and got.loc[cid, "magistrate_id"] == mid
+        assert pd.Timestamp(got.loc[cid, "date"]) == day
+    for r in plan.itertuples():
+        assigned = pending.loc[r.case_id, "assigned_magistrate"]
+        assert r.magistrate_id == assigned
+
+
+def test_remand_raises_priority(scored):
+    row = scored.iloc[0].copy()
+    row["risk_probability"], row["overdue"], row["court_controllable"] = 0.4, False, False
+    row["in_custody"] = False
+    free = scheduler.priority_weight(row)
+    row["in_custody"] = True
+    assert scheduler.priority_weight(row) == free + C.CUSTODY_PRIORITY
+
+
+def test_year_only_filing_dates_keep_only_certain_labels():
+    from justiceflow.ingest import interval_labels
+    df = pd.DataFrame({
+        "court_level": ["High Court"] * 3, "filing_date": [None] * 3,
+        "filing_year": [2021, 2021, 2024],
+        "decision_date": ["2024-04-02", "2023-06-01", "2024-07-03"],
+    })
+    labels = interval_labels(df)["label"].tolist()
+    assert labels[0] == 1        # filed in 2021, decided April 2024: past 24 months whatever the day
+    assert pd.isna(labels[1])     # June 2023: could be either side of 24 months
+    assert labels[2] == 0        # filed and decided in 2024

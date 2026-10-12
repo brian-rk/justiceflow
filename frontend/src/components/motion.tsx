@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import { AlertCircle, CheckCircle2, Info, X } from "lucide-react";
 import { onActivity } from "../api";
 import { cx, useCountUp } from "./ui";
+import { t } from "../i18n";
 
 // --- toasts ----------------------------------------------------------------------
 
@@ -28,7 +29,7 @@ export function ToastProvider({ children }: { children: ReactNode }) {
   }, [dismiss]);
 
   const icon = { success: CheckCircle2, error: AlertCircle, info: Info };
-  const color = { success: "text-ok", error: "text-danger", info: "text-brand-500" };
+  const color = { success: "text-ok", error: "text-danger", info: "text-brand-600" };
   const bar = { success: "bg-ok", error: "bg-danger", info: "bg-brand-500" };
 
   return (
@@ -36,18 +37,18 @@ export function ToastProvider({ children }: { children: ReactNode }) {
       {children}
       {createPortal(
         <div className="pointer-events-none fixed right-4 top-20 z-[60] flex w-[min(360px,calc(100vw-2rem))] flex-col gap-2" aria-live="polite">
-          {toasts.map((t) => {
-            const Icon = icon[t.tone];
+          {toasts.map((toast) => {
+            const Icon = icon[toast.tone];
             return (
-              <div key={t.id} role={t.tone === "error" ? "alert" : "status"}
+              <div key={toast.id} role={toast.tone === "error" ? "alert" : "status"}
                 className="pointer-events-auto relative overflow-hidden rounded-md bg-white shadow-xl ring-1 ring-slate-900/5"
-                style={{ animation: t.leaving ? "toast-out 200ms ease-in forwards" : "toast-in 280ms var(--ease-out-quart) both" }}>
+                style={{ animation: toast.leaving ? "toast-out 200ms ease-in forwards" : "toast-in 280ms var(--ease-out-quart) both" }}>
                 <div className="flex items-start gap-3 px-4 py-3 text-sm text-ink">
-                  <Icon size={18} className={cx("mt-0.5 shrink-0", color[t.tone])} />
-                  <div className="min-w-0 flex-1">{t.text}</div>
-                  <button onClick={() => dismiss(t.id)} className="rounded p-0.5 text-slate-400 transition hover:bg-slate-100 hover:text-ink" aria-label="Dismiss"><X size={14} /></button>
+                  <Icon size={18} className={cx("mt-0.5 shrink-0", color[toast.tone])} />
+                  <div className="min-w-0 flex-1">{toast.text}</div>
+                  <button onClick={() => dismiss(toast.id)} className="rounded p-0.5 text-slate-500 transition hover:bg-slate-100 hover:text-ink" aria-label={t("Dismiss")}><X size={14} /></button>
                 </div>
-                <div className={cx("h-0.5 origin-left opacity-60", bar[t.tone])} style={{ animation: `toast-timer ${TOAST_MS}ms linear forwards` }} />
+                <div className={cx("h-0.5 origin-left opacity-60", bar[toast.tone])} style={{ animation: `toast-timer ${TOAST_MS}ms linear forwards` }} />
               </div>
             );
           })}
@@ -123,7 +124,7 @@ export function Tabs<T extends string>({ tabs, value, onChange }: { tabs: readon
   }, [value, tabs]);
   return (
     <div role="tablist" className="relative mb-5 inline-flex max-w-full overflow-x-auto rounded-md bg-white p-1 shadow-sm ring-1 ring-slate-900/5">
-      <span aria-hidden="true" className="absolute inset-y-1 rounded bg-brand-500 shadow-sm shadow-brand-500/30 transition-all duration-300 ease-[var(--ease-out-quart)]"
+      <span aria-hidden="true" className="absolute inset-y-1 rounded bg-brand-600 shadow-sm shadow-brand-600/30 transition-all duration-300 ease-[var(--ease-out-quart)]"
         style={{ left: pill.left, width: pill.width }} />
       {tabs.map(([k, label]) => (
         <button key={k} ref={(el) => { refs.current[k] = el; }} role="tab" aria-selected={value === k} onClick={() => onChange(k)}

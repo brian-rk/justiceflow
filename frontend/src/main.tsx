@@ -17,7 +17,10 @@ import Fairness from "./pages/Fairness";
 import Login from "./pages/Login";
 import MySchedule from "./pages/MySchedule";
 import ReviewQueue from "./pages/ReviewQueue";
+import Sessions from "./pages/Sessions";
 import Settings from "./pages/Settings";
+import Agenda from "./pages/Agenda";
+import { LangProvider } from "./i18n";
 
 // Charts are heavy; load the Reports page only when opened.
 const Reports = lazy(() => import("./pages/Reports"));
@@ -47,6 +50,8 @@ function App() {
         <Route path="/cases/:caseId" element={<Guard roles={["clerk", ...oversight]}><CaseDetail /></Guard>} />
         <Route path="/my-schedule" element={<Guard roles={["magistrate"]}><MySchedule /></Guard>} />
         <Route path="/escalations" element={<Guard roles={oversight}><Escalations /></Guard>} />
+        <Route path="/escalations/agenda" element={<Guard roles={oversight}><Agenda /></Guard>} />
+        <Route path="/sessions" element={<Guard roles={oversight}><Sessions /></Guard>} />
         <Route path="/reports" element={<Guard roles={["management", "admin"]}><Suspense fallback={<Loading />}><Reports /></Suspense></Guard>} />
         <Route path="/fairness" element={<Guard roles={["management", "admin"]}><Fairness /></Guard>} />
         <Route path="/settings" element={<Guard roles={["admin"]}><Settings /></Guard>} />
@@ -61,7 +66,9 @@ createRoot(document.getElementById("root")!).render(
     <BrowserRouter>
       <AuthProvider>
         <ToastProvider>
-          <App />
+          <LangProvider>
+            <App />
+          </LangProvider>
         </ToastProvider>
       </AuthProvider>
     </BrowserRouter>

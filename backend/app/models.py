@@ -63,6 +63,8 @@ class Case(Base):
     in_custody: Mapped[bool] = mapped_column(Boolean, default=False)
     # The date the case is next due in court, as fixed by the presiding officer.
     next_date: Mapped[date | None] = mapped_column(Date, index=True)
+    # When the case entered JusticeFlow (newest registrations list first).
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow)
 
     hearings: Mapped[list[Hearing]] = relationship(back_populates="case", order_by="Hearing.hearing_no")
 

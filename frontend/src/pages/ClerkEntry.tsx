@@ -193,8 +193,12 @@ function HearingForm({ reference }: { reference: Reference }) {
 function RegisterForm({ reference }: { reference: Reference }) {
   const [form, setForm] = useState({ court_level: "District", case_type: "", court_station: "", n_parties: 2, represented: false,
     filing_date: today(), offence: "", in_custody: false, next_date: "" });
+  const [region, setRegion] = useState(reference.regions?.[0] ?? "");
   const [result, setResult] = useState<{ tone: "success" | "error"; text: string; id?: string } | null>(null);
   const types = reference.case_types_by_level[form.court_level] ?? [];
+  // Real courts of this level serving the chosen region, grouped by district.
+  const courts = (reference.courts ?? []).filter((c) => c.level === form.court_level && c.region === region);
+  const byDistrict = courts.reduce<Record<string, typeof courts>>((acc, c) => { (acc[c.district] ??= []).push(c); return acc; }, {});
   const criminal = reference.criminal_types.includes(form.case_type);
   const noAdvocates = reference.no_advocates_levels.includes(form.court_level);
 
@@ -215,10 +219,12 @@ function RegisterForm({ reference }: { reference: Reference }) {
   return (
     <Card title={t("Register a new case")} className="max-w-2xl">
       <form onSubmit={submit} className="space-y-4">
-        {result && <Alert tone={result.tone}>{result.text} {result.id && <Link className="font-medium underline" to={`/cases/${result.id}`}>{t("Open")}</Link>}</Alert>}
+        {result && <Alert tone={result.tone}>{result.text} {result.id && <>
+          <Link className="font-medium underline" to={`/cases/${result.id}`}>{t("Open")}</Link>{" · "}
+          <Link className="font-medium underline" to={`/cases?q=${result.id}`}>{t("View in case list")}</Link></>}</Alert>}
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label={t("Court level")}>
-            <select className={inputCls} value={form.court_level} onChange={(e) => setForm({ ...form, court_level: e.target.value, case_type: "" })}>
+            <select className={inputCls} value={form.court_level} onChange={(e) => setForm({ ...form, court_level: e.target.value, case_type: "", court_station: "" })}>
               {reference.court_levels.map((l) => <option key={l} value={l}>{t(l)}</option>)}
             </select>
           </Field>
@@ -236,10 +242,19 @@ function RegisterForm({ reference }: { reference: Reference }) {
               </select>
             </Field>
           )}
-          <Field label={t("Court station")}>
+          <Field label={t("Region")}>
+            <select className={inputCls} value={region} onChange={(e) => { setRegion(e.target.value); setForm({ ...form, court_station: "" }); }}>
+              {(reference.regions ?? []).map((r) => <option key={r} value={r}>{r}</option>)}
+            </select>
+          </Field>
+          <Field label={t("Court")} hint={courts.length ? t("{n} courts of this level serve this region", { n: courts.length }) : undefined}>
             <select className={inputCls} value={form.court_station} onChange={(e) => setForm({ ...form, court_station: e.target.value })} required>
               <option value="">{t("Select…")}</option>
-              {reference.stations.map((s) => <option key={s}>{s}</option>)}
+              {Object.entries(byDistrict).map(([district, list]) => (
+                <optgroup key={district} label={district}>
+                  {list.map((c) => <option key={c.name} value={c.name}>{c.name}</option>)}
+                </optgroup>
+              ))}
             </select>
           </Field>
           <Field label={t("Filing date")}>

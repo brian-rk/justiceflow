@@ -1,0 +1,4987 @@
+{
+ "source": "Judiciary of Tanzania court map (jmap.judiciary.go.tz), public data service",
+ "fetched": "2026-10-13",
+ "regions": {
+  "Dar es Salaam": [
+   {
+    "uid": "df804649-c789-4943-aefc-cf3e022dc8bd",
+    "cfg_court": {
+     "name": "Ilala District Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Kivukoni"
+    }
+   },
+   {
+    "uid": "5eb2fb5f-a6d6-432c-a5b7-c035c1a2593e",
+    "cfg_court": {
+     "name": "Temeke High Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Temeke"
+    },
+    "cfg_ward": {
+     "name": "Temeke"
+    }
+   },
+   {
+    "uid": "fc1c8144-9e43-44a3-82ef-5c0d5bc124d2",
+    "cfg_court": {
+     "name": "Ukonga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Kivukoni"
+    }
+   },
+   {
+    "uid": "b271a5bf-1174-4101-a4a0-4d99b001f5f6",
+    "cfg_court": {
+     "name": "Buguruni Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Kivukoni"
+    }
+   },
+   {
+    "uid": "29e65994-97d5-4d04-8272-1d53a5cb707a",
+    "cfg_court": {
+     "name": "Kariakoo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Kivukoni"
+    }
+   },
+   {
+    "uid": "b7596df4-14eb-451a-9ed2-87c3e32899f9",
+    "cfg_court": {
+     "name": "Ilala Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Kivukoni"
+    }
+   },
+   {
+    "uid": "a455fb66-c748-4ea6-b89a-226891dcac51",
+    "cfg_court": {
+     "name": "Kinondoni Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Kinondoni"
+    },
+    "cfg_ward": {
+     "name": "Magomeni"
+    }
+   },
+   {
+    "uid": "854182f2-a4d7-4f13-9b88-7c1eee6ec2c5",
+    "cfg_court": {
+     "name": "Kawe Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Kinondoni"
+    },
+    "cfg_ward": {
+     "name": "Magomeni"
+    }
+   },
+   {
+    "uid": "f0cdf387-06b5-4e5f-bd52-02a46f333229",
+    "cfg_court": {
+     "name": "Magomeni Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Kinondoni"
+    },
+    "cfg_ward": {
+     "name": "Magomeni"
+    }
+   },
+   {
+    "uid": "8b83ab7e-4a53-4d10-a8ca-688aab746c45",
+    "cfg_court": {
+     "name": "Kinondoni District Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Kinondoni"
+    },
+    "cfg_ward": {
+     "name": "Mwananyamala"
+    }
+   },
+   {
+    "uid": "41e2acbc-7657-4dda-9550-47db7ce68493",
+    "cfg_court": {
+     "name": "Kivukoni Resident Magistrate"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Kinondoni"
+    },
+    "cfg_ward": {
+     "name": "Mwananyamala"
+    }
+   },
+   {
+    "uid": "8cb9a7df-a3a6-4451-aeda-4405314a78a2",
+    "cfg_court": {
+     "name": "Temeke Primary Court At One Stop Centre"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Temeke"
+    },
+    "cfg_ward": {
+     "name": "Temeke"
+    }
+   },
+   {
+    "uid": "7a9ef36c-4ae9-434c-b683-29e0e5fcc9f5",
+    "cfg_court": {
+     "name": "Temeke District Court At One Stop centre"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Temeke"
+    },
+    "cfg_ward": {
+     "name": "Temeke"
+    }
+   },
+   {
+    "uid": "4da22495-6411-4bb6-93ad-5f30acf52098",
+    "cfg_court": {
+     "name": "Temeke Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Temeke"
+    },
+    "cfg_ward": {
+     "name": "Temeke"
+    }
+   },
+   {
+    "uid": "d849f229-7cb9-4beb-88e0-659fa914e555",
+    "cfg_court": {
+     "name": "Mbagala Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Temeke"
+    },
+    "cfg_ward": {
+     "name": "Temeke"
+    }
+   },
+   {
+    "uid": "d7088a15-a0a2-4ccb-b66a-750c48dac16e",
+    "cfg_court": {
+     "name": "Temeke  District Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Temeke"
+    },
+    "cfg_ward": {
+     "name": "Temeke"
+    }
+   },
+   {
+    "uid": "d5e72077-9808-4e46-904e-6d81d97bc790",
+    "cfg_court": {
+     "name": "Kimara Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ubungo"
+    },
+    "cfg_ward": {
+     "name": "Mburahati"
+    }
+   },
+   {
+    "uid": "0adb4684-67a9-461b-8c74-856dafe79ae6",
+    "cfg_court": {
+     "name": "Sinza Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ubungo"
+    },
+    "cfg_ward": {
+     "name": "Mburahati"
+    }
+   },
+   {
+    "uid": "b6e6eb94-5276-47df-afa0-4ce29bc00666",
+    "cfg_court": {
+     "name": "Ubungo District Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ubungo"
+    },
+    "cfg_ward": {
+     "name": "Mburahati"
+    }
+   },
+   {
+    "uid": "168e8a36-754c-481d-9fe8-cf53d418eeb5",
+    "cfg_court": {
+     "name": "Kigamboni Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Kigamboni"
+    },
+    "cfg_ward": {
+     "name": "Kimbiji"
+    }
+   },
+   {
+    "uid": "0d96dffd-10fd-441b-9aa5-e1bdd6b6b012",
+    "cfg_court": {
+     "name": "Kigamboni District Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Kigamboni"
+    },
+    "cfg_ward": {
+     "name": "Kimbiji"
+    }
+   },
+   {
+    "uid": "fa8ed2b6-a1cf-442c-ab99-d318b3b7afce",
+    "cfg_court": {
+     "name": "Sokoine Drive Resident Magistrate"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Kivukoni"
+    }
+   },
+   {
+    "uid": "6a197168-a161-44db-aab2-609a66940ab9",
+    "cfg_court": {
+     "name": "Dar es Salaam High Court Dar es Salaam Zone"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Kivukoni"
+    }
+   },
+   {
+    "uid": "e111d82f-0277-47da-9674-e786afe5953a",
+    "cfg_court": {
+     "name": "Dar es Salaam High Court Labour Division"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Kinondoni"
+    },
+    "cfg_ward": {
+     "name": "Kinondoni"
+    }
+   },
+   {
+    "uid": "3c0c242e-497c-4a5a-b150-ecc847415428",
+    "cfg_court": {
+     "name": "Dar es Salaam High Court Commercial Division"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Kivukoni"
+    }
+   },
+   {
+    "uid": "fcb8991a-86cc-4587-a3ff-c75d56b58a78",
+    "cfg_court": {
+     "name": "Dar es Salaam High Court Corruption and Economic Crimes Division"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ubungo"
+    },
+    "cfg_ward": {
+     "name": "Sinza"
+    }
+   },
+   {
+    "uid": "b9ed9226-1edc-4b75-a839-e9e10821ff2b",
+    "cfg_court": {
+     "name": "Dar es Salaam High Court Land Division"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Kivukoni"
+    }
+   },
+   {
+    "uid": "556ad5f2-bb0f-4010-8e84-77b0a9552262",
+    "cfg_court": {
+     "name": "Kisutu Resident Magistrate"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Kisutu"
+    }
+   },
+   {
+    "uid": "69a450d3-2a72-4f8e-903d-c1c9ed381ec0",
+    "cfg_court": {
+     "name": "Chanika-Ilala Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ilala"
+    },
+    "cfg_ward": {
+     "name": "Chanika"
+    }
+   },
+   {
+    "uid": "2b79d909-121b-4799-b77c-7a8eac5b0418",
+    "cfg_court": {
+     "name": "Kwembe Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Ubungo"
+    },
+    "cfg_ward": {
+     "name": "Kwembe"
+    }
+   },
+   {
+    "uid": "2c7a09c0-d27c-4982-a9ad-3fa973d383cc",
+    "cfg_court": {
+     "name": "Wazo hill primary Court"
+    },
+    "cfg_region": {
+     "name": "Dar es Salaam"
+    },
+    "cfg_district": {
+     "name": "Kinondoni"
+    },
+    "cfg_ward": {
+     "name": "Wazo"
+    }
+   }
+  ],
+  "Arusha": [
+   {
+    "uid": "6687d5c0-f7e5-4f58-abeb-60bfdeb94ce3",
+    "cfg_court": {
+     "name": "Emaoi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Usa River"
+    }
+   },
+   {
+    "uid": "0de79404-dfc8-465c-a9f6-06799681755f",
+    "cfg_court": {
+     "name": "Arusha Urban Primar Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arusha"
+    },
+    "cfg_ward": {
+     "name": "SEKEI"
+    }
+   },
+   {
+    "uid": "46321cc9-57af-4a06-80be-97377661dcda",
+    "cfg_court": {
+     "name": "Arusha District Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arusha"
+    },
+    "cfg_ward": {
+     "name": "THEMI"
+    }
+   },
+   {
+    "uid": "db161a0e-2ea8-4316-a6d4-14e05c2edcca",
+    "cfg_court": {
+     "name": "Arusha Resident Magistrate"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arusha"
+    },
+    "cfg_ward": {
+     "name": "THEMI"
+    }
+   },
+   {
+    "uid": "77e52a5a-c628-4788-befa-202f5eb23b0e",
+    "cfg_court": {
+     "name": "Arusha High Court Commercial Division"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arusha"
+    },
+    "cfg_ward": {
+     "name": "THEMI"
+    }
+   },
+   {
+    "uid": "4b2e16fb-775b-4943-b6a4-d5b32573071d",
+    "cfg_court": {
+     "name": "Arusha High Court Labour Division"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arusha"
+    },
+    "cfg_ward": {
+     "name": "SEKEI"
+    }
+   },
+   {
+    "uid": "d0805a50-b448-468a-ae08-18f18d8c4b77",
+    "cfg_court": {
+     "name": "Mbuguni Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Usa River"
+    }
+   },
+   {
+    "uid": "4b503a38-ee6a-4b94-b729-ccbc96dc3386",
+    "cfg_court": {
+     "name": "Enaboishu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Usa River"
+    }
+   },
+   {
+    "uid": "d594c075-4438-419a-bc71-a4a10c33d6b6",
+    "cfg_court": {
+     "name": "Nkoaranga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Usa River"
+    }
+   },
+   {
+    "uid": "fde2f71d-1f37-433e-805c-4a2cf312c3e3",
+    "cfg_court": {
+     "name": "Nduruma Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Usa River"
+    }
+   },
+   {
+    "uid": "1945778e-ecac-4d1b-8987-eb0a1b39f711",
+    "cfg_court": {
+     "name": "Ngarenanyuki Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Usa River"
+    }
+   },
+   {
+    "uid": "5d7fdc50-a64b-41ef-8a66-32a92c1ec98b",
+    "cfg_court": {
+     "name": "Maji Ya Chai Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Usa River"
+    }
+   },
+   {
+    "uid": "3d8fe145-6fc9-4530-9c93-615afc92bd1f",
+    "cfg_court": {
+     "name": "Kingori Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Usa River"
+    }
+   },
+   {
+    "uid": "ee616e60-4b6c-45cb-88b4-ac39e86c1127",
+    "cfg_court": {
+     "name": "Arumeru District Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Usa River"
+    }
+   },
+   {
+    "uid": "9c9faebe-7d42-40a1-9a17-59860c3f201d",
+    "cfg_court": {
+     "name": "Mto Wa Mbu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Monduli"
+    },
+    "cfg_ward": {
+     "name": "Monduli Mjini"
+    }
+   },
+   {
+    "uid": "f3bb98b2-9f32-4111-a74a-a9b644cd1dea",
+    "cfg_court": {
+     "name": "Kissongo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Monduli"
+    },
+    "cfg_ward": {
+     "name": "Monduli Mjini"
+    }
+   },
+   {
+    "uid": "5a2a96ca-afb8-4625-90a3-72e2e18bfb85",
+    "cfg_court": {
+     "name": "Monduli District Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Monduli"
+    },
+    "cfg_ward": {
+     "name": "Monduli Mjini"
+    }
+   },
+   {
+    "uid": "ae629d91-d413-44f6-854a-6f7569169c95",
+    "cfg_court": {
+     "name": "Namanga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Longido"
+    },
+    "cfg_ward": {
+     "name": "Longido"
+    }
+   },
+   {
+    "uid": "4fdd0a96-94cc-4b2a-96de-50548d8783ac",
+    "cfg_court": {
+     "name": "Longido Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Longido"
+    },
+    "cfg_ward": {
+     "name": "Longido"
+    }
+   },
+   {
+    "uid": "f2056fec-ec82-4329-99c6-3d110c45af60",
+    "cfg_court": {
+     "name": "Longido District Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Longido"
+    },
+    "cfg_ward": {
+     "name": "Longido"
+    }
+   },
+   {
+    "uid": "e242a940-0282-4a26-b27e-688606609ba5",
+    "cfg_court": {
+     "name": "Karatu Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Karatu"
+    },
+    "cfg_ward": {
+     "name": "Karatu"
+    }
+   },
+   {
+    "uid": "9e8f2a91-99e6-49b9-932e-9cec0f30dfe8",
+    "cfg_court": {
+     "name": "Endabashi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Karatu"
+    },
+    "cfg_ward": {
+     "name": "Karatu"
+    }
+   },
+   {
+    "uid": "2dcafff6-671f-4aa2-8628-317279dd4582",
+    "cfg_court": {
+     "name": "Oldieni Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Karatu"
+    },
+    "cfg_ward": {
+     "name": "Karatu"
+    }
+   },
+   {
+    "uid": "8d23d22b-9690-460e-8897-f8c0bf203768",
+    "cfg_court": {
+     "name": "Mangola Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Karatu"
+    },
+    "cfg_ward": {
+     "name": "Karatu"
+    }
+   },
+   {
+    "uid": "c561a9b4-232b-47ea-9bca-51ef4bbd9864",
+    "cfg_court": {
+     "name": "Karatu  District Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Karatu"
+    },
+    "cfg_ward": {
+     "name": "Karatu"
+    }
+   },
+   {
+    "uid": "3274d0de-c40d-4dce-b56d-8b3e6f9fa052",
+    "cfg_court": {
+     "name": "Ngorongoro Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Ngorongoro"
+    },
+    "cfg_ward": {
+     "name": "Orgosorok"
+    }
+   },
+   {
+    "uid": "ee2693d5-ad8f-4533-9902-8ba610c6903e",
+    "cfg_court": {
+     "name": "Loliondo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Ngorongoro"
+    },
+    "cfg_ward": {
+     "name": "Orgosorok"
+    }
+   },
+   {
+    "uid": "ed1e5dc9-7fc2-4215-a516-a4e9c60d35a3",
+    "cfg_court": {
+     "name": "Enduleni Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Ngorongoro"
+    },
+    "cfg_ward": {
+     "name": "Orgosorok"
+    }
+   },
+   {
+    "uid": "932e93fd-847e-48cb-8e9a-580ede6607a5",
+    "cfg_court": {
+     "name": "Digodigo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Ngorongoro"
+    },
+    "cfg_ward": {
+     "name": "Orgosorok"
+    }
+   },
+   {
+    "uid": "aa6587ca-a140-4e97-adbe-4726c405281f",
+    "cfg_court": {
+     "name": "Ngorongoro District Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Ngorongoro"
+    },
+    "cfg_ward": {
+     "name": "Orgosorok"
+    }
+   },
+   {
+    "uid": "900450b0-acd6-4a67-9cf7-794dcb93c31e",
+    "cfg_court": {
+     "name": "Arusha High Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arusha"
+    },
+    "cfg_ward": {
+     "name": "THEMI"
+    }
+   },
+   {
+    "uid": "8b84b87e-88a6-46d7-88e8-ab7ef9898fe3",
+    "cfg_court": {
+     "name": "Themi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arusha"
+    },
+    "cfg_ward": {
+     "name": "THEMI"
+    }
+   },
+   {
+    "uid": "4f075564-d22b-4742-a499-64ee6854d0d4",
+    "cfg_court": {
+     "name": "Makuyuni-Korogwe Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Monduli"
+    },
+    "cfg_ward": {
+     "name": "Monduli Mjini"
+    }
+   },
+   {
+    "uid": "9dafe8e3-3f7e-497c-b01a-4eb3fcc46f98",
+    "cfg_court": {
+     "name": "Terat Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arusha"
+    },
+    "cfg_ward": {
+     "name": "TERRAT"
+    }
+   },
+   {
+    "uid": "ff9b8cb7-d84d-4072-8421-e206b3fff56a",
+    "cfg_court": {
+     "name": "Nkoandrua Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Nkoanrua"
+    }
+   },
+   {
+    "uid": "6f3eda1e-f3b1-4bc4-ba6d-44a47ad1b1a7",
+    "cfg_court": {
+     "name": "Likamba Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Arumeru"
+    },
+    "cfg_ward": {
+     "name": "Likamba"
+    }
+   },
+   {
+    "uid": "bcad6e66-36da-47b2-beb0-6106d47aa828",
+    "cfg_court": {
+     "name": "Kitumbeine Primary Court"
+    },
+    "cfg_region": {
+     "name": "Arusha"
+    },
+    "cfg_district": {
+     "name": "Longido"
+    },
+    "cfg_ward": {
+     "name": "Ketumbeine"
+    }
+   }
+  ],
+  "Mwanza": [
+   {
+    "uid": "717a975f-7e2e-4513-9598-13ecc6b2dde9",
+    "cfg_court": {
+     "name": "Mkuyuni Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Nyamagana"
+    },
+    "cfg_ward": {
+     "name": "Nyamagana"
+    }
+   },
+   {
+    "uid": "d41bd3e3-db00-4cf4-a367-7ed1f286c316",
+    "cfg_court": {
+     "name": "Mwanza Mjini Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Nyamagana"
+    },
+    "cfg_ward": {
+     "name": "Nyamagana"
+    }
+   },
+   {
+    "uid": "d1a652ff-0f8f-42ab-bb3d-0df71759ea6d",
+    "cfg_court": {
+     "name": "Nyamagana District Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Nyamagana"
+    },
+    "cfg_ward": {
+     "name": "Nyamagana"
+    }
+   },
+   {
+    "uid": "69173b5e-7dbb-4f6b-849e-ac72ae347ca5",
+    "cfg_court": {
+     "name": "Sangabuye Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ilemela"
+    },
+    "cfg_ward": {
+     "name": "Nyakato"
+    }
+   },
+   {
+    "uid": "a481b1b1-1656-446c-a510-3d9ceebdd843",
+    "cfg_court": {
+     "name": "Ilemela Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ilemela"
+    },
+    "cfg_ward": {
+     "name": "Nyakato"
+    }
+   },
+   {
+    "uid": "67efc580-2d35-491b-90eb-70b48588d8ce",
+    "cfg_court": {
+     "name": "Ilemela  District Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ilemela"
+    },
+    "cfg_ward": {
+     "name": "Nyakato"
+    }
+   },
+   {
+    "uid": "b52aab16-1725-4d21-bd44-c6c577f53d06",
+    "cfg_court": {
+     "name": "Mwanza Resident Magistrate"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ilemela"
+    },
+    "cfg_ward": {
+     "name": "Nyakato"
+    }
+   },
+   {
+    "uid": "482f138f-e43b-4d54-a8fd-74af2e2c845f",
+    "cfg_court": {
+     "name": "Mwanza High Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ilemela"
+    },
+    "cfg_ward": {
+     "name": "Nyakato"
+    }
+   },
+   {
+    "uid": "eb976416-9b55-4cad-bd24-bd1a6c893d82",
+    "cfg_court": {
+     "name": "Mwanza Court of Appeal"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ilemela"
+    },
+    "cfg_ward": {
+     "name": "Nyakato"
+    }
+   },
+   {
+    "uid": "e8475cb2-3328-4a81-a291-ee3327783a64",
+    "cfg_court": {
+     "name": "Nyanchenche Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "2dfda3cc-a04c-45bf-9945-632f79e7efb8",
+    "cfg_court": {
+     "name": "Buyagu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "cf6968ec-976e-4cfe-8698-a49847f57fbc",
+    "cfg_court": {
+     "name": "Nyehunge Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "371a299e-dd5f-4138-89e9-e59a7757cf99",
+    "cfg_court": {
+     "name": "Bupandwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "e7ad5901-f085-429b-bd47-4fb7bba3a371",
+    "cfg_court": {
+     "name": "Kasenyi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "200c4841-7c21-4162-bcad-7e60d6c17bfd",
+    "cfg_court": {
+     "name": "Kome Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "e9dc2921-3785-4461-ac1e-6a362214b52a",
+    "cfg_court": {
+     "name": "Kazunzu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "b7d6aef1-1330-4ff8-a8fc-bb0276be4d16",
+    "cfg_court": {
+     "name": "Nyakaliro Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "5392bfbf-8d70-4e54-9472-961a8e9408bd",
+    "cfg_court": {
+     "name": "Buzilasoga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "50b5fe3d-3da5-4a90-92fd-8a52d368d3d5",
+    "cfg_court": {
+     "name": "Sima Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "b4ce3293-29ab-4c26-a708-4406f99387fe",
+    "cfg_court": {
+     "name": "Busisi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "fc5837e3-952c-43f5-8630-c1c9694602a8",
+    "cfg_court": {
+     "name": "Sengerema Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "7a8b8fd1-ef68-4faa-936a-607a3cc156fc",
+    "cfg_court": {
+     "name": "Sengerema District Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   },
+   {
+    "uid": "f8635709-e0cf-4363-b447-0d05dfb11d5e",
+    "cfg_court": {
+     "name": "Kabila Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Magu"
+    },
+    "cfg_ward": {
+     "name": "Magu mjini"
+    }
+   },
+   {
+    "uid": "4e8dceb7-497c-4bcd-9100-27c6ae985550",
+    "cfg_court": {
+     "name": "Nyanguge Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Magu"
+    },
+    "cfg_ward": {
+     "name": "Magu mjini"
+    }
+   },
+   {
+    "uid": "72634281-ce50-443d-a1e1-8b5af22d0e12",
+    "cfg_court": {
+     "name": "Kisesa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Magu"
+    },
+    "cfg_ward": {
+     "name": "Magu mjini"
+    }
+   },
+   {
+    "uid": "fd67d7c8-f585-4166-b4d8-94907811b7bb",
+    "cfg_court": {
+     "name": "Bujashi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Magu"
+    },
+    "cfg_ward": {
+     "name": "Magu mjini"
+    }
+   },
+   {
+    "uid": "91ee45c2-9ebd-4e96-90b5-6d454ac7223a",
+    "cfg_court": {
+     "name": "Kongolo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Magu"
+    },
+    "cfg_ward": {
+     "name": "Magu mjini"
+    }
+   },
+   {
+    "uid": "e98bf677-8977-4fc4-a9de-ce5c1e4c5011",
+    "cfg_court": {
+     "name": "Magu Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Magu"
+    },
+    "cfg_ward": {
+     "name": "Magu mjini"
+    }
+   },
+   {
+    "uid": "38fa2f71-282e-4db7-9d5a-5a2c88e39f99",
+    "cfg_court": {
+     "name": "Magu District Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Magu"
+    },
+    "cfg_ward": {
+     "name": "Magu mjini"
+    }
+   },
+   {
+    "uid": "2a7a3427-00fb-4556-b0f6-5ecafc83ae3c",
+    "cfg_court": {
+     "name": "Ilujamate Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Misungwi"
+    },
+    "cfg_ward": {
+     "name": "Nhundulu"
+    }
+   },
+   {
+    "uid": "785c4fdf-ad81-472b-b665-f1be5442d667",
+    "cfg_court": {
+     "name": "Mbarika Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Misungwi"
+    },
+    "cfg_ward": {
+     "name": "Nhundulu"
+    }
+   },
+   {
+    "uid": "c47201ae-06e0-44c2-be9f-d82c517d3096",
+    "cfg_court": {
+     "name": "Busongo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Misungwi"
+    },
+    "cfg_ward": {
+     "name": "Nhundulu"
+    }
+   },
+   {
+    "uid": "1053c7ae-cf58-4cf4-8e11-28142b756e0a",
+    "cfg_court": {
+     "name": "Inonelwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Misungwi"
+    },
+    "cfg_ward": {
+     "name": "Nhundulu"
+    }
+   },
+   {
+    "uid": "f44b889d-a0b7-450a-8383-09f97c68eea1",
+    "cfg_court": {
+     "name": "Bujingwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Misungwi"
+    },
+    "cfg_ward": {
+     "name": "Nhundulu"
+    }
+   },
+   {
+    "uid": "64fc4c33-83d1-4cf2-9c4d-3b16620c6884",
+    "cfg_court": {
+     "name": "Bukumbi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Misungwi"
+    },
+    "cfg_ward": {
+     "name": "Nhundulu"
+    }
+   },
+   {
+    "uid": "ff2e59ed-cb83-4310-9dd0-3ecbdd19018e",
+    "cfg_court": {
+     "name": "Koromije Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Misungwi"
+    },
+    "cfg_ward": {
+     "name": "Nhundulu"
+    }
+   },
+   {
+    "uid": "2674c605-4dae-4ae3-b024-4c829f8c7320",
+    "cfg_court": {
+     "name": "Igokelo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Misungwi"
+    },
+    "cfg_ward": {
+     "name": "Nhundulu"
+    }
+   },
+   {
+    "uid": "8696ecc1-f6f6-4bd1-897b-4839e8307af3",
+    "cfg_court": {
+     "name": "Misungwi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Misungwi"
+    },
+    "cfg_ward": {
+     "name": "Nhundulu"
+    }
+   },
+   {
+    "uid": "3ec839cb-a681-4b42-bce4-d36ab494c5eb",
+    "cfg_court": {
+     "name": "Misungwi District Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Misungwi"
+    },
+    "cfg_ward": {
+     "name": "Nhundulu"
+    }
+   },
+   {
+    "uid": "b9efb752-912e-459d-b3c4-8eaf6b349006",
+    "cfg_court": {
+     "name": "Ilugwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ukerewe"
+    },
+    "cfg_ward": {
+     "name": "Nansio"
+    }
+   },
+   {
+    "uid": "be1e02c5-8e00-4f1f-a5dc-919894e70b11",
+    "cfg_court": {
+     "name": "Ukara Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ukerewe"
+    },
+    "cfg_ward": {
+     "name": "Nansio"
+    }
+   },
+   {
+    "uid": "4bfe2d44-a622-4cfb-8c3e-3478429a65cb",
+    "cfg_court": {
+     "name": "Ilangala Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ukerewe"
+    },
+    "cfg_ward": {
+     "name": "Nansio"
+    }
+   },
+   {
+    "uid": "e4f54016-1782-4963-9a61-e2d34f5fbeb3",
+    "cfg_court": {
+     "name": "Bukindo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ukerewe"
+    },
+    "cfg_ward": {
+     "name": "Nansio"
+    }
+   },
+   {
+    "uid": "c2e09008-8d54-4e66-97e2-6dbf4c202efd",
+    "cfg_court": {
+     "name": "Nansio Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ukerewe"
+    },
+    "cfg_ward": {
+     "name": "Nansio"
+    }
+   },
+   {
+    "uid": "1976e816-4136-41f5-984e-09a46cfa5577",
+    "cfg_court": {
+     "name": "Ukerewe District Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ukerewe"
+    },
+    "cfg_ward": {
+     "name": "Nansio"
+    }
+   },
+   {
+    "uid": "1e65ca43-fba0-4747-8f34-554f1ae4e401",
+    "cfg_court": {
+     "name": "Kikubiji Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "dd76b76c-6257-4608-8405-0117ab5b9c27",
+    "cfg_court": {
+     "name": "Mwamashimba Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "d9e391e6-6044-4768-b5e7-f3144d7d645a",
+    "cfg_court": {
+     "name": "Buyogo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "61e1e253-af92-4d86-9f05-ac33260f9c50",
+    "cfg_court": {
+     "name": "Nyamilama Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "b5031b64-6453-4079-a4a4-75a2fbbecf58",
+    "cfg_court": {
+     "name": "Ngulla Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "5f95d9f8-2cba-4a07-aee6-39a864096e1b",
+    "cfg_court": {
+     "name": "Malya Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "d4e78eb9-bc7c-42c0-b49b-f19e6c169ff3",
+    "cfg_court": {
+     "name": "Nyamikoma Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "67c0756b-0098-4035-a88c-fb4bbfc8f15e",
+    "cfg_court": {
+     "name": "Bungulwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "bd337c7b-c11d-4a35-9690-3ea09766e5aa",
+    "cfg_court": {
+     "name": "Nyambiti Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "645d6b9d-e0e7-4bbc-887b-890b22e0b26c",
+    "cfg_court": {
+     "name": "Ngudu Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "3bfb87d5-c388-4d9a-9781-bd49c59ad300",
+    "cfg_court": {
+     "name": "Kwimba District Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Kwimba"
+    },
+    "cfg_ward": {
+     "name": "Ngudu"
+    }
+   },
+   {
+    "uid": "896c5600-811b-464d-a852-9e2800260f94",
+    "cfg_court": {
+     "name": "Buswelu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Ilemela"
+    },
+    "cfg_ward": {
+     "name": "Buswelu"
+    }
+   },
+   {
+    "uid": "ef50da92-489e-4845-bc45-57eb7386e042",
+    "cfg_court": {
+     "name": "Busulwagiri Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mwanza"
+    },
+    "cfg_district": {
+     "name": "Sengerema"
+    },
+    "cfg_ward": {
+     "name": "Ibisabageni"
+    }
+   }
+  ],
+  "Dodoma": [
+   {
+    "uid": "98828b7f-179a-4ed3-a5b6-d8aa70661c1b",
+    "cfg_court": {
+     "name": "Nala Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Uhuru"
+    }
+   },
+   {
+    "uid": "0f21af5b-12b0-4d2e-b522-b2fbdecf3601",
+    "cfg_court": {
+     "name": "Dodoma Court of Appeal"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Hazina"
+    }
+   },
+   {
+    "uid": "8c3b2247-549c-4ac9-a7d4-006a594aa2d8",
+    "cfg_court": {
+     "name": "Kikombo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Uhuru"
+    }
+   },
+   {
+    "uid": "a19185c3-ddd1-499c-b5b4-6361db5aba87",
+    "cfg_court": {
+     "name": "Hombolo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Uhuru"
+    }
+   },
+   {
+    "uid": "ab63ad74-bf6a-48e3-8a12-c0f7a0be58af",
+    "cfg_court": {
+     "name": "Matumbulu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Uhuru"
+    }
+   },
+   {
+    "uid": "4b7b8c12-15d9-4190-834f-18203765399b",
+    "cfg_court": {
+     "name": "Chamwino Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Uhuru"
+    }
+   },
+   {
+    "uid": "5b497803-3ccc-45dc-974e-113aaab27b4c",
+    "cfg_court": {
+     "name": "Makole Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Uhuru"
+    }
+   },
+   {
+    "uid": "40b7ef77-24d8-41c5-b328-b6ccd710dd25",
+    "cfg_court": {
+     "name": "Dodoma Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Uhuru"
+    }
+   },
+   {
+    "uid": "d35abb0a-3f39-4bee-b25b-a6177d8f9549",
+    "cfg_court": {
+     "name": "Nondwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Bahi"
+    },
+    "cfg_ward": {
+     "name": "Bahi"
+    }
+   },
+   {
+    "uid": "491775e2-3e52-478f-89a8-65f39dcc9a6c",
+    "cfg_court": {
+     "name": "Zanka Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Bahi"
+    },
+    "cfg_ward": {
+     "name": "Bahi"
+    }
+   },
+   {
+    "uid": "14037870-8180-485b-b28b-6a88d65db3ad",
+    "cfg_court": {
+     "name": "Mundemu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Bahi"
+    },
+    "cfg_ward": {
+     "name": "Bahi"
+    }
+   },
+   {
+    "uid": "ce28b4c1-48ac-4293-b3ba-740d14220109",
+    "cfg_court": {
+     "name": "Mwitikila Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Bahi"
+    },
+    "cfg_ward": {
+     "name": "Bahi"
+    }
+   },
+   {
+    "uid": "585fa8cc-45de-4143-8941-b5c38826ca03",
+    "cfg_court": {
+     "name": "Chipanga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Bahi"
+    },
+    "cfg_ward": {
+     "name": "Bahi"
+    }
+   },
+   {
+    "uid": "8280f358-89ce-4a86-ae5f-6e870c017264",
+    "cfg_court": {
+     "name": "Kigwe Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Bahi"
+    },
+    "cfg_ward": {
+     "name": "Bahi"
+    }
+   },
+   {
+    "uid": "2d44b6b2-48f0-44cf-bc68-5ae3dc939ece",
+    "cfg_court": {
+     "name": "Bahi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Bahi"
+    },
+    "cfg_ward": {
+     "name": "Bahi"
+    }
+   },
+   {
+    "uid": "1ab2efae-9cc9-47f0-bf09-6ea6d46aad17",
+    "cfg_court": {
+     "name": "Bahi District Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Bahi"
+    },
+    "cfg_ward": {
+     "name": "Bahi"
+    }
+   },
+   {
+    "uid": "d940c707-53ce-4425-9633-6dbfc44535d1",
+    "cfg_court": {
+     "name": "Mvumi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Chilonwa"
+    }
+   },
+   {
+    "uid": "8b17fb32-109e-47e3-a934-19090517f906",
+    "cfg_court": {
+     "name": "Makangwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Chilonwa"
+    }
+   },
+   {
+    "uid": "b2df9b48-5d66-4954-ae34-5eec6dcdaf84",
+    "cfg_court": {
+     "name": "Haneti Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Chilonwa"
+    }
+   },
+   {
+    "uid": "5d6f025e-9d9c-4be4-89f9-2f6489b9f582",
+    "cfg_court": {
+     "name": "Itiso Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Chilonwa"
+    }
+   },
+   {
+    "uid": "5836c25b-6d7e-41f6-8a18-a27ac3464cc6",
+    "cfg_court": {
+     "name": "Handali Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Chilonwa"
+    }
+   },
+   {
+    "uid": "afe6bcf2-2d6c-4d3a-9d25-672c344acf3d",
+    "cfg_court": {
+     "name": "Dabalo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Chilonwa"
+    }
+   },
+   {
+    "uid": "ff90ed86-27ad-4f4f-a490-9e6071e60ab2",
+    "cfg_court": {
+     "name": "Chilonwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Chilonwa"
+    }
+   },
+   {
+    "uid": "d0745056-9d36-46e5-89d6-af547618df8e",
+    "cfg_court": {
+     "name": "Chamwino Ikulu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Chilonwa"
+    }
+   },
+   {
+    "uid": "6ac7a277-8393-4701-8d4d-e4b35e22640f",
+    "cfg_court": {
+     "name": "Chamwino  District Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chamwino"
+    },
+    "cfg_ward": {
+     "name": "Chilonwa"
+    }
+   },
+   {
+    "uid": "c3f1666a-57cd-4687-8f1d-fa6a21576adb",
+    "cfg_court": {
+     "name": "Kibaigwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kongwa"
+    },
+    "cfg_ward": {
+     "name": "Kongwa"
+    }
+   },
+   {
+    "uid": "08552734-574d-423e-b688-6f4d063cabbf",
+    "cfg_court": {
+     "name": "Hogoro Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kongwa"
+    },
+    "cfg_ward": {
+     "name": "Kongwa"
+    }
+   },
+   {
+    "uid": "ca6bc1a4-7717-454f-a5d2-78dc507c5494",
+    "cfg_court": {
+     "name": "Zoisa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kongwa"
+    },
+    "cfg_ward": {
+     "name": "Kongwa"
+    }
+   },
+   {
+    "uid": "e1bdb69b-6df8-487b-a8dc-d009cb6b772b",
+    "cfg_court": {
+     "name": "Pandambili Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kongwa"
+    },
+    "cfg_ward": {
+     "name": "Kongwa"
+    }
+   },
+   {
+    "uid": "feb9fa61-44ae-474b-af36-4ec42996d97f",
+    "cfg_court": {
+     "name": "Mlali Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kongwa"
+    },
+    "cfg_ward": {
+     "name": "Kongwa"
+    }
+   },
+   {
+    "uid": "30699520-c238-49ec-b5f4-6b2f2dc7d58b",
+    "cfg_court": {
+     "name": "Sagara Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kongwa"
+    },
+    "cfg_ward": {
+     "name": "Kongwa"
+    }
+   },
+   {
+    "uid": "b74767e2-a1e1-43a3-b5f9-b60943782d7d",
+    "cfg_court": {
+     "name": "Kongwa District Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kongwa"
+    },
+    "cfg_ward": {
+     "name": "Kongwa"
+    }
+   },
+   {
+    "uid": "b12250b2-0055-40e7-913c-b00b8d3ddf46",
+    "cfg_court": {
+     "name": "Wotta Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Mpwapwa"
+    },
+    "cfg_ward": {
+     "name": "Mpwapwa Mjini"
+    }
+   },
+   {
+    "uid": "0dd6a4db-62be-496c-bb6b-29d2abb54e8d",
+    "cfg_court": {
+     "name": "Mpwapwa Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Mpwapwa"
+    },
+    "cfg_ward": {
+     "name": "Mpwapwa Mjini"
+    }
+   },
+   {
+    "uid": "ca2f6ac2-8bc5-4cbc-8c0e-4b6e33026ee5",
+    "cfg_court": {
+     "name": "Mima Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Mpwapwa"
+    },
+    "cfg_ward": {
+     "name": "Mpwapwa Mjini"
+    }
+   },
+   {
+    "uid": "3ef924d0-a349-49f2-81c5-431f89ebba29",
+    "cfg_court": {
+     "name": "Kibakwe Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Mpwapwa"
+    },
+    "cfg_ward": {
+     "name": "Mpwapwa Mjini"
+    }
+   },
+   {
+    "uid": "5e5cd362-59c6-4770-beba-065fea745424",
+    "cfg_court": {
+     "name": "Ipera Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Mpwapwa"
+    },
+    "cfg_ward": {
+     "name": "Mpwapwa Mjini"
+    }
+   },
+   {
+    "uid": "4fe18361-3c58-467d-8719-3f2e991c5fd8",
+    "cfg_court": {
+     "name": "Rudi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Mpwapwa"
+    },
+    "cfg_ward": {
+     "name": "Mpwapwa Mjini"
+    }
+   },
+   {
+    "uid": "313b0d00-2412-4967-b31d-dae2178a619a",
+    "cfg_court": {
+     "name": "Mlunduzi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Mpwapwa"
+    },
+    "cfg_ward": {
+     "name": "Mpwapwa Mjini"
+    }
+   },
+   {
+    "uid": "5d03b7dd-ffc1-40fd-9340-1e758c3a9219",
+    "cfg_court": {
+     "name": "Chipogoro Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Mpwapwa"
+    },
+    "cfg_ward": {
+     "name": "Mpwapwa Mjini"
+    }
+   },
+   {
+    "uid": "bc0fcbd2-d408-455a-9849-fa9625a9e1a1",
+    "cfg_court": {
+     "name": "Mpwapwa District Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Mpwapwa"
+    },
+    "cfg_ward": {
+     "name": "Mpwapwa Mjini"
+    }
+   },
+   {
+    "uid": "059633a9-a3b4-40d2-91e1-24adb4d1fad7",
+    "cfg_court": {
+     "name": "Busi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kondoa"
+    },
+    "cfg_ward": {
+     "name": "Kondoa Mjini"
+    }
+   },
+   {
+    "uid": "930a6879-fbcb-4d36-8304-587a454b800e",
+    "cfg_court": {
+     "name": "Kolo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kondoa"
+    },
+    "cfg_ward": {
+     "name": "Kondoa Mjini"
+    }
+   },
+   {
+    "uid": "21cca451-6ef1-4a9a-ae86-81cad321793e",
+    "cfg_court": {
+     "name": "Pahi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kondoa"
+    },
+    "cfg_ward": {
+     "name": "Kondoa Mjini"
+    }
+   },
+   {
+    "uid": "3ef25c6c-54e5-4f80-b634-6c03c46a1f97",
+    "cfg_court": {
+     "name": "Bereko Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kondoa"
+    },
+    "cfg_ward": {
+     "name": "Kondoa Mjini"
+    }
+   },
+   {
+    "uid": "66284876-2f16-49c8-9446-719ec91811b9",
+    "cfg_court": {
+     "name": "Masange Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kondoa"
+    },
+    "cfg_ward": {
+     "name": "Kondoa Mjini"
+    }
+   },
+   {
+    "uid": "c294387f-cf69-442a-a121-b9b31dba0684",
+    "cfg_court": {
+     "name": "Haubi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kondoa"
+    },
+    "cfg_ward": {
+     "name": "Kondoa Mjini"
+    }
+   },
+   {
+    "uid": "5d6601ff-7609-4a6e-b2da-f8fa538bce37",
+    "cfg_court": {
+     "name": "Kondoa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kondoa"
+    },
+    "cfg_ward": {
+     "name": "Kondoa Mjini"
+    }
+   },
+   {
+    "uid": "a0139581-f2bc-452d-bf10-72275c20cc53",
+    "cfg_court": {
+     "name": "Kondoa District Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Kondoa"
+    },
+    "cfg_ward": {
+     "name": "Kondoa Mjini"
+    }
+   },
+   {
+    "uid": "4441f4f2-e439-486b-a1fc-e66a6fc56612",
+    "cfg_court": {
+     "name": "Lalta Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chemba"
+    },
+    "cfg_ward": {
+     "name": "Chemba"
+    }
+   },
+   {
+    "uid": "e03e9711-683b-4821-bde6-660283baf1b0",
+    "cfg_court": {
+     "name": "Farkwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chemba"
+    },
+    "cfg_ward": {
+     "name": "Chemba"
+    }
+   },
+   {
+    "uid": "0b1649a2-8cad-418b-8d33-18d1863fc549",
+    "cfg_court": {
+     "name": "Mondo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chemba"
+    },
+    "cfg_ward": {
+     "name": "Chemba"
+    }
+   },
+   {
+    "uid": "0b1471d0-5e37-4d60-a446-834462299004",
+    "cfg_court": {
+     "name": "Goima Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chemba"
+    },
+    "cfg_ward": {
+     "name": "Chemba"
+    }
+   },
+   {
+    "uid": "f856963e-aa4a-4d1d-9a86-08aa8de12930",
+    "cfg_court": {
+     "name": "Jangalo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chemba"
+    },
+    "cfg_ward": {
+     "name": "Chemba"
+    }
+   },
+   {
+    "uid": "a99dd6eb-9603-4d9d-87de-5815d765d5ed",
+    "cfg_court": {
+     "name": "Paranga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chemba"
+    },
+    "cfg_ward": {
+     "name": "Chemba"
+    }
+   },
+   {
+    "uid": "4495e0cb-1342-4867-9242-ad3cb763f230",
+    "cfg_court": {
+     "name": "Kwamtoro Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chemba"
+    },
+    "cfg_ward": {
+     "name": "Chemba"
+    }
+   },
+   {
+    "uid": "8fa9ca94-86d9-4927-b432-2d7192695226",
+    "cfg_court": {
+     "name": "Mrijo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chemba"
+    },
+    "cfg_ward": {
+     "name": "Chemba"
+    }
+   },
+   {
+    "uid": "f51e1f11-aedc-4ac1-a65d-67395cb5a18d",
+    "cfg_court": {
+     "name": "Sanzawa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chemba"
+    },
+    "cfg_ward": {
+     "name": "Chemba"
+    }
+   },
+   {
+    "uid": "7b03a5b2-80f8-44c9-8df1-b73e8e904059",
+    "cfg_court": {
+     "name": "Chemba District Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Chemba"
+    },
+    "cfg_ward": {
+     "name": "Chemba"
+    }
+   },
+   {
+    "uid": "3095088e-6ad7-4209-9ebe-ae67c440c75a",
+    "cfg_court": {
+     "name": "Dodoma High Court"
+    },
+    "cfg_region": {
+     "name": "Dodoma"
+    },
+    "cfg_district": {
+     "name": "Dodoma"
+    },
+    "cfg_ward": {
+     "name": "Hazina"
+    }
+   }
+  ],
+  "Kigoma": [
+   {
+    "uid": "176cf78c-b282-4824-ae8f-89a38d5d9504",
+    "cfg_court": {
+     "name": "Kagunga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kigoma"
+    },
+    "cfg_ward": {
+     "name": "Kigoma"
+    }
+   },
+   {
+    "uid": "6a9c392e-4d2c-406e-bdaa-fe78335f839d",
+    "cfg_court": {
+     "name": "Ujiji Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kigoma"
+    },
+    "cfg_ward": {
+     "name": "Kigoma"
+    }
+   },
+   {
+    "uid": "754a78ee-4a91-405e-99f4-e6dcc12a0f9a",
+    "cfg_court": {
+     "name": "Simbo Primary Court (Kigoma)"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kigoma"
+    },
+    "cfg_ward": {
+     "name": "Kigoma"
+    }
+   },
+   {
+    "uid": "b33dca0c-c3f3-454b-abce-7121afc4f354",
+    "cfg_court": {
+     "name": "Mwandiga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kigoma"
+    },
+    "cfg_ward": {
+     "name": "Kigoma"
+    }
+   },
+   {
+    "uid": "7f88b051-cde9-4b50-8f2a-df5a21768849",
+    "cfg_court": {
+     "name": "Mahembe Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kigoma"
+    },
+    "cfg_ward": {
+     "name": "Kigoma"
+    }
+   },
+   {
+    "uid": "5ae9e52c-629a-4d00-9e2c-3f1511bb7270",
+    "cfg_court": {
+     "name": "Kalinzi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kigoma"
+    },
+    "cfg_ward": {
+     "name": "Kigoma"
+    }
+   },
+   {
+    "uid": "e10e4dd9-b9aa-41cd-bbcf-6dacf834c0d4",
+    "cfg_court": {
+     "name": "Kigoma High Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kigoma"
+    },
+    "cfg_ward": {
+     "name": "Kigoma"
+    }
+   },
+   {
+    "uid": "7fdcf412-da0b-41ec-897a-66d002252e5a",
+    "cfg_court": {
+     "name": "Kigoma District Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kigoma"
+    },
+    "cfg_ward": {
+     "name": "Kigoma"
+    }
+   },
+   {
+    "uid": "c518f4b9-30dd-425d-887f-3d2459a2c3d2",
+    "cfg_court": {
+     "name": "Kigoma Resident Magistrate"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kigoma"
+    },
+    "cfg_ward": {
+     "name": "Kigoma"
+    }
+   },
+   {
+    "uid": "a0e769c4-1754-4641-b9e6-12dcd33b1d38",
+    "cfg_court": {
+     "name": "Munyegera Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kasulu"
+    },
+    "cfg_ward": {
+     "name": "Kasulu Mjini"
+    }
+   },
+   {
+    "uid": "384e27e7-7ee6-4822-b7d0-c97e89fffb59",
+    "cfg_court": {
+     "name": "Muyama Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kasulu"
+    },
+    "cfg_ward": {
+     "name": "Kasulu Mjini"
+    }
+   },
+   {
+    "uid": "9f7ea9a6-6c25-4b54-8620-714cb0b3c629",
+    "cfg_court": {
+     "name": "Heru Juu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kasulu"
+    },
+    "cfg_ward": {
+     "name": "Kasulu Mjini"
+    }
+   },
+   {
+    "uid": "8981cf02-e5fc-4d54-80d7-700c6fd69557",
+    "cfg_court": {
+     "name": "Buhoro Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kasulu"
+    },
+    "cfg_ward": {
+     "name": "Kasulu Mjini"
+    }
+   },
+   {
+    "uid": "9bf6c288-4b68-4662-9188-be10dff5078c",
+    "cfg_court": {
+     "name": "Nyakitonto Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kasulu"
+    },
+    "cfg_ward": {
+     "name": "Kasulu Mjini"
+    }
+   },
+   {
+    "uid": "5fea84b0-952f-4ba9-94ff-ca8da5764b38",
+    "cfg_court": {
+     "name": "Kasangezi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kasulu"
+    },
+    "cfg_ward": {
+     "name": "Kasulu Mjini"
+    }
+   },
+   {
+    "uid": "e0e7af06-9d61-4802-8cd8-ceac6af4c672",
+    "cfg_court": {
+     "name": "Makere Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kasulu"
+    },
+    "cfg_ward": {
+     "name": "Kasulu Mjini"
+    }
+   },
+   {
+    "uid": "3a075b00-fe48-4e33-b5d4-820a3d8e3c84",
+    "cfg_court": {
+     "name": "Kasulu Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kasulu"
+    },
+    "cfg_ward": {
+     "name": "Kasulu Mjini"
+    }
+   },
+   {
+    "uid": "e64d5e39-1672-46a5-9986-9f7ee9ab63bf",
+    "cfg_court": {
+     "name": "Kasulu District Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kasulu"
+    },
+    "cfg_ward": {
+     "name": "Kasulu Mjini"
+    }
+   },
+   {
+    "uid": "58c13cfd-58b5-4f48-b4fa-43a7d6abfbd8",
+    "cfg_court": {
+     "name": "Nyavyumbu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kibondo"
+    },
+    "cfg_ward": {
+     "name": "Kibondo  Mjini"
+    }
+   },
+   {
+    "uid": "8051a253-a67c-484c-b658-681620655c6a",
+    "cfg_court": {
+     "name": "Mabamba Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kibondo"
+    },
+    "cfg_ward": {
+     "name": "Kibondo  Mjini"
+    }
+   },
+   {
+    "uid": "5d16d5c1-f0db-404f-af81-b7dd447bbfd9",
+    "cfg_court": {
+     "name": "Kumsenga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kibondo"
+    },
+    "cfg_ward": {
+     "name": "Kibondo  Mjini"
+    }
+   },
+   {
+    "uid": "7426f03d-9937-48ca-b916-55f2b5316748",
+    "cfg_court": {
+     "name": "Kifura Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kibondo"
+    },
+    "cfg_ward": {
+     "name": "Kibondo  Mjini"
+    }
+   },
+   {
+    "uid": "f606328d-7e55-4cdf-99e0-5c91a6472bcd",
+    "cfg_court": {
+     "name": "Kibondo Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kibondo"
+    },
+    "cfg_ward": {
+     "name": "Kibondo  Mjini"
+    }
+   },
+   {
+    "uid": "c0eba2b6-a893-4711-a930-22019acf3431",
+    "cfg_court": {
+     "name": "Itaba Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kibondo"
+    },
+    "cfg_ward": {
+     "name": "Kibondo  Mjini"
+    }
+   },
+   {
+    "uid": "42c8456a-b4eb-49ac-b644-23844da0f202",
+    "cfg_court": {
+     "name": "Kibondo District Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kibondo"
+    },
+    "cfg_ward": {
+     "name": "Kibondo  Mjini"
+    }
+   },
+   {
+    "uid": "f1d2e052-aa2f-4efd-a1f4-5e041c88fb33",
+    "cfg_court": {
+     "name": "Manyovu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Buhigwe"
+    },
+    "cfg_ward": {
+     "name": "Buhigwe"
+    }
+   },
+   {
+    "uid": "a85a08f0-f4a4-4a63-b062-8d3842c0f077",
+    "cfg_court": {
+     "name": "Mwayaya Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Buhigwe"
+    },
+    "cfg_ward": {
+     "name": "Buhigwe"
+    }
+   },
+   {
+    "uid": "681caaab-07c9-4689-8ad0-4a0877673039",
+    "cfg_court": {
+     "name": "Buhigwe District Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Buhigwe"
+    },
+    "cfg_ward": {
+     "name": "Buhigwe"
+    }
+   },
+   {
+    "uid": "b04ef40d-556e-4241-aabb-f2a1e80525de",
+    "cfg_court": {
+     "name": "Mgambo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Uvinza"
+    },
+    "cfg_ward": {
+     "name": "Uvinza"
+    }
+   },
+   {
+    "uid": "796e36d9-0861-400c-adc8-270c85a7d691",
+    "cfg_court": {
+     "name": "Kalya Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Uvinza"
+    },
+    "cfg_ward": {
+     "name": "Uvinza"
+    }
+   },
+   {
+    "uid": "1da80016-693c-4d71-9786-ce4e3fde4522",
+    "cfg_court": {
+     "name": "Nguruka Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Uvinza"
+    },
+    "cfg_ward": {
+     "name": "Uvinza"
+    }
+   },
+   {
+    "uid": "2f9463ab-c44d-48a1-b10f-7a53b3775a23",
+    "cfg_court": {
+     "name": "Uvinza Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Uvinza"
+    },
+    "cfg_ward": {
+     "name": "Uvinza"
+    }
+   },
+   {
+    "uid": "52058529-0649-4db3-b1e5-8c48ad23bcef",
+    "cfg_court": {
+     "name": "Ilagala Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Uvinza"
+    },
+    "cfg_ward": {
+     "name": "Uvinza"
+    }
+   },
+   {
+    "uid": "426eeaec-7dd1-4e5c-af5d-24fa24f20101",
+    "cfg_court": {
+     "name": "Uvinza District Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Uvinza"
+    },
+    "cfg_ward": {
+     "name": "Uvinza"
+    }
+   },
+   {
+    "uid": "9c1d4067-17d3-4f2e-baab-5ffff6c7246f",
+    "cfg_court": {
+     "name": "Nyaronga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kakonko"
+    },
+    "cfg_ward": {
+     "name": "Kakonko"
+    }
+   },
+   {
+    "uid": "3ec6a337-553c-4cd1-aa66-581f5faf0c69",
+    "cfg_court": {
+     "name": "Mugunzu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kakonko"
+    },
+    "cfg_ward": {
+     "name": "Kakonko"
+    }
+   },
+   {
+    "uid": "85a3dbec-3a0f-48bc-9afa-7ccc45708c14",
+    "cfg_court": {
+     "name": "Muhange Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kakonko"
+    },
+    "cfg_ward": {
+     "name": "Kakonko"
+    }
+   },
+   {
+    "uid": "7eccfa1b-5d65-471c-92e3-c9f4322e617f",
+    "cfg_court": {
+     "name": "Kasanda Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kakonko"
+    },
+    "cfg_ward": {
+     "name": "Kakonko"
+    }
+   },
+   {
+    "uid": "55051aa3-4414-4b51-8810-d28314817770",
+    "cfg_court": {
+     "name": "Kakonko Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kakonko"
+    },
+    "cfg_ward": {
+     "name": "Kakonko"
+    }
+   },
+   {
+    "uid": "e3137a58-8f8a-4073-9f9a-bcf861f3ae34",
+    "cfg_court": {
+     "name": "Kakonko District Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Kakonko"
+    },
+    "cfg_ward": {
+     "name": "Kakonko"
+    }
+   },
+   {
+    "uid": "a5fbabb6-e645-4d64-bb8e-0cdf3f77b6b5",
+    "cfg_court": {
+     "name": "Buhigwe Primary Court"
+    },
+    "cfg_region": {
+     "name": "Kigoma"
+    },
+    "cfg_district": {
+     "name": "Buhigwe"
+    },
+    "cfg_ward": {
+     "name": "Buhigwe"
+    }
+   }
+  ],
+  "Rukwa": [
+   {
+    "uid": "60f7d154-433b-4006-95ec-8f6aa75d7d0e",
+    "cfg_court": {
+     "name": "Kaengesa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "0ea7828a-fe44-4c48-adc0-0f8f484cd900",
+    "cfg_court": {
+     "name": "Ilemba Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "85ad4451-651c-4b3f-a9bc-4ade78e947fe",
+    "cfg_court": {
+     "name": "Muze Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "9eff0f3e-4d86-4d20-a4b8-8f71ebe8c9b3",
+    "cfg_court": {
+     "name": "Mtowisa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "e7ce7a3c-dc64-4525-bc6e-2c402d560269",
+    "cfg_court": {
+     "name": "Kipeta Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "d7d9525f-045f-41a5-8a29-f4a857065e4f",
+    "cfg_court": {
+     "name": "Laela Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "8ff1e944-c1b1-4b9e-bdf8-76a8707fd4cf",
+    "cfg_court": {
+     "name": "Mpui Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "122b43a8-6fad-4d78-8b3a-35215cbc246c",
+    "cfg_court": {
+     "name": "Sumbawanga Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "c6eb94db-6cf9-44a1-9109-fa08500a737e",
+    "cfg_court": {
+     "name": "Sumbawanga District Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "11528f73-020a-47fc-a0f5-c146f1e73b5d",
+    "cfg_court": {
+     "name": "Sumbawanga Resident Magistrate"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "3e7de6da-843f-4b72-af4c-4eda5288e11b",
+    "cfg_court": {
+     "name": "Sumbawanga High Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Sumbawanga"
+    },
+    "cfg_ward": {
+     "name": "Sumbawanga"
+    }
+   },
+   {
+    "uid": "f520fd62-9f98-463e-8b81-9be52026cf53",
+    "cfg_court": {
+     "name": "Wampembe Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Nkasi"
+    },
+    "cfg_ward": {
+     "name": "Namanyere"
+    }
+   },
+   {
+    "uid": "aa9974ec-cca2-49e6-8a62-483675d0ad73",
+    "cfg_court": {
+     "name": "Kipande Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Nkasi"
+    },
+    "cfg_ward": {
+     "name": "Namanyere"
+    }
+   },
+   {
+    "uid": "b5d57609-759e-4512-8bfa-101b8b1f34fb",
+    "cfg_court": {
+     "name": "Kate Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Nkasi"
+    },
+    "cfg_ward": {
+     "name": "Namanyere"
+    }
+   },
+   {
+    "uid": "d4b53eff-c21e-4d2e-b8b4-8cf2ea1c7b73",
+    "cfg_court": {
+     "name": "Kirando Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Nkasi"
+    },
+    "cfg_ward": {
+     "name": "Namanyere"
+    }
+   },
+   {
+    "uid": "010d97fe-d710-4714-b64a-124798092a53",
+    "cfg_court": {
+     "name": "Chala Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Nkasi"
+    },
+    "cfg_ward": {
+     "name": "Namanyere"
+    }
+   },
+   {
+    "uid": "4dae06a3-8bf9-4661-8808-09ec0a3912bc",
+    "cfg_court": {
+     "name": "Namanyere Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Nkasi"
+    },
+    "cfg_ward": {
+     "name": "Namanyere"
+    }
+   },
+   {
+    "uid": "639421fc-93de-4b2f-bd32-13f7fe6a1e88",
+    "cfg_court": {
+     "name": "Nkasi  District Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Nkasi"
+    },
+    "cfg_ward": {
+     "name": "Namanyere"
+    }
+   },
+   {
+    "uid": "28d694fc-0820-4e71-8a3f-8072a342d5da",
+    "cfg_court": {
+     "name": "Msanzi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Kalambo"
+    },
+    "cfg_ward": {
+     "name": "Matai"
+    }
+   },
+   {
+    "uid": "bb0a10d8-4252-4d98-80c5-739fc9e8baf4",
+    "cfg_court": {
+     "name": "Mwazye Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Kalambo"
+    },
+    "cfg_ward": {
+     "name": "Matai"
+    }
+   },
+   {
+    "uid": "a68a873d-c2aa-464e-a241-d1ca0f1c5cae",
+    "cfg_court": {
+     "name": "Sopa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Kalambo"
+    },
+    "cfg_ward": {
+     "name": "Matai"
+    }
+   },
+   {
+    "uid": "38d7a16a-fe99-41a4-a758-2afa319a40a5",
+    "cfg_court": {
+     "name": "Kasanga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Kalambo"
+    },
+    "cfg_ward": {
+     "name": "Matai"
+    }
+   },
+   {
+    "uid": "c1e3fecb-1d1e-4631-a264-6f34a7ea9a6a",
+    "cfg_court": {
+     "name": "Mwimbi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Kalambo"
+    },
+    "cfg_ward": {
+     "name": "Matai"
+    }
+   },
+   {
+    "uid": "aa086f43-4de1-45a8-a4a1-21530ad5f2c3",
+    "cfg_court": {
+     "name": "Matai Primary Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Kalambo"
+    },
+    "cfg_ward": {
+     "name": "Matai"
+    }
+   },
+   {
+    "uid": "fc10f5b3-4bae-475c-a87b-d51f690784a9",
+    "cfg_court": {
+     "name": "Kalambo District Court"
+    },
+    "cfg_region": {
+     "name": "Rukwa"
+    },
+    "cfg_district": {
+     "name": "Kalambo"
+    },
+    "cfg_ward": {
+     "name": "Matai"
+    }
+   }
+  ],
+  "Lindi": [
+   {
+    "uid": "fb724c27-571a-4f72-a191-a373f2723182",
+    "cfg_court": {
+     "name": "Rutamba Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "f3b408e4-83ff-434c-a7ff-a055e24df641",
+    "cfg_court": {
+     "name": "Rondo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "b4ce7e40-5031-45e0-8060-ff6b16f82bfc",
+    "cfg_court": {
+     "name": "Madangwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "49447e00-1312-470f-8084-dbc8deaef895",
+    "cfg_court": {
+     "name": "Nangaru Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "61e40a11-38ee-44c3-8569-95959a647465",
+    "cfg_court": {
+     "name": "Mipingo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "0259a9d2-5e4b-4494-9a36-3de6409ec2c9",
+    "cfg_court": {
+     "name": "Nyangamara Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "e81aba38-9e75-493e-bf05-2ad89854263c",
+    "cfg_court": {
+     "name": "Kitomanga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "95e867e2-2a6e-435d-8538-d4e70503636a",
+    "cfg_court": {
+     "name": "Milola Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "08ca7e7e-30d6-4f43-8e50-01cd0b4cc7ca",
+    "cfg_court": {
+     "name": "Mtama Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "f1944c74-4abd-45d9-ab13-3b49aeebb411",
+    "cfg_court": {
+     "name": "Mchinga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "1654cb54-514f-4d70-b66c-55573f8f4a46",
+    "cfg_court": {
+     "name": "NgApa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "bc47ecae-7bbc-447d-b021-797a8687e87e",
+    "cfg_court": {
+     "name": "Mingoyo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "15094432-27ec-4b1c-bb4c-46d382895a2e",
+    "cfg_court": {
+     "name": "Lindi Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Makonde"
+    }
+   },
+   {
+    "uid": "f0bff252-161e-4a11-aa27-234e274e465b",
+    "cfg_court": {
+     "name": "Ndomoni Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Nachingwea"
+    },
+    "cfg_ward": {
+     "name": "Nachingwea Mjini"
+    }
+   },
+   {
+    "uid": "30244414-0f58-4db5-b26b-a85a20e08b56",
+    "cfg_court": {
+     "name": "Mnero Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Nachingwea"
+    },
+    "cfg_ward": {
+     "name": "Nachingwea Mjini"
+    }
+   },
+   {
+    "uid": "7b9c10dc-a4fe-4599-8efa-920b3e93518f",
+    "cfg_court": {
+     "name": "Mtua Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Nachingwea"
+    },
+    "cfg_ward": {
+     "name": "Nachingwea Mjini"
+    }
+   },
+   {
+    "uid": "6c546c7a-a8c3-4425-85fd-ba82fe3eca3d",
+    "cfg_court": {
+     "name": "Kilimarondo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Nachingwea"
+    },
+    "cfg_ward": {
+     "name": "Nachingwea Mjini"
+    }
+   },
+   {
+    "uid": "df08fa3d-e0e7-4f5c-8b51-c15763b20065",
+    "cfg_court": {
+     "name": "Mbondo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Nachingwea"
+    },
+    "cfg_ward": {
+     "name": "Nachingwea Mjini"
+    }
+   },
+   {
+    "uid": "8ae450f6-1d30-438f-87c6-10d57f521af3",
+    "cfg_court": {
+     "name": "Lionja Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Nachingwea"
+    },
+    "cfg_ward": {
+     "name": "Nachingwea Mjini"
+    }
+   },
+   {
+    "uid": "8579e9ae-c04f-4647-9e94-6cb3cd34571e",
+    "cfg_court": {
+     "name": "Ruponda Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Nachingwea"
+    },
+    "cfg_ward": {
+     "name": "Nachingwea Mjini"
+    }
+   },
+   {
+    "uid": "e56eb899-a033-417e-80e0-639b09952ed8",
+    "cfg_court": {
+     "name": "Nachingwea District Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Nachingwea"
+    },
+    "cfg_ward": {
+     "name": "Nachingwea Mjini"
+    }
+   },
+   {
+    "uid": "7ec79d3f-c963-442f-a675-b0aebffaf22d",
+    "cfg_court": {
+     "name": "Njinjo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "c8e3dccb-d62b-4e21-9461-9b31e6144bf2",
+    "cfg_court": {
+     "name": "Chumo Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "896ecb81-d3cd-450d-997f-5abb5a66f290",
+    "cfg_court": {
+     "name": "Mtandi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "bf7db2ef-0963-4912-b5a0-f3887bf23e3b",
+    "cfg_court": {
+     "name": "Kinjumbi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "4a15cacb-d2fa-4099-810d-d1abf46578fe",
+    "cfg_court": {
+     "name": "Pande Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "2c3caaa1-8104-44bc-b026-59cf3f386af2",
+    "cfg_court": {
+     "name": "Lindi Resident Magistrate"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Lindi"
+    },
+    "cfg_ward": {
+     "name": "Mchinga"
+    }
+   },
+   {
+    "uid": "7144fc53-660a-45ce-9714-db6a16b3c6a1",
+    "cfg_court": {
+     "name": "Nanjirinji Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "b1c45abd-88ab-49c0-9d21-6d855a29db9b",
+    "cfg_court": {
+     "name": "Miteja Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "eb015c07-d796-4142-adcd-6bd0268b72b2",
+    "cfg_court": {
+     "name": "Kipatimu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "461cf236-96cc-4f84-99c2-7ace3ac7d6e5",
+    "cfg_court": {
+     "name": "Kilwa Kivinje Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "10992751-9511-46ac-99b2-4795d29cb0a6",
+    "cfg_court": {
+     "name": "Kilwa Masoko Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "daddddbb-2c1b-4e40-99d2-74eb1ad4c3fd",
+    "cfg_court": {
+     "name": "Kilwa Masoko District Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Kilwa Masoko"
+    },
+    "cfg_ward": {
+     "name": "Kilwa Masoko"
+    }
+   },
+   {
+    "uid": "b1254725-fcf2-48c2-8429-205cead8bc16",
+    "cfg_court": {
+     "name": "Kibutuka Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Liwale"
+    },
+    "cfg_ward": {
+     "name": "Liwale Mjini"
+    }
+   },
+   {
+    "uid": "950890d7-1632-4842-a201-8fdd325c1009",
+    "cfg_court": {
+     "name": "Liwale Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Liwale"
+    },
+    "cfg_ward": {
+     "name": "Liwale Mjini"
+    }
+   },
+   {
+    "uid": "8b4538a3-5f62-4dda-abd1-0066c207e15f",
+    "cfg_court": {
+     "name": "Liwale District Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Liwale"
+    },
+    "cfg_ward": {
+     "name": "Liwale Mjini"
+    }
+   },
+   {
+    "uid": "a8e0fea3-262c-467e-86f7-2b45c45033aa",
+    "cfg_court": {
+     "name": "Mandawa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Ruangwa"
+    },
+    "cfg_ward": {
+     "name": "Mandawa"
+    }
+   },
+   {
+    "uid": "9b5277f2-f821-49ed-ab5a-b3603114ed10",
+    "cfg_court": {
+     "name": "Mnacho Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Ruangwa"
+    },
+    "cfg_ward": {
+     "name": "Ruangwa"
+    }
+   },
+   {
+    "uid": "315b6d20-7a3e-46d0-abc5-b5e422977955",
+    "cfg_court": {
+     "name": "Ruangwa Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Ruangwa"
+    },
+    "cfg_ward": {
+     "name": "Ruangwa"
+    }
+   },
+   {
+    "uid": "8c49b53b-236c-4e3f-9434-452bb2ffdeb0",
+    "cfg_court": {
+     "name": "Ruangwa District Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Ruangwa"
+    },
+    "cfg_ward": {
+     "name": "Ruangwa"
+    }
+   },
+   {
+    "uid": "a95cca08-e849-476f-8cec-ac921c6fd873",
+    "cfg_court": {
+     "name": "Nachingwea Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Lindi"
+    },
+    "cfg_district": {
+     "name": "Nachingwea"
+    },
+    "cfg_ward": {
+     "name": "Nachingwea Mjini"
+    }
+   }
+  ],
+  "Mtwara": [
+   {
+    "uid": "431d5624-8b23-42da-a014-a4ec8b2c89e5",
+    "cfg_court": {
+     "name": "Mtawanya Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "5ae9d012-176c-41c5-93f5-1fafff8c17b7",
+    "cfg_court": {
+     "name": "Mahurunga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "8674167d-888f-49ed-90df-f1e02a2a9817",
+    "cfg_court": {
+     "name": "Nanyamba Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "7c0d2da6-2a47-4a0a-9a64-fbebbfe0af1e",
+    "cfg_court": {
+     "name": "Kitaya Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "5874c2f1-97a7-44a9-8a59-5ea3a4e2f351",
+    "cfg_court": {
+     "name": "Dihimba Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "85f0fb2e-2983-47f1-bd32-160224ec7253",
+    "cfg_court": {
+     "name": "Kitere Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "4f3d89bd-b94d-43bb-8d07-11abfcc291a7",
+    "cfg_court": {
+     "name": "Msimbati Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "7291879c-07ad-4c77-9095-bbd5160a5a00",
+    "cfg_court": {
+     "name": "Mpapura Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "823bff49-cb1d-49c2-991b-9783a642a8e8",
+    "cfg_court": {
+     "name": "Mikindani Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "2633037b-6132-4521-b3a5-b49841b1ecfa",
+    "cfg_court": {
+     "name": "Mtwara Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "ddbb4ef6-b0a8-4ff8-87e3-029874c1465e",
+    "cfg_court": {
+     "name": "Mtwara District Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "dca83576-7b75-4a8d-bdf3-4b2df386fa3f",
+    "cfg_court": {
+     "name": "Mtwara Resident Magistrate"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Mpapura"
+    }
+   },
+   {
+    "uid": "ec0a4426-09f2-48b1-960d-1b8470af49b7",
+    "cfg_court": {
+     "name": "Mtwara High Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Mtwara"
+    },
+    "cfg_ward": {
+     "name": "Reli"
+    }
+   },
+   {
+    "uid": "99bfeaa2-b63e-4860-a741-2ad5dbba19a7",
+    "cfg_court": {
+     "name": "Litehu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Tandahimba"
+    },
+    "cfg_ward": {
+     "name": "Tandahimba"
+    }
+   },
+   {
+    "uid": "3ef481be-637a-4f92-92d4-a1d53adb7eec",
+    "cfg_court": {
+     "name": "Mnyawa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Tandahimba"
+    },
+    "cfg_ward": {
+     "name": "Tandahimba"
+    }
+   },
+   {
+    "uid": "d1538d0d-c7b4-4631-8a07-d0f5ef12573a",
+    "cfg_court": {
+     "name": "Mahuta Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Tandahimba"
+    },
+    "cfg_ward": {
+     "name": "Tandahimba"
+    }
+   },
+   {
+    "uid": "89f143d1-092a-4b27-a756-9d52ae440309",
+    "cfg_court": {
+     "name": "Mihambwe Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Tandahimba"
+    },
+    "cfg_ward": {
+     "name": "Tandahimba"
+    }
+   },
+   {
+    "uid": "0026dc44-d02e-4c43-a80c-ea2d95373c33",
+    "cfg_court": {
+     "name": "Namikupa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Tandahimba"
+    },
+    "cfg_ward": {
+     "name": "Tandahimba"
+    }
+   },
+   {
+    "uid": "7c39cd61-c4dc-4a7b-b4d2-4fc1edab65ec",
+    "cfg_court": {
+     "name": "Tandahimba Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Tandahimba"
+    },
+    "cfg_ward": {
+     "name": "Tandahimba"
+    }
+   },
+   {
+    "uid": "5f002e9f-aa5b-4fa0-97c8-6d3004962577",
+    "cfg_court": {
+     "name": "Tandahimba  District Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Tandahimba"
+    },
+    "cfg_ward": {
+     "name": "Tandahimba"
+    }
+   },
+   {
+    "uid": "85904b4d-e6b2-438e-a397-aa760a290ab9",
+    "cfg_court": {
+     "name": "Mkunya Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Newala"
+    },
+    "cfg_ward": {
+     "name": "Luchingu"
+    }
+   },
+   {
+    "uid": "413f4015-5780-4139-960e-15078dfd7ae8",
+    "cfg_court": {
+     "name": "Kitangali Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Newala"
+    },
+    "cfg_ward": {
+     "name": "Luchingu"
+    }
+   },
+   {
+    "uid": "0f15ead7-bc4a-42bc-bbd8-92f855c556d9",
+    "cfg_court": {
+     "name": "Newala Urban Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Newala"
+    },
+    "cfg_ward": {
+     "name": "Luchingu"
+    }
+   },
+   {
+    "uid": "3359d750-3c47-4dd0-a2d6-d1cca157557f",
+    "cfg_court": {
+     "name": "Mnyambe Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Newala"
+    },
+    "cfg_ward": {
+     "name": "Luchingu"
+    }
+   },
+   {
+    "uid": "3ed897e5-0fbc-4284-a26f-6f22f875b22b",
+    "cfg_court": {
+     "name": "Chilangala Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Newala"
+    },
+    "cfg_ward": {
+     "name": "Luchingu"
+    }
+   },
+   {
+    "uid": "096781a5-f98b-4d40-8edf-cdf7be3e1398",
+    "cfg_court": {
+     "name": "Newala District Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Newala"
+    },
+    "cfg_ward": {
+     "name": "Luchingu"
+    }
+   },
+   {
+    "uid": "2de5b9d6-96a2-4dc7-822c-0ee1b696af6e",
+    "cfg_court": {
+     "name": "Mchauru Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Masasi"
+    },
+    "cfg_ward": {
+     "name": "Mkuti"
+    }
+   },
+   {
+    "uid": "4a3026fd-9fd0-40d1-b50d-5f90af75a55d",
+    "cfg_court": {
+     "name": "Lisekese Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Masasi"
+    },
+    "cfg_ward": {
+     "name": "Mkuti"
+    }
+   },
+   {
+    "uid": "abec15ed-cf5c-4c89-8b7d-0f5b60bfc113",
+    "cfg_court": {
+     "name": "Lulindi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Masasi"
+    },
+    "cfg_ward": {
+     "name": "Mkuti"
+    }
+   },
+   {
+    "uid": "b1465cea-6914-422e-9b86-e3711c67d1e9",
+    "cfg_court": {
+     "name": "Lukuledi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Masasi"
+    },
+    "cfg_ward": {
+     "name": "Mkuti"
+    }
+   },
+   {
+    "uid": "e089f060-acd2-4f9b-b6f3-bd8372e9c054",
+    "cfg_court": {
+     "name": "Chiungutwa Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Masasi"
+    },
+    "cfg_ward": {
+     "name": "Mkuti"
+    }
+   },
+   {
+    "uid": "7232c51f-79d0-4c4a-b1a5-5eaaa32252be",
+    "cfg_court": {
+     "name": "Chikundi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Masasi"
+    },
+    "cfg_ward": {
+     "name": "Mkuti"
+    }
+   },
+   {
+    "uid": "c8f71187-f752-48ca-88dd-61ea79a60032",
+    "cfg_court": {
+     "name": "Masasi  District Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Masasi"
+    },
+    "cfg_ward": {
+     "name": "Mkuti"
+    }
+   },
+   {
+    "uid": "cf1db5b9-1598-4fc0-8b05-d4b8f7689c99",
+    "cfg_court": {
+     "name": "Michiga Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Nanyumbu"
+    },
+    "cfg_ward": {
+     "name": "Nangomba"
+    }
+   },
+   {
+    "uid": "6771a444-5413-4861-a83d-738659f5a7a4",
+    "cfg_court": {
+     "name": "Nakopi Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Nanyumbu"
+    },
+    "cfg_ward": {
+     "name": "Nangomba"
+    }
+   },
+   {
+    "uid": "5dea560d-6044-4a9c-afd2-2ba5db882345",
+    "cfg_court": {
+     "name": "Nanyumbu Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Nanyumbu"
+    },
+    "cfg_ward": {
+     "name": "Nangomba"
+    }
+   },
+   {
+    "uid": "c549b2f9-d888-40e0-8979-a2b87960a375",
+    "cfg_court": {
+     "name": "Mangaka Primary Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Nanyumbu"
+    },
+    "cfg_ward": {
+     "name": "Nangomba"
+    }
+   },
+   {
+    "uid": "a556c09f-b6b8-4f7a-9a35-cae3ac12871e",
+    "cfg_court": {
+     "name": "Nanyumbu District Court"
+    },
+    "cfg_region": {
+     "name": "Mtwara"
+    },
+    "cfg_district": {
+     "name": "Nanyumbu"
+    },
+    "cfg_ward": {
+     "name": "Nangomba"
+    }
+   }
+  ]
+ }
+}

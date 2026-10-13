@@ -54,6 +54,18 @@ export default function Cases() {
           {select("court_station", t("Any station"), (ref.data?.stations ?? []).map((x) => [x, x]))}
           {select("status", t("Pending"), [["Disposed", t("Disposed")], ["all", t("All statuses")]])}
         </div>
+        <div className="mb-4 flex flex-wrap items-center gap-2 text-sm">
+          <span className="text-muted">{t("Sort")}:</span>
+          {([["risk", "desc", "Highest risk"], ["filing_date", "desc", "Newest filed"], ["filing_date", "asc", "Oldest filed"]] as const).map(([k, o, label]) => {
+            const on = get("sort", "risk") === k && get("order", "desc") === o;
+            return (
+              <button key={label} onClick={() => { const next = new URLSearchParams(params); next.set("sort", k); next.set("order", o); next.delete("offset"); setParams(next, { replace: true }); }}
+                className={"rounded-full px-3 py-1 text-xs font-medium ring-1 transition " + (on ? "bg-brand-600 text-white ring-brand-600" : "bg-white text-muted ring-slate-200 hover:text-ink")}>
+                {t(label)}
+              </button>
+            );
+          })}
+        </div>
         {error && <Alert tone="error">{error}</Alert>}
         {!data ? <Loading /> : (
           <>

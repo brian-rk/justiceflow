@@ -97,7 +97,9 @@ def list_cases(
            "filing_date": Case.filing_date}[sort]
     # "age desc" means oldest first, i.e. filing_date ascending.
     desc = (order == "desc") != (sort == "age")
-    stmt = stmt.order_by(key.desc().nulls_last() if desc else key.asc().nulls_last(), Case.id)
+    # Ties (e.g. cases filed the same day) put the most recently registered first.
+    stmt = stmt.order_by(key.desc().nulls_last() if desc else key.asc().nulls_last(),
+                         Case.created_at.desc() if desc else Case.created_at, Case.id)
     rows = db.execute(stmt.limit(limit).offset(offset)).all()
     return {"total": total, "items": [case_row(c, rs) for c, rs in rows]}
 
@@ -146,11 +148,24 @@ def case_detail(case_id: str, db: Session = Depends(get_db), _=Depends(require(*
 def reference(db: Session = Depends(get_db), _=Depends(require(*READERS, "magistrate"))):
     """Dropdown values for forms and filters."""
     stations = db.execute(select(Magistrate.court_station, Magistrate.region).distinct()).all()
+    by_level = {}
+    for station, level in db.execute(select(Magistrate.court_station, Magistrate.court_level)
+                                     .where(Magistrate.active).distinct()).all():
+        by_level.setdefault(level, set()).add(station)
     return {
         "case_types": C.CASE_TYPES, "court_levels": C.COURT_LEVELS,
         "case_types_by_level": C.CASE_TYPES_BY_LEVEL, "working_days": C.WORKING_DAYS,
         "stations": sorted({s for s, _ in stations}),
+        # Only stations that actually have a court of that level (e.g. Kisutu is a
+        # Resident Magistrate's court; Lindi's High Court cases go to Mtwara).
+        "stations_by_level": {lv: sorted(v) for lv, v in by_level.items()},
         "station_region": {s: r for s, r in stations},
+        # The court register (real courts, from the Judiciary court map) for courts with
+        # an active bench: lets forms pick region -> district -> court.
+        "courts": [{"name": c["court_name"], "code": c["code"], "level": c["court_level"], "region": c["region"],
+                    "district": c["district"], "division": c["division"], "source": c["source"]}
+                   for c in C.COURTS if c["court_name"] in by_level.get(c["court_level"], set())],
+        "regions": list(C.REGIONS),
         "adjournment_reasons": {"advocate": "Advocate-requested postponement",
                                 "prosecution": "State attorney / prosecution delay (incl. investigation)",
                                 "forensic": "Pending forensic / expert report",
@@ -260,7 +275,7 @@ def register_case(body: CaseIn, db: Session = Depends(get_db), user: User = Depe
                        else body.offence if criminal else "Not criminal")
     # Remand is for accused awaiting trial; Court of Appeal appellants are already convicted.
     data["in_custody"] = bool(body.in_custody and criminal and body.court_level != "Court of Appeal")
-    c = Case(id=services.next_case_id(db, body.court_station), region=mags[0].region,
+    c = Case(id=services.next_case_id(db, body.court_station, body.court_level), region=mags[0].region,
              assigned_magistrate_id=mag.id, source="clerk", status="Pending", **data)
     db.add(c)
     db.commit()

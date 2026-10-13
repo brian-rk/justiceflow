@@ -1,0 +1,301 @@
+code,region,district,court_level,court_name,division,source
+PC-BUGURUNI,Dar es Salaam,Ilala,Primary,Buguruni Primary Court,,Judiciary court map
+PC-CHANIKAI,Dar es Salaam,Ilala,Primary,Chanika-Ilala Primary Court,,Judiciary court map
+PC-ILALA,Dar es Salaam,Ilala,Primary,Ilala Primary Court,,Judiciary court map
+PC-KARIAKOO,Dar es Salaam,Ilala,Primary,Kariakoo Primary Court,,Judiciary court map
+PC-UKONGA,Dar es Salaam,Ilala,Primary,Ukonga Primary Court,,Judiciary court map
+PC-KIGAMBON,Dar es Salaam,Kigamboni,Primary,Kigamboni Primary Court,,Judiciary court map
+PC-KAWE,Dar es Salaam,Kinondoni,Primary,Kawe Primary Court,,Judiciary court map
+PC-KINONDON,Dar es Salaam,Kinondoni,Primary,Kinondoni Primary Court,,Judiciary court map
+PC-MAGOMENI,Dar es Salaam,Kinondoni,Primary,Magomeni Primary Court,,Judiciary court map
+PC-WAZOHILL,Dar es Salaam,Kinondoni,Primary,Wazo hill Primary Court,,Judiciary court map
+PC-MBAGALA,Dar es Salaam,Temeke,Primary,Mbagala Primary Court,,Judiciary court map
+PC-TEMEKE2,Dar es Salaam,Temeke,Primary,Temeke Primary Court,,Judiciary court map
+PC-TEMEKE,Dar es Salaam,Temeke,Primary,Temeke Primary Court At One Stop Centre,,Judiciary court map
+PC-KIMARA,Dar es Salaam,Ubungo,Primary,Kimara Primary Court,,Judiciary court map
+PC-KWEMBE,Dar es Salaam,Ubungo,Primary,Kwembe Primary Court,,Judiciary court map
+PC-SINZA,Dar es Salaam,Ubungo,Primary,Sinza Primary Court,,Judiciary court map
+DC-ILALA,Dar es Salaam,Ilala,District,Ilala District Court,,Judiciary court map
+DC-KIGAMBON,Dar es Salaam,Kigamboni,District,Kigamboni District Court,,Judiciary court map
+DC-KINONDON,Dar es Salaam,Kinondoni,District,Kinondoni District Court,,Judiciary court map
+DC-TEMEKE2,Dar es Salaam,Temeke,District,Temeke District Court,,Judiciary court map
+DC-TEMEKE,Dar es Salaam,Temeke,District,Temeke District Court At One Stop centre,,Judiciary court map
+DC-UBUNGO,Dar es Salaam,Ubungo,District,Ubungo District Court,,Judiciary court map
+RM-KISUTU,Dar es Salaam,Ilala,Resident Magistrate,Kisutu Resident Magistrate's Court,,Judiciary court map
+RM-SOKOINED,Dar es Salaam,Ilala,Resident Magistrate,Sokoine Drive Resident Magistrate's Court,,Judiciary court map
+RM-KIVUKONI,Dar es Salaam,Kinondoni,Resident Magistrate,Kivukoni Resident Magistrate's Court,,Judiciary court map
+HC-DARESSAL-COM,Dar es Salaam,Ilala,High Court,Dar es Salaam High Court Commercial Division,Commercial,Judiciary court map
+HC-DARESSAL,Dar es Salaam,Ilala,High Court,Dar es Salaam High Court Dar es Salaam Zone,,Judiciary court map
+HC-DARESSAL-LAN,Dar es Salaam,Ilala,High Court,Dar es Salaam High Court Land Division,Land,Judiciary court map
+HC-DARESSAL-LAB,Dar es Salaam,Kinondoni,High Court,Dar es Salaam High Court Labour Division,Labour,Judiciary court map
+HC-TEMEKE,Dar es Salaam,Temeke,High Court,Temeke High Court,,Judiciary court map
+HC-DARESSAL-ECO,Dar es Salaam,Ubungo,High Court,Dar es Salaam High Court Corruption and Economic Crimes Division,Economic,Judiciary court map
+CA-DARESSAL,Dar es Salaam,Ilala,Court of Appeal,"Court of Appeal, Dar es Salaam (Main Registry)",,Appellate Jurisdiction Act; main registry
+PC-EMAOI,Arusha,Arumeru,Primary,Emaoi Primary Court,,Judiciary court map
+PC-ENABOISH,Arusha,Arumeru,Primary,Enaboishu Primary Court,,Judiciary court map
+PC-KINGORI,Arusha,Arumeru,Primary,Kingori Primary Court,,Judiciary court map
+PC-LIKAMBA,Arusha,Arumeru,Primary,Likamba Primary Court,,Judiciary court map
+PC-MAJIYACH,Arusha,Arumeru,Primary,Maji Ya Chai Primary Court,,Judiciary court map
+PC-MBUGUNI,Arusha,Arumeru,Primary,Mbuguni Primary Court,,Judiciary court map
+PC-NDURUMA,Arusha,Arumeru,Primary,Nduruma Primary Court,,Judiciary court map
+PC-NGARENAN,Arusha,Arumeru,Primary,Ngarenanyuki Primary Court,,Judiciary court map
+PC-NKOANDRU,Arusha,Arumeru,Primary,Nkoandrua Primary Court,,Judiciary court map
+PC-NKOARANG,Arusha,Arumeru,Primary,Nkoaranga Primary Court,,Judiciary court map
+PC-ARUSHA,Arusha,Arusha,Primary,Arusha Urban Primary Court,,Judiciary court map
+PC-TERAT,Arusha,Arusha,Primary,Terat Primary Court,,Judiciary court map
+PC-THEMI,Arusha,Arusha,Primary,Themi Primary Court,,Judiciary court map
+PC-ENDABASH,Arusha,Karatu,Primary,Endabashi Primary Court,,Judiciary court map
+PC-KARATU,Arusha,Karatu,Primary,Karatu Urban Primary Court,,Judiciary court map
+PC-MANGOLA,Arusha,Karatu,Primary,Mangola Primary Court,,Judiciary court map
+PC-OLDIENI,Arusha,Karatu,Primary,Oldieni Primary Court,,Judiciary court map
+PC-KITUMBEI,Arusha,Longido,Primary,Kitumbeine Primary Court,,Judiciary court map
+PC-LONGIDO,Arusha,Longido,Primary,Longido Urban Primary Court,,Judiciary court map
+PC-NAMANGA,Arusha,Longido,Primary,Namanga Primary Court,,Judiciary court map
+PC-KISSONGO,Arusha,Monduli,Primary,Kissongo Primary Court,,Judiciary court map
+PC-MAKUYUNI,Arusha,Monduli,Primary,Makuyuni-Korogwe Primary Court,,Judiciary court map
+PC-MTOWAMBU,Arusha,Monduli,Primary,Mto Wa Mbu Primary Court,,Judiciary court map
+PC-DIGODIGO,Arusha,Ngorongoro,Primary,Digodigo Primary Court,,Judiciary court map
+PC-ENDULENI,Arusha,Ngorongoro,Primary,Enduleni Primary Court,,Judiciary court map
+PC-LOLIONDO,Arusha,Ngorongoro,Primary,Loliondo Primary Court,,Judiciary court map
+PC-NGORONGO,Arusha,Ngorongoro,Primary,Ngorongoro Primary Court,,Judiciary court map
+DC-ARUMERU,Arusha,Arumeru,District,Arumeru District Court,,Judiciary court map
+DC-ARUSHA,Arusha,Arusha,District,Arusha District Court,,Judiciary court map
+DC-KARATU,Arusha,Karatu,District,Karatu District Court,,Judiciary court map
+DC-LONGIDO,Arusha,Longido,District,Longido District Court,,Judiciary court map
+DC-MONDULI,Arusha,Monduli,District,Monduli District Court,,Judiciary court map
+DC-NGORONGO,Arusha,Ngorongoro,District,Ngorongoro District Court,,Judiciary court map
+RM-ARUSHA,Arusha,Arusha,Resident Magistrate,Arusha Resident Magistrate's Court,,Judiciary court map
+HC-ARUSHA,Arusha,Arusha,High Court,Arusha High Court,,Judiciary court map
+HC-ARUSHA-COM,Arusha,Arusha,High Court,Arusha High Court Commercial Division,Commercial,Judiciary court map
+HC-ARUSHA-LAB,Arusha,Arusha,High Court,Arusha High Court Labour Division,Labour,Judiciary court map
+CA-ARUSHA,Arusha,Arusha,Court of Appeal,Arusha Court of Appeal,,GN 579 of 2020
+PC-BUSWELU,Mwanza,Ilemela,Primary,Buswelu Primary Court,,Judiciary court map
+PC-ILEMELA,Mwanza,Ilemela,Primary,Ilemela Primary Court,,Judiciary court map
+PC-SANGABUY,Mwanza,Ilemela,Primary,Sangabuye Primary Court,,Judiciary court map
+PC-BUNGULWA,Mwanza,Kwimba,Primary,Bungulwa Primary Court,,Judiciary court map
+PC-BUYOGO,Mwanza,Kwimba,Primary,Buyogo Primary Court,,Judiciary court map
+PC-KIKUBIJI,Mwanza,Kwimba,Primary,Kikubiji Primary Court,,Judiciary court map
+PC-MALYA,Mwanza,Kwimba,Primary,Malya Primary Court,,Judiciary court map
+PC-MWAMASHI,Mwanza,Kwimba,Primary,Mwamashimba Primary Court,,Judiciary court map
+PC-NGUDU,Mwanza,Kwimba,Primary,Ngudu Urban Primary Court,,Judiciary court map
+PC-NGULLA,Mwanza,Kwimba,Primary,Ngulla Primary Court,,Judiciary court map
+PC-NYAMBITI,Mwanza,Kwimba,Primary,Nyambiti Primary Court,,Judiciary court map
+PC-NYAMIKOM,Mwanza,Kwimba,Primary,Nyamikoma Primary Court,,Judiciary court map
+PC-NYAMILAM,Mwanza,Kwimba,Primary,Nyamilama Primary Court,,Judiciary court map
+PC-BUJASHI,Mwanza,Magu,Primary,Bujashi Primary Court,,Judiciary court map
+PC-KABILA,Mwanza,Magu,Primary,Kabila Primary Court,,Judiciary court map
+PC-KISESA,Mwanza,Magu,Primary,Kisesa Primary Court,,Judiciary court map
+PC-KONGOLO,Mwanza,Magu,Primary,Kongolo Primary Court,,Judiciary court map
+PC-MAGU,Mwanza,Magu,Primary,Magu Urban Primary Court,,Judiciary court map
+PC-NYANGUGE,Mwanza,Magu,Primary,Nyanguge Primary Court,,Judiciary court map
+PC-BUJINGWA,Mwanza,Misungwi,Primary,Bujingwa Primary Court,,Judiciary court map
+PC-BUKUMBI,Mwanza,Misungwi,Primary,Bukumbi Primary Court,,Judiciary court map
+PC-BUSONGO,Mwanza,Misungwi,Primary,Busongo Primary Court,,Judiciary court map
+PC-IGOKELO,Mwanza,Misungwi,Primary,Igokelo Primary Court,,Judiciary court map
+PC-ILUJAMAT,Mwanza,Misungwi,Primary,Ilujamate Primary Court,,Judiciary court map
+PC-INONELWA,Mwanza,Misungwi,Primary,Inonelwa Primary Court,,Judiciary court map
+PC-KOROMIJE,Mwanza,Misungwi,Primary,Koromije Primary Court,,Judiciary court map
+PC-MBARIKA,Mwanza,Misungwi,Primary,Mbarika Primary Court,,Judiciary court map
+PC-MISUNGWI,Mwanza,Misungwi,Primary,Misungwi Primary Court,,Judiciary court map
+PC-MKUYUNI,Mwanza,Nyamagana,Primary,Mkuyuni Primary Court,,Judiciary court map
+PC-MWANZAMJ,Mwanza,Nyamagana,Primary,Mwanza Mjini Primary Court,,Judiciary court map
+PC-BUPANDWA,Mwanza,Sengerema,Primary,Bupandwa Primary Court,,Judiciary court map
+PC-BUSISI,Mwanza,Sengerema,Primary,Busisi Primary Court,,Judiciary court map
+PC-BUSULWAG,Mwanza,Sengerema,Primary,Busulwagiri Primary Court,,Judiciary court map
+PC-BUYAGU,Mwanza,Sengerema,Primary,Buyagu Primary Court,,Judiciary court map
+PC-BUZILASO,Mwanza,Sengerema,Primary,Buzilasoga Primary Court,,Judiciary court map
+PC-KASENYI,Mwanza,Sengerema,Primary,Kasenyi Primary Court,,Judiciary court map
+PC-KAZUNZU,Mwanza,Sengerema,Primary,Kazunzu Primary Court,,Judiciary court map
+PC-KOME,Mwanza,Sengerema,Primary,Kome Primary Court,,Judiciary court map
+PC-NYAKALIR,Mwanza,Sengerema,Primary,Nyakaliro Primary Court,,Judiciary court map
+PC-NYANCHEN,Mwanza,Sengerema,Primary,Nyanchenche Primary Court,,Judiciary court map
+PC-NYEHUNGE,Mwanza,Sengerema,Primary,Nyehunge Primary Court,,Judiciary court map
+PC-SENGEREM,Mwanza,Sengerema,Primary,Sengerema Urban Primary Court,,Judiciary court map
+PC-SIMA,Mwanza,Sengerema,Primary,Sima Primary Court,,Judiciary court map
+PC-BUKINDO,Mwanza,Ukerewe,Primary,Bukindo Primary Court,,Judiciary court map
+PC-ILANGALA,Mwanza,Ukerewe,Primary,Ilangala Primary Court,,Judiciary court map
+PC-ILUGWA,Mwanza,Ukerewe,Primary,Ilugwa Primary Court,,Judiciary court map
+PC-NANSIO,Mwanza,Ukerewe,Primary,Nansio Primary Court,,Judiciary court map
+PC-UKARA,Mwanza,Ukerewe,Primary,Ukara Primary Court,,Judiciary court map
+DC-ILEMELA,Mwanza,Ilemela,District,Ilemela District Court,,Judiciary court map
+DC-KWIMBA,Mwanza,Kwimba,District,Kwimba District Court,,Judiciary court map
+DC-MAGU,Mwanza,Magu,District,Magu District Court,,Judiciary court map
+DC-MISUNGWI,Mwanza,Misungwi,District,Misungwi District Court,,Judiciary court map
+DC-NYAMAGAN,Mwanza,Nyamagana,District,Nyamagana District Court,,Judiciary court map
+DC-SENGEREM,Mwanza,Sengerema,District,Sengerema District Court,,Judiciary court map
+DC-UKEREWE,Mwanza,Ukerewe,District,Ukerewe District Court,,Judiciary court map
+RM-MWANZA,Mwanza,Ilemela,Resident Magistrate,Mwanza Resident Magistrate's Court,,Judiciary court map
+HC-MWANZA,Mwanza,Ilemela,High Court,Mwanza High Court,,Judiciary court map
+CA-MWANZA,Mwanza,Ilemela,Court of Appeal,Mwanza Court of Appeal,,Judiciary court map
+PC-BAHI,Dodoma,Bahi,Primary,Bahi Primary Court,,Judiciary court map
+PC-CHIPANGA,Dodoma,Bahi,Primary,Chipanga Primary Court,,Judiciary court map
+PC-KIGWE,Dodoma,Bahi,Primary,Kigwe Primary Court,,Judiciary court map
+PC-MUNDEMU,Dodoma,Bahi,Primary,Mundemu Primary Court,,Judiciary court map
+PC-MWITIKIL,Dodoma,Bahi,Primary,Mwitikila Primary Court,,Judiciary court map
+PC-NONDWA,Dodoma,Bahi,Primary,Nondwa Primary Court,,Judiciary court map
+PC-ZANKA,Dodoma,Bahi,Primary,Zanka Primary Court,,Judiciary court map
+PC-FARKWA,Dodoma,Chemba,Primary,Farkwa Primary Court,,Judiciary court map
+PC-GOIMA,Dodoma,Chemba,Primary,Goima Primary Court,,Judiciary court map
+PC-JANGALO,Dodoma,Chemba,Primary,Jangalo Primary Court,,Judiciary court map
+PC-KWAMTORO,Dodoma,Chemba,Primary,Kwamtoro Primary Court,,Judiciary court map
+PC-LALTA,Dodoma,Chemba,Primary,Lalta Primary Court,,Judiciary court map
+PC-MONDO,Dodoma,Chemba,Primary,Mondo Primary Court,,Judiciary court map
+PC-MRIJO,Dodoma,Chemba,Primary,Mrijo Primary Court,,Judiciary court map
+PC-PARANGA,Dodoma,Chemba,Primary,Paranga Primary Court,,Judiciary court map
+PC-SANZAWA,Dodoma,Chemba,Primary,Sanzawa Primary Court,,Judiciary court map
+PC-CHAMWINO2,Dodoma,Dodoma,Primary,Chamwino Ikulu Primary Court,,Judiciary court map
+PC-CHAMWINO,Dodoma,Dodoma,Primary,Chamwino Urban Primary Court,,Judiciary court map
+PC-CHILONWA,Dodoma,Dodoma,Primary,Chilonwa Primary Court,,Judiciary court map
+PC-DABALO,Dodoma,Dodoma,Primary,Dabalo Primary Court,,Judiciary court map
+PC-DODOMA,Dodoma,Dodoma,Primary,Dodoma Urban Primary Court,,Judiciary court map
+PC-HANDALI,Dodoma,Dodoma,Primary,Handali Primary Court,,Judiciary court map
+PC-HANETI,Dodoma,Dodoma,Primary,Haneti Primary Court,,Judiciary court map
+PC-HOMBOLO,Dodoma,Dodoma,Primary,Hombolo Primary Court,,Judiciary court map
+PC-ITISO,Dodoma,Dodoma,Primary,Itiso Primary Court,,Judiciary court map
+PC-KIKOMBO,Dodoma,Dodoma,Primary,Kikombo Primary Court,,Judiciary court map
+PC-MAKANGWA,Dodoma,Dodoma,Primary,Makangwa Primary Court,,Judiciary court map
+PC-MAKOLE,Dodoma,Dodoma,Primary,Makole Primary Court,,Judiciary court map
+PC-MATUMBUL,Dodoma,Dodoma,Primary,Matumbulu Primary Court,,Judiciary court map
+PC-MVUMI,Dodoma,Dodoma,Primary,Mvumi Primary Court,,Judiciary court map
+PC-NALA,Dodoma,Dodoma,Primary,Nala Primary Court,,Judiciary court map
+PC-BEREKO,Dodoma,Kondoa,Primary,Bereko Primary Court,,Judiciary court map
+PC-BUSI,Dodoma,Kondoa,Primary,Busi Primary Court,,Judiciary court map
+PC-HAUBI,Dodoma,Kondoa,Primary,Haubi Primary Court,,Judiciary court map
+PC-KOLO,Dodoma,Kondoa,Primary,Kolo Primary Court,,Judiciary court map
+PC-KONDOA,Dodoma,Kondoa,Primary,Kondoa Primary Court,,Judiciary court map
+PC-MASANGE,Dodoma,Kondoa,Primary,Masange Primary Court,,Judiciary court map
+PC-PAHI,Dodoma,Kondoa,Primary,Pahi Primary Court,,Judiciary court map
+PC-HOGORO,Dodoma,Kongwa,Primary,Hogoro Primary Court,,Judiciary court map
+PC-KIBAIGWA,Dodoma,Kongwa,Primary,Kibaigwa Primary Court,,Judiciary court map
+PC-MLALI,Dodoma,Kongwa,Primary,Mlali Primary Court,,Judiciary court map
+PC-PANDAMBI,Dodoma,Kongwa,Primary,Pandambili Primary Court,,Judiciary court map
+PC-SAGARA,Dodoma,Kongwa,Primary,Sagara Primary Court,,Judiciary court map
+PC-ZOISA,Dodoma,Kongwa,Primary,Zoisa Primary Court,,Judiciary court map
+PC-CHIPOGOR,Dodoma,Mpwapwa,Primary,Chipogoro Primary Court,,Judiciary court map
+PC-IPERA,Dodoma,Mpwapwa,Primary,Ipera Primary Court,,Judiciary court map
+PC-KIBAKWE,Dodoma,Mpwapwa,Primary,Kibakwe Primary Court,,Judiciary court map
+PC-MIMA,Dodoma,Mpwapwa,Primary,Mima Primary Court,,Judiciary court map
+PC-MLUNDUZI,Dodoma,Mpwapwa,Primary,Mlunduzi Primary Court,,Judiciary court map
+PC-MPWAPWA,Dodoma,Mpwapwa,Primary,Mpwapwa Urban Primary Court,,Judiciary court map
+PC-RUDI,Dodoma,Mpwapwa,Primary,Rudi Primary Court,,Judiciary court map
+PC-WOTTA,Dodoma,Mpwapwa,Primary,Wotta Primary Court,,Judiciary court map
+DC-BAHI,Dodoma,Bahi,District,Bahi District Court,,Judiciary court map
+DC-CHAMWINO,Dodoma,Chamwino,District,Chamwino District Court,,Judiciary court map
+DC-CHEMBA,Dodoma,Chemba,District,Chemba District Court,,Judiciary court map
+DC-KONDOA,Dodoma,Kondoa,District,Kondoa District Court,,Judiciary court map
+DC-KONGWA,Dodoma,Kongwa,District,Kongwa District Court,,Judiciary court map
+DC-MPWAPWA,Dodoma,Mpwapwa,District,Mpwapwa District Court,,Judiciary court map
+RM-DODOMA,Dodoma,Dodoma,Resident Magistrate,Dodoma Resident Magistrate's Court,,Magistrates' Courts Act schedule (not on the court map)
+HC-DODOMA,Dodoma,Dodoma,High Court,Dodoma High Court,,Judiciary court map
+CA-DODOMA,Dodoma,Dodoma,Court of Appeal,Dodoma Court of Appeal,,Judiciary court map
+PC-BUHIGWE,Kigoma,Buhigwe,Primary,Buhigwe Primary Court,,Judiciary court map
+PC-MANYOVU,Kigoma,Buhigwe,Primary,Manyovu Primary Court,,Judiciary court map
+PC-MWAYAYA,Kigoma,Buhigwe,Primary,Mwayaya Primary Court,,Judiciary court map
+PC-KAKONKO,Kigoma,Kakonko,Primary,Kakonko Primary Court,,Judiciary court map
+PC-KASANDA,Kigoma,Kakonko,Primary,Kasanda Primary Court,,Judiciary court map
+PC-MUGUNZU,Kigoma,Kakonko,Primary,Mugunzu Primary Court,,Judiciary court map
+PC-MUHANGE,Kigoma,Kakonko,Primary,Muhange Primary Court,,Judiciary court map
+PC-NYARONGA,Kigoma,Kakonko,Primary,Nyaronga Primary Court,,Judiciary court map
+PC-BUHORO,Kigoma,Kasulu,Primary,Buhoro Primary Court,,Judiciary court map
+PC-HERUJUU,Kigoma,Kasulu,Primary,Heru Juu Primary Court,,Judiciary court map
+PC-KASANGEZ,Kigoma,Kasulu,Primary,Kasangezi Primary Court,,Judiciary court map
+PC-KASULU,Kigoma,Kasulu,Primary,Kasulu Urban Primary Court,,Judiciary court map
+PC-MAKERE,Kigoma,Kasulu,Primary,Makere Primary Court,,Judiciary court map
+PC-MUNYEGER,Kigoma,Kasulu,Primary,Munyegera Primary Court,,Judiciary court map
+PC-MUYAMA,Kigoma,Kasulu,Primary,Muyama Primary Court,,Judiciary court map
+PC-NYAKITON,Kigoma,Kasulu,Primary,Nyakitonto Primary Court,,Judiciary court map
+PC-ITABA,Kigoma,Kibondo,Primary,Itaba Primary Court,,Judiciary court map
+PC-KIBONDO,Kigoma,Kibondo,Primary,Kibondo Urban Primary Court,,Judiciary court map
+PC-KIFURA,Kigoma,Kibondo,Primary,Kifura Primary Court,,Judiciary court map
+PC-KUMSENGA,Kigoma,Kibondo,Primary,Kumsenga Primary Court,,Judiciary court map
+PC-MABAMBA,Kigoma,Kibondo,Primary,Mabamba Primary Court,,Judiciary court map
+PC-NYAVYUMB,Kigoma,Kibondo,Primary,Nyavyumbu Primary Court,,Judiciary court map
+PC-KAGUNGA,Kigoma,Kigoma,Primary,Kagunga Primary Court,,Judiciary court map
+PC-KALINZI,Kigoma,Kigoma,Primary,Kalinzi Primary Court,,Judiciary court map
+PC-MAHEMBE,Kigoma,Kigoma,Primary,Mahembe Primary Court,,Judiciary court map
+PC-MWANDIGA,Kigoma,Kigoma,Primary,Mwandiga Primary Court,,Judiciary court map
+PC-SIMBOKIG,Kigoma,Kigoma,Primary,Simbo Primary Court (Kigoma),,Judiciary court map
+PC-UJIJI,Kigoma,Kigoma,Primary,Ujiji Primary Court,,Judiciary court map
+PC-ILAGALA,Kigoma,Uvinza,Primary,Ilagala Primary Court,,Judiciary court map
+PC-KALYA,Kigoma,Uvinza,Primary,Kalya Primary Court,,Judiciary court map
+PC-MGAMBO,Kigoma,Uvinza,Primary,Mgambo Primary Court,,Judiciary court map
+PC-NGURUKA,Kigoma,Uvinza,Primary,Nguruka Primary Court,,Judiciary court map
+PC-UVINZA,Kigoma,Uvinza,Primary,Uvinza Primary Court,,Judiciary court map
+DC-BUHIGWE,Kigoma,Buhigwe,District,Buhigwe District Court,,Judiciary court map
+DC-KAKONKO,Kigoma,Kakonko,District,Kakonko District Court,,Judiciary court map
+DC-KASULU,Kigoma,Kasulu,District,Kasulu District Court,,Judiciary court map
+DC-KIBONDO,Kigoma,Kibondo,District,Kibondo District Court,,Judiciary court map
+DC-KIGOMA,Kigoma,Kigoma,District,Kigoma District Court,,Judiciary court map
+DC-UVINZA,Kigoma,Uvinza,District,Uvinza District Court,,Judiciary court map
+RM-KIGOMA,Kigoma,Kigoma,Resident Magistrate,Kigoma Resident Magistrate's Court,,Judiciary court map
+HC-KIGOMA,Kigoma,Kigoma,High Court,Kigoma High Court,,Judiciary court map
+CA-KIGOMA,Kigoma,Kigoma,Court of Appeal,Kigoma Court of Appeal,,GN 579 of 2020
+PC-KASANGA,Rukwa,Kalambo,Primary,Kasanga Primary Court,,Judiciary court map
+PC-MATAI,Rukwa,Kalambo,Primary,Matai Primary Court,,Judiciary court map
+PC-MSANZI,Rukwa,Kalambo,Primary,Msanzi Primary Court,,Judiciary court map
+PC-MWAZYE,Rukwa,Kalambo,Primary,Mwazye Primary Court,,Judiciary court map
+PC-MWIMBI,Rukwa,Kalambo,Primary,Mwimbi Primary Court,,Judiciary court map
+PC-SOPA,Rukwa,Kalambo,Primary,Sopa Primary Court,,Judiciary court map
+PC-CHALA,Rukwa,Nkasi,Primary,Chala Primary Court,,Judiciary court map
+PC-KATE,Rukwa,Nkasi,Primary,Kate Primary Court,,Judiciary court map
+PC-KIPANDE,Rukwa,Nkasi,Primary,Kipande Primary Court,,Judiciary court map
+PC-KIRANDO,Rukwa,Nkasi,Primary,Kirando Primary Court,,Judiciary court map
+PC-NAMANYER,Rukwa,Nkasi,Primary,Namanyere Primary Court,,Judiciary court map
+PC-WAMPEMBE,Rukwa,Nkasi,Primary,Wampembe Primary Court,,Judiciary court map
+PC-ILEMBA,Rukwa,Sumbawanga,Primary,Ilemba Primary Court,,Judiciary court map
+PC-KAENGESA,Rukwa,Sumbawanga,Primary,Kaengesa Primary Court,,Judiciary court map
+PC-KIPETA,Rukwa,Sumbawanga,Primary,Kipeta Primary Court,,Judiciary court map
+PC-LAELA,Rukwa,Sumbawanga,Primary,Laela Primary Court,,Judiciary court map
+PC-MPUI,Rukwa,Sumbawanga,Primary,Mpui Primary Court,,Judiciary court map
+PC-MTOWISA,Rukwa,Sumbawanga,Primary,Mtowisa Primary Court,,Judiciary court map
+PC-MUZE,Rukwa,Sumbawanga,Primary,Muze Primary Court,,Judiciary court map
+PC-SUMBAWAN,Rukwa,Sumbawanga,Primary,Sumbawanga Urban Primary Court,,Judiciary court map
+DC-KALAMBO,Rukwa,Kalambo,District,Kalambo District Court,,Judiciary court map
+DC-NKASI,Rukwa,Nkasi,District,Nkasi District Court,,Judiciary court map
+DC-SUMBAWAN,Rukwa,Sumbawanga,District,Sumbawanga District Court,,Judiciary court map
+RM-SUMBAWAN,Rukwa,Sumbawanga,Resident Magistrate,Sumbawanga Resident Magistrate's Court,,Judiciary court map
+HC-SUMBAWAN,Rukwa,Sumbawanga,High Court,Sumbawanga High Court,,Judiciary court map
+CA-SUMBAWAN,Rukwa,Sumbawanga,Court of Appeal,Sumbawanga Court of Appeal,,GN 579 of 2020
+PC-CHUMO,Lindi,Kilwa Masoko,Primary,Chumo Primary Court,,Judiciary court map
+PC-KILWAKIV,Lindi,Kilwa Masoko,Primary,Kilwa Kivinje Primary Court,,Judiciary court map
+PC-KILWAMAS,Lindi,Kilwa Masoko,Primary,Kilwa Masoko Primary Court,,Judiciary court map
+PC-KINJUMBI,Lindi,Kilwa Masoko,Primary,Kinjumbi Primary Court,,Judiciary court map
+PC-KIPATIMU,Lindi,Kilwa Masoko,Primary,Kipatimu Primary Court,,Judiciary court map
+PC-MITEJA,Lindi,Kilwa Masoko,Primary,Miteja Primary Court,,Judiciary court map
+PC-MTANDI,Lindi,Kilwa Masoko,Primary,Mtandi Primary Court,,Judiciary court map
+PC-NANJIRIN,Lindi,Kilwa Masoko,Primary,Nanjirinji Primary Court,,Judiciary court map
+PC-NJINJO,Lindi,Kilwa Masoko,Primary,Njinjo Primary Court,,Judiciary court map
+PC-PANDE,Lindi,Kilwa Masoko,Primary,Pande Primary Court,,Judiciary court map
+PC-KITOMANG,Lindi,Lindi,Primary,Kitomanga Primary Court,,Judiciary court map
+PC-LINDI,Lindi,Lindi,Primary,Lindi Urban Primary Court,,Judiciary court map
+PC-MADANGWA,Lindi,Lindi,Primary,Madangwa Primary Court,,Judiciary court map
+PC-MCHINGA,Lindi,Lindi,Primary,Mchinga Primary Court,,Judiciary court map
+PC-MILOLA,Lindi,Lindi,Primary,Milola Primary Court,,Judiciary court map
+PC-MINGOYO,Lindi,Lindi,Primary,Mingoyo Primary Court,,Judiciary court map
+PC-MIPINGO,Lindi,Lindi,Primary,Mipingo Primary Court,,Judiciary court map
+PC-MTAMA,Lindi,Lindi,Primary,Mtama Primary Court,,Judiciary court map
+PC-NANGARU,Lindi,Lindi,Primary,Nangaru Primary Court,,Judiciary court map
+PC-NGAPA,Lindi,Lindi,Primary,NgApa Primary Court,,Judiciary court map
+PC-NYANGAMA,Lindi,Lindi,Primary,Nyangamara Primary Court,,Judiciary court map
+PC-RONDO,Lindi,Lindi,Primary,Rondo Primary Court,,Judiciary court map
+PC-RUTAMBA,Lindi,Lindi,Primary,Rutamba Primary Court,,Judiciary court map
+PC-KIBUTUKA,Lindi,Liwale,Primary,Kibutuka Primary Court,,Judiciary court map
+PC-LIWALE,Lindi,Liwale,Primary,Liwale Urban Primary Court,,Judiciary court map
+PC-KILIMARO,Lindi,Nachingwea,Primary,Kilimarondo Primary Court,,Judiciary court map
+PC-LIONJA,Lindi,Nachingwea,Primary,Lionja Primary Court,,Judiciary court map
+PC-MBONDO,Lindi,Nachingwea,Primary,Mbondo Primary Court,,Judiciary court map
+PC-MNERO,Lindi,Nachingwea,Primary,Mnero Primary Court,,Judiciary court map
+PC-MTUA,Lindi,Nachingwea,Primary,Mtua Primary Court,,Judiciary court map
+PC-NACHINGW,Lindi,Nachingwea,Primary,Nachingwea Urban Primary Court,,Judiciary court map
+PC-NDOMONI,Lindi,Nachingwea,Primary,Ndomoni Primary Court,,Judiciary court map
+PC-RUPONDA,Lindi,Nachingwea,Primary,Ruponda Primary Court,,Judiciary court map
+PC-MANDAWA,Lindi,Ruangwa,Primary,Mandawa Primary Court,,Judiciary court map
+PC-MNACHO,Lindi,Ruangwa,Primary,Mnacho Primary Court,,Judiciary court map
+PC-RUANGWA,Lindi,Ruangwa,Primary,Ruangwa Urban Primary Court,,Judiciary court map
+DC-KILWAMAS,Lindi,Kilwa Masoko,District,Kilwa Masoko District Court,,Judiciary court map
+DC-LIWALE,Lindi,Liwale,District,Liwale District Court,,Judiciary court map
+DC-NACHINGW,Lindi,Nachingwea,District,Nachingwea District Court,,Judiciary court map
+DC-RUANGWA,Lindi,Ruangwa,District,Ruangwa District Court,,Judiciary court map
+RM-LINDI,Lindi,Lindi,Resident Magistrate,Lindi Resident Magistrate's Court,,Judiciary court map
+HC-MTWARA,Lindi,Mtwara,High Court,Mtwara High Court,,Judiciary court map; GN 853A of 2023 (Mtwara sub-registry serves Lindi)
+CA-MTWARA,Lindi,Mtwara,Court of Appeal,Mtwara Court of Appeal,,GN 579 of 2020

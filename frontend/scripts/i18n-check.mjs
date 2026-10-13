@@ -59,6 +59,24 @@ const dynamic = [
   "Same external delay three times in a row", "Raise with the body named, through the case-flow committee.",
   "Accused in remand more than 6 months", "Priority for listing and for the committee.",
   "Good morning", "Good afternoon", "Good evening", "Yes", "No",
+  "{n} case had a date that passed with no hearing recorded",
+  "{n} cause-list listing awaits your decision",
+  "{n} High-risk score awaits your review",
+  "{n} case needs attention this week",
+  "{n} criminal session awaits approval",
+  "{n} escalation awaits a response from court management",
+  "{n} case on your approved schedule for the latest week",
+
+  "{n} cases had a date that passed with no hearing recorded",
+  "{n} cause-list listings await your decision",
+  "{n} High-risk scores await your review",
+  "{n} cases need attention this week",
+  "{n} criminal sessions await approval",
+  "{n} escalations await a response from court management",
+  "The latest model failed the fairness audit: scheduling is blocked",
+  "Next week's cause list is waiting for the registrar",
+  "{n} cases on your approved schedule for the latest week",
+
 ];
 for (const d of dynamic) keys.add(d);
 

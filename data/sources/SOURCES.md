@@ -38,6 +38,7 @@ The generator has two calibrations ([justiceflow/synthetic.py](../../justiceflow
 | Criminal share of filings by court, 2025 | Primary 60.5% · District 59.9% · RM 39.3% · High Court 28.9% · CoA 37.8% | Same report | Court cards (filed C / Cr), pp.48-50 |
 | Workload per judge / magistrate / panel, 2025 | Primary 227 · District 167 · RM 125 · High Court 310 · CoA 787 | Same report | Table 3.10 (p.46). Used to size each synthetic bench |
 | High Court divisions | Commercial, Labour, Land, Corruption and Economic Crimes (plus the Mediation Centre) | Same report | s.1.3.2 |
+| Court register: 300 courts in the 7 regions modelled (232 Primary, 38 District, 9 Resident Magistrate's, 14 High Court registries and divisions, 7 Court of Appeal registries) | e.g. Kariakoo Primary Court, Ilala District Court, Kisutu Resident Magistrate's Court, Dar es Salaam High Court Land Division, Mtwara High Court (serves Lindi) | Judiciary of Tanzania court map, [jmap.judiciary.go.tz](https://jmap.judiciary.go.tz) (public data service), fetched 13 Oct 2026; saved in [../courts/jmap_courts_snapshot.json](../courts/jmap_courts_snapshot.json). Courts the map omits are added from the instruments that establish them: Court of Appeal registries (GN 579 of 2020), Lindi to the Mtwara High Court (GN 853A of 2023), Dodoma Resident Magistrate's Court (Magistrates' Courts Act schedule) | [justiceflow/courts.csv](../../justiceflow/courts.csv); each row names its source. The map also says 785 Primary Courts operate nationwide |
 
 ### How they are used
 - **Thresholds** → `DISPOSITION_TARGET_MONTHS` in [justiceflow/config.py](../../justiceflow/config.py). They define the label the model predicts.
@@ -72,7 +73,7 @@ The generator has two calibrations ([justiceflow/synthetic.py](../../justiceflow
 | Hearings needed to dispose, by case type | 2–6 | Case-file sample |
 | Mean days between hearings (before calibration) | 21–55 by level | Published cause lists, tracked over several weeks |
 | Rural effects (less representation, more court-side adjournments) | +25% gaps, +8 points court-side adjournment | Case-file sample across urban and rural stations |
-| Which stations have which court levels | Representative subset; the High Court sits at each regional seat, the Court of Appeal at Dar es Salaam, Arusha, Mwanza and Dodoma | Judiciary court map (jmap.judiciary.go.tz) |
+| Which courts sit where | **No longer an assumption:** every court is a real one from the Judiciary court map (see the sourced figures above) | `python -m justiceflow.build_courts --fetch` refreshes it |
 | Offence mix of criminal filings, by court | `OFFENCE_MIX` in config.py | Case-file sample, NPS statistics |
 | Share needing a forensic report, by offence | Homicide 70%, sexual offences 60%, drugs 90%, others 5-20% | Government Chemist (GCLA) workload data |
 | Share of accused in remand, by offence | Homicide 100% (not bailable), robbery 70%, drugs 60%, others 10-50% | Prisons Service remand statistics |

@@ -418,6 +418,9 @@ def run_escalation(db: Session, cycle_id: str) -> int:
     dec = pd.DataFrame(db.execute(select(Decision.cycle_id, Decision.case_id)).all(),
                        columns=["cycle_id", "case_id"])
     rows = find_escalations(order, cycle_id, hist, dec, int(s["escalation_cycles"]))
+    already_open = set(db.scalars(select(Escalation.case_id).where(Escalation.acknowledged_by.is_(None),
+                                                                 Escalation.cycle_id != cycle_id)))
+    rows = [r for r in rows if r["case_id"] not in already_open]
     latest = hist[hist["cycle_id"] == cycle_id].drop_duplicates("case_id").set_index("case_id")["delay_status"]
     db.execute(delete(Escalation).where(Escalation.cycle_id == cycle_id))
     for r in rows:
@@ -578,8 +581,17 @@ def suggest_next_date(db: Session, case_id: str, hearing_date: date, outcome: st
             "capacity": mag.daily_capacity if mag else None, "reasons": reasons}
 
 
-def next_case_id(db: Session, station: str) -> str:
-    prefix = f"{station[:3].upper()}-{settings.today().year}-"
+LEVEL_CODE = {"Primary": "PC", "District": "DC", "Resident Magistrate": "RM", "High Court": "HC",
+              "Court of Appeal": "CA"}
+
+
+def next_case_id(db: Session, station: str, court_level: str) -> str:
+    """e.g. PC-KARIAKOO-2026-0001: the court, the year, a running number (like
+    "Civil Case No. 1 of 2026" at Kariakoo Primary Court)."""
+    code = C.court_code(station)
+    if not code.startswith(LEVEL_CODE[court_level] + "-"):
+        code = f"{LEVEL_CODE[court_level]}-{code}"
+    prefix = f"{code}-{settings.today().year}-"
     n = len(db.scalars(select(Case.id).where(Case.id.like(prefix + "%"))).all())
     return f"{prefix}{n + 1:04d}"
 

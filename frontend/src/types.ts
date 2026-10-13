@@ -139,6 +139,9 @@ export interface Reference {
   case_types_by_level: Record<string, string[]>;
   working_days: string[];
   stations: string[];
+  stations_by_level?: Record<string, string[]>;
+  courts?: { name: string; code: string; level: string; region: string; district: string; division: string; source: string }[];
+  regions?: string[];
   station_region: Record<string, string>;
   adjournment_reasons: Record<string, string>;
   flag_labels: Record<string, string>;

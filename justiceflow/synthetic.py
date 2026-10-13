@@ -177,21 +177,17 @@ def _draw_cases(rng, n, as_of):
     regions = list(C.REGIONS)
     # Dar es Salaam carries a larger share of filings.
     region_p = np.array([3.0] + [1.0] * (len(regions) - 1))
-    coa_p = np.array([3.0 if r == "Dar es Salaam" else 1.0 for r in C.COURT_OF_APPEAL_REGIONS])
 
     records = []
     for i in range(n):
         lv = level[i]
-        if lv == "Court of Appeal":
-            rg = rng.choice(C.COURT_OF_APPEAL_REGIONS, p=coa_p / coa_p.sum())
-        else:
-            rg = rng.choice(regions, p=region_p / region_p.sum())
+        rg = rng.choice(regions, p=region_p / region_p.sum())
         rural = C.REGIONS[rg]["is_rural"]
-        stations = C.REGIONS[rg]["stations"]
-        # The High Court and Court of Appeal sit at the regional seat.
-        station = stations[0] if lv in {"High Court", "Court of Appeal"} else rng.choice(stations)
         ctype = _draw_case_type(rng, lv)
         offence = _draw_offence(rng, lv, ctype)
+        # A real court of that level serving the region (a High Court division for
+        # land, labour, commercial and economic cases where the region has one).
+        station = rng.choice(C.court_stations(rg, lv, ctype))
         records.append({
             "case_id": f"SYN-{i + 1:05d}",
             "case_type": ctype,
@@ -239,19 +235,20 @@ def avg_days_to_decision(cases, resolution, as_of):
 
 
 def _magistrates(cases, as_of, rng):
-    """Bench per station and level, sized from the Judiciary's published workload per
-    judge / magistrate (filed in the last year plus pending, divided by workload)."""
+    """A bench at every court in the register (so any court can take new cases), sized
+    from the Judiciary's published workload per judge / magistrate (filed in the last
+    year plus pending, divided by workload)."""
     rows = []
     pending = cases[cases["status"] == "Pending"]
     recent = cases[cases["filing_date"] > as_of - pd.Timedelta(days=365)]
-    for (region, station, level), _ in cases.groupby(["region", "court_station", "court_level"]):
-        here = lambda df: (df["court_station"].eq(station) & df["court_level"].eq(level)).sum()  # noqa: E731
-        n = max(1, round((here(recent) + here(pending)) / C.WORKLOAD_2025[level]))
-        abbr = {"Court of Appeal": "CA"}.get(level, level[:2].upper())
+    counts = (pd.concat([recent, pending]).groupby(["court_station", "court_level"]).size().to_dict())
+    for court in C.COURTS:
+        region, station, level = court["region"], court["court_name"], court["court_level"]
+        n = max(1, round(counts.get((station, level), 0) / C.WORKLOAD_2025[level]))
         for j in range(n):
             off = rng.choice(C.WORKING_DAYS) if rng.random() < 0.3 else ""
             rows.append({
-                "magistrate_id": f"MAG-{station[:4].upper()}-{abbr}-{j + 1}",
+                "magistrate_id": f"MAG-{court['code']}-{j + 1}",
                 "court_level": level,
                 "region": region,
                 "court_station": station,

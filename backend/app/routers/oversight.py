@@ -8,8 +8,8 @@ from sqlalchemy.orm import Session
 
 from .. import services
 from ..db import get_db
-from ..models import Case, Escalation, ModelRun, RiskScore, User, utcnow
-from ..security import require
+from ..models import Case, Escalation, ModelRun, ReviewCycle, RiskScore, SessionPlan, User, utcnow
+from ..security import current_user, require
 from .cases import effective_cat
 
 router = APIRouter(tags=["oversight"])
@@ -148,3 +148,67 @@ def train(db: Session = Depends(get_db), user: User = Depends(management)):
 def rescore(db: Session = Depends(get_db), _=Depends(management)):
     services.require_cleared_model(db)
     return {"rescored": services.score_cases(db)}
+
+
+# --- notification bell -----------------------------------------------------------------
+
+@router.get("/notifications")
+def notifications(db: Session = Depends(get_db), user: User = Depends(current_user)):
+    """What needs this user's attention, by role. `title` is an English template with
+    {n} for the count (the web app translates it); `action` items count toward the badge."""
+    items = []
+
+    singular = {
+        "{n} cases had a date that passed with no hearing recorded": "{n} case had a date that passed with no hearing recorded",
+        "{n} cause-list listings await your decision": "{n} cause-list listing awaits your decision",
+        "{n} High-risk scores await your review": "{n} High-risk score awaits your review",
+        "{n} cases need attention this week": "{n} case needs attention this week",
+        "{n} criminal sessions await approval": "{n} criminal session awaits approval",
+        "{n} escalations await a response from court management": "{n} escalation awaits a response from court management",
+        "{n} cases on your approved schedule for the latest week": "{n} case on your approved schedule for the latest week",
+    }
+
+    def add(key, count, title, link, tone="warn", action=True, detail=None):
+        if count:
+            title = singular.get(title, title) if count == 1 else title
+            items.append({"id": key, "count": count, "title": title, "link": link, "tone": tone,
+                          "action": action, "detail": detail or []})
+
+    role = user.role
+    if role in {"clerk", "registrar"}:
+        na = services.needs_attention(db, limit=3)
+        add("date_passed", na["date_passed"]["total"], "{n} cases had a date that passed with no hearing recorded",
+            "/entry" if role == "clerk" else "/review", "danger",
+            detail=[r["case_id"] for r in na["date_passed"]["items"]])
+    if role == "registrar":
+        cyc = services.open_cycle(db)
+        if cyc:
+            undecided = sum(r["decision"] is None for r in services.cause_list(db, cyc.id))
+            add("listings", undecided, "{n} cause-list listings await your decision", f"/cause-list/{cyc.id}")
+        high = db.scalar(select(func.count()).select_from(RiskScore).join(Case, Case.id == RiskScore.case_id)
+                         .where(Case.status == "Pending", RiskScore.review_status == "pending", RiskScore.category == "High"))
+        add("risk", high, "{n} High-risk scores await your review", "/review")
+        na = services.needs_attention(db, limit=3)
+        add("attention", na["no_date"]["total"] + na["far_date_high"]["total"] + na["repeated_external"]["total"],
+            "{n} cases need attention this week", "/review")
+        sessions = db.scalar(select(func.count()).select_from(SessionPlan).where(SessionPlan.status == "PROPOSED"))
+        add("sessions", sessions, "{n} criminal sessions await approval", "/sessions")
+    if role in {"registrar", "management", "admin"}:
+        open_esc = db.scalars(select(Escalation).where(Escalation.acknowledged_by.is_(None))
+                              .order_by(Escalation.id.desc())).all()
+        add("escalations", len(open_esc), "{n} escalations await a response from court management", "/escalations",
+            "danger", action=role in {"management", "admin"}, detail=[e.case_id for e in open_esc[:3]])
+    if role in {"management", "admin"}:
+        run = services.latest_run(db)
+        if run and not run.audit_passed:
+            add("fairness", 1, "The latest model failed the fairness audit: scheduling is blocked", "/fairness", "danger")
+        cyc = services.open_cycle(db)
+        if cyc:
+            add("cycle", 1, "Next week's cause list is waiting for the registrar", f"/cause-list/{cyc.id}", "info", action=False)
+    if role == "magistrate" and user.magistrate_id:
+        latest = db.scalars(select(ReviewCycle).where(ReviewCycle.status == "APPROVED")
+                            .order_by(ReviewCycle.week_start.desc()).limit(1)).first()
+        if latest:
+            n = sum(r["magistrate_id"] == user.magistrate_id for r in services.final_cause_list(db, latest.id))
+            add("schedule", n, "{n} cases on your approved schedule for the latest week", "/my-schedule", "info", action=False)
+    return {"badge": sum(i["count"] for i in items if i["action"]), "items": items}

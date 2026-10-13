@@ -35,7 +35,10 @@ def test_calibration_moves_backlog_share_toward_targets(data):
     target = snaps_cases["court_level"].map(C.DISPOSITION_TARGET_MONTHS) * 30.44
     share = (days > target).groupby(snaps_cases["court_level"]).mean()
     # Disposed cases are biased short (long ones are still pending), so only check range.
-    assert ((share > 0.0) & (share < 0.6)).all()
+    # In 2025 backlog is rare below the Court of Appeal (High Court 1.2%), so a small
+    # sample may show none there; the Court of Appeal must stand out.
+    assert ((share >= 0.0) & (share < 0.6)).all()
+    assert share.idxmax() == "Court of Appeal"
 
 
 def test_protected_features_never_reach_the_model(data):
@@ -233,3 +236,16 @@ def test_year_only_filing_dates_keep_only_certain_labels():
     assert labels[0] == 1        # filed in 2021, decided April 2024: past 24 months whatever the day
     assert pd.isna(labels[1])     # June 2023: could be either side of 24 months
     assert labels[2] == 0        # filed and decided in 2024
+
+
+def test_every_case_sits_at_a_real_court(data):
+    real = {(c["region"], c["court_level"], c["court_name"]) for c in C.COURTS}
+    cases = data.cases
+    assert all((r, lv, s) in real for r, lv, s in zip(cases.region, cases.court_level, cases.court_station))
+    # High Court division cases go to the division where the region has one.
+    dar_land = cases[(cases.region == "Dar es Salaam") & (cases.court_level == "High Court") & (cases.case_type == "Land")]
+    assert (dar_land.court_station == "Dar es Salaam High Court Land Division").all()
+    lindi_hc = cases[(cases.region == "Lindi") & (cases.court_level == "High Court")]
+    assert (lindi_hc.court_station == "Mtwara High Court").all()
+    # Every court in the register has a bench, so new cases can be registered anywhere.
+    assert {c["court_name"] for c in C.COURTS} <= set(data.magistrates.court_station)

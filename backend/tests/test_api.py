@@ -347,3 +347,48 @@ def test_admin_user_management(client, auth):
                                                       "password": "longenough"}).status_code == 400
     me = client.get("/api/auth/me", headers=h).json()
     assert client.patch(f"/api/users/{me['id']}", headers=h, json={"active": False}).status_code == 400
+
+
+def test_registered_case_appears_first_when_sorted_newest(client, auth):
+    ref = client.get("/api/reference", headers=auth("clerk")).json()
+    # Stations offered per level are only those with a court of that level.
+    assert "Kisutu Resident Magistrate's Court" in ref["stations_by_level"]["Resident Magistrate"]
+    assert "Kariakoo Primary Court" in ref["stations_by_level"]["Primary"]
+    assert not any("Resident Magistrate" in s for s in ref["stations_by_level"]["District"])
+    # Lindi has no High Court of its own: its cases go to Mtwara (GN 853A of 2023).
+    lindi_hc = [c["name"] for c in ref["courts"] if c["region"] == "Lindi" and c["level"] == "High Court"]
+    assert lindi_hc == ["Mtwara High Court"]
+    station = ref["stations_by_level"]["District"][0]
+    r = client.post("/api/cases", headers=auth("clerk"), json={
+        "case_type": "Civil", "court_level": "District", "court_station": station,
+        "n_parties": 2, "represented": False, "filing_date": "2026-09-26"})  # = JF_AS_OF
+    assert r.status_code == 201, r.text
+    new_id = r.json()["id"]
+    assert new_id.startswith("DC-") and "-2026-" in new_id
+    listed = client.get("/api/cases", headers=auth("clerk"),
+                        params={"sort": "filing_date", "order": "desc", "limit": 5}).json()["items"]
+    assert listed[0]["id"] == new_id
+    found = client.get("/api/cases", headers=auth("clerk"), params={"q": new_id}).json()
+    assert found["total"] == 1
+
+
+def test_notifications_by_role(client, auth):
+    mgr = client.get("/api/notifications", headers=auth("manager")).json()
+    esc = next(i for i in mgr["items"] if i["id"] == "escalations")
+    assert esc["action"] and mgr["badge"] >= esc["count"] > 0 and esc["link"] == "/escalations"
+    reg = client.get("/api/notifications", headers=auth("registrar")).json()
+    assert {i["id"] for i in reg["items"]} & {"listings", "risk", "attention", "sessions"}
+    assert next(i for i in reg["items"] if i["id"] == "escalations")["action"] is False  # management answers them
+    for user in ("clerk", "magistrate"):
+        assert client.get("/api/notifications", headers=auth(user)).status_code == 200
+    assert client.get("/api/notifications").status_code == 401
+
+
+def test_open_escalations_are_not_raised_twice():
+    from app.models import Escalation
+    db = SessionLocal()
+    try:
+        open_cases = [e.case_id for e in db.scalars(select(Escalation).where(Escalation.acknowledged_by.is_(None)))]
+    finally:
+        db.close()
+    assert len(open_cases) == len(set(open_cases))

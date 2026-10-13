@@ -99,6 +99,8 @@ python -m justiceflow.check_tanzlii data/validation/tanzlii_search_sample.csv   
 
 Region and court station are **never** model inputs; `feature_matrix` asserts this and a test enforces it.
 
+**Real courts:** every case sits at a real court from the Judiciary's court map: 300 courts in seven regions, from Kariakoo Primary Court to the Dar es Salaam High Court Land Division ([justiceflow/courts.csv](justiceflow/courts.csv), rebuilt with `python -m justiceflow.build_courts --fetch`). The clerk picks region, then court.
+
 **Court rules built in** ([justiceflow/config.py](justiceflow/config.py)): five levels (Primary, District, Resident Magistrate, High Court with its Land, Labour, Commercial and Corruption & Economic Crimes divisions, Court of Appeal); land cases only at the High Court (they otherwise go to the District Land and Housing Tribunals, outside the Judiciary); no advocates in Primary Courts (Magistrates' Courts Act, s.33); murder not bailable, so those accused are always in remand. Registration refuses cases a court cannot hear.
 
 **Auth** is local JWT with bcrypt (`backend/app/security.py`), so it runs with no external service. Swapping in Supabase Auth / Firebase Auth (SRS 8.3) only replaces `current_user`.

@@ -99,23 +99,56 @@ BACKLOG_SHARE_2025 = {k: BACKLOG_2025[k] / PENDING_2025[k] for k in PENDING_2025
 WORKLOAD_2025 = {"Primary": 227, "District": 167, "Resident Magistrate": 125,
                  "High Court": 310, "Court of Appeal": 787}
 
-# --- Regions & stations (PROTECTED: audit-only, never scoring features) ----
-# ASSUMPTION: a representative subset of real region / station names. The first
-# station of each region is its regional seat and hosts the High Court sub-registry;
-# which stations host which courts is not verified against the Judiciary court map.
-
+# --- Regions & courts (PROTECTED: audit-only, never scoring features) --------
+# Seven Mainland regions. Every court is a real one from the court register in
+# justiceflow/courts.csv, built by `python -m justiceflow.build_courts` from the
+# Judiciary's public court map (jmap.judiciary.go.tz), with the few courts the map
+# omits added from the instruments that establish them (each row names its source):
+# Court of Appeal registries (GN 579 of 2020), Lindi served by the Mtwara High Court
+# (GN 853A of 2023), Dodoma Resident Magistrate's Court (Magistrates' Courts Act).
 # is_rural drives infrastructure effects in the synthetic generator only.
 REGIONS = {
-    "Dar es Salaam": {"is_rural": False, "stations": ["Kisutu", "Kinondoni", "Ilala", "Temeke"]},
-    "Arusha": {"is_rural": False, "stations": ["Arusha Urban", "Arumeru"]},
-    "Mwanza": {"is_rural": False, "stations": ["Mwanza Urban", "Ilemela"]},
-    "Dodoma": {"is_rural": False, "stations": ["Dodoma Urban", "Kondoa"]},
-    "Kigoma": {"is_rural": True, "stations": ["Kigoma", "Kasulu"]},
-    "Rukwa": {"is_rural": True, "stations": ["Sumbawanga", "Nkasi"]},
-    "Lindi": {"is_rural": True, "stations": ["Lindi", "Nachingwea"]},
+    "Dar es Salaam": {"is_rural": False},
+    "Arusha": {"is_rural": False},
+    "Mwanza": {"is_rural": False},
+    "Dodoma": {"is_rural": False},
+    "Kigoma": {"is_rural": True},
+    "Rukwa": {"is_rural": True},
+    "Lindi": {"is_rural": True},
 }
-# ASSUMPTION: regions whose seat hosts a Court of Appeal registry in the synthetic data.
-COURT_OF_APPEAL_REGIONS = ["Dar es Salaam", "Arusha", "Mwanza", "Dodoma"]
+
+
+def _load_courts():
+    import csv
+    from pathlib import Path
+    with (Path(__file__).with_name("courts.csv")).open(encoding="utf-8") as fh:
+        return list(csv.DictReader(fh))
+
+
+# Each: code, region (whose cases it hears), district, court_level, court_name, division, source.
+COURTS = _load_courts()
+COURT_BY_NAME = {c["court_name"]: c for c in COURTS}
+
+
+def court_stations(region: str, court_level: str, case_type: str | None = None) -> list[str]:
+    """Courts of this level that hear cases from this region. At the High Court a case
+    goes to the matching division where the region has one (e.g. Dar es Salaam High
+    Court Land Division), otherwise to the general registry."""
+    rows = [c for c in COURTS if c["region"] == region and c["court_level"] == court_level]
+    if court_level == "High Court":
+        division = [c for c in rows if c["division"] and c["division"] == case_type]
+        rows = division or [c for c in rows if not c["division"]]
+    return [c["court_name"] for c in rows]
+
+
+def court_code(name: str) -> str:
+    """Short code of a court, e.g. PC-KARIAKOO; a made-up one for unknown names."""
+    c = COURT_BY_NAME.get(name)
+    if c:
+        return c["code"]
+    import re
+    return re.sub(r"[^A-Z]", "", name.upper())[:10] or "COURT"
+
 
 # --- Criminal matters --------------------------------------------------------
 

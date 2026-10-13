@@ -168,15 +168,8 @@ function Topbar({ collapsed, onToggle, onMenu }: { collapsed: boolean; onToggle:
   const nav = useNavigate();
   const [q, setQ] = useState("");
   const [menu, setMenu] = useState(false);
-  const [escalations, setEscalations] = useState<number | null>(null);
   const menuRef = useRef<HTMLDivElement>(null);
-  const oversight = user && ["registrar", "management", "admin"].includes(user.role);
   const canSearch = user && user.role !== "magistrate";
-
-  useEffect(() => {
-    if (!oversight) return;
-    api.get<unknown[]>("/escalations").then((e) => setEscalations(e.length)).catch(() => setEscalations(null));
-  }, [oversight]);
 
   useEffect(() => {
     const close = (e: MouseEvent) => { if (!menuRef.current?.contains(e.target as Node)) setMenu(false); };
@@ -209,16 +202,7 @@ function Topbar({ collapsed, onToggle, onMenu }: { collapsed: boolean; onToggle:
 
       <div className="ml-auto flex items-center gap-2">
         <LangToggle />
-        {oversight && (
-          <Link to="/escalations" className="group relative rounded-md p-2 text-muted transition hover:bg-slate-100 hover:text-ink" aria-label={t("{n} open escalations", { n: escalations ?? 0 })}>
-            <Bell size={20} className={cx("ic-wiggle", escalations ? "origin-top animate-[wiggle_1s_ease-in-out_1]" : "")} />
-            {!!escalations && (
-              <span className="absolute right-0.5 top-0.5 grid min-w-[18px] place-items-center rounded-full bg-danger px-1 text-[10px] font-medium leading-[18px] text-white ring-2 ring-white animate-scale-in">
-                {escalations > 99 ? "99+" : escalations}
-              </span>
-            )}
-          </Link>
-        )}
+        <Notifications />
 
         <div ref={menuRef} className="relative">
           <button onClick={() => setMenu((m) => !m)} className="flex items-center gap-2 rounded-md py-1.5 pl-1.5 pr-2 transition hover:bg-slate-100" aria-expanded={menu} aria-haspopup="menu">
@@ -243,5 +227,70 @@ function Topbar({ collapsed, onToggle, onMenu }: { collapsed: boolean; onToggle:
         </div>
       </div>
     </header>
+  );
+}
+
+interface Notice { id: string; count: number; title: string; link: string; tone: "danger" | "warn" | "info"; action: boolean; detail: string[] }
+
+/** Bell with a panel of what needs this user's attention. Refreshed on every page
+ *  change and every minute, so acting on something updates the count. */
+function Notifications() {
+  const { pathname } = useLocation();
+  const nav = useNavigate();
+  const [data, setData] = useState<{ badge: number; items: Notice[] } | null>(null);
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    let alive = true;
+    const load = () => api.get<{ badge: number; items: Notice[] }>("/notifications")
+      .then((d) => { if (alive) setData(d); }).catch(() => { /* bell stays quiet */ });
+    load();
+    const id = setInterval(load, 60_000);
+    return () => { alive = false; clearInterval(id); };
+  }, [pathname]);
+
+  useEffect(() => {
+    const close = (e: MouseEvent) => { if (!ref.current?.contains(e.target as Node)) setOpen(false); };
+    document.addEventListener("mousedown", close);
+    return () => document.removeEventListener("mousedown", close);
+  }, []);
+
+  const badge = data?.badge ?? 0;
+  const tone = { danger: "bg-danger", warn: "bg-warn", info: "bg-brand-500" };
+  return (
+    <div ref={ref} className="relative">
+      <button onClick={() => setOpen((o) => !o)} aria-expanded={open} aria-haspopup="dialog"
+        className="group relative rounded-md p-2 text-muted transition hover:bg-slate-100 hover:text-ink"
+        aria-label={t("Notifications ({n})", { n: badge })}>
+        <Bell size={20} className={cx("ic-wiggle", badge ? "origin-top animate-[wiggle_1s_ease-in-out_1]" : "")} />
+        {badge > 0 && (
+          <span className="absolute right-0.5 top-0.5 grid min-w-[18px] place-items-center rounded-full bg-danger px-1 text-[10px] font-medium leading-[18px] text-white ring-2 ring-white animate-scale-in">
+            {badge > 99 ? "99+" : badge}
+          </span>
+        )}
+      </button>
+      {open && (
+        <div role="dialog" aria-label={t("Notifications")} className="absolute right-0 mt-2 w-[min(360px,calc(100vw-2rem))] origin-top-right rounded-md bg-white shadow-xl ring-1 ring-slate-900/5 animate-scale-in">
+          <div className="border-b border-slate-100 px-4 py-3 text-sm font-medium text-ink">{t("Notifications")}</div>
+          {!data ? <p className="px-4 py-4 text-sm text-muted">{t("Loading")}…</p>
+            : data.items.length === 0 ? <p className="px-4 py-6 text-center text-sm text-muted">{t("You're all caught up.")}</p> : (
+              <ul className="max-h-96 divide-y divide-slate-100 overflow-auto">
+                {data.items.map((n) => (
+                  <li key={n.id}>
+                    <button onClick={() => { setOpen(false); nav(n.link); }} className="flex w-full gap-3 px-4 py-3 text-left transition hover:bg-slate-50">
+                      <span className={cx("mt-1.5 h-2 w-2 shrink-0 rounded-full", tone[n.tone])} aria-hidden="true" />
+                      <span className="min-w-0">
+                        <span className="block text-sm text-ink">{t(n.title, { n: n.count.toLocaleString() })}</span>
+                        {n.detail.length > 0 && <span className="mt-0.5 block truncate text-xs text-slate-500">{n.detail.join(", ")}{n.count > n.detail.length ? ", …" : ""}</span>}
+                      </span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+        </div>
+      )}
+    </div>
   );
 }

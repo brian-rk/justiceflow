@@ -92,8 +92,9 @@ def _hold_listed_hearings(db, cycle_id, week_start, clerk, rng):
 
 
 def _magistrate_name(m, n):
+    """e.g. "Hon. Magistrate PC-KARIAKOO-1" (synthetic officers at real courts)."""
     title = LEVEL_TITLE.get(m["court_level"], "Hon. Magistrate")
-    return f"{title} {m['court_station']} {LEVEL_ABBR[m['court_level']]}-{n}"
+    return f"{title} {C.court_code(m['court_station'])}-{n}"
 
 
 def seed(n_cases: int = 12000, history: bool = True, seed_value: int = 7, db=None,
